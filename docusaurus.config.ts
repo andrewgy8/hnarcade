@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'HN Arcade',
-  tagline: 'Discover games from Hacker News Show HN',
+  tagline: 'Discover games from Hacker News',
   favicon: 'img/favicon.svg',
 
   future: {
@@ -60,6 +60,11 @@ const config: Config = {
         {
           to: '/games/tags',
           label: 'Tags',
+          position: 'left',
+        },
+        {
+          to: '/games/how-it-works',
+          label: 'How It Works',
           position: 'left',
         },
         {
