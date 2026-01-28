@@ -1,0 +1,80 @@
+name: Submit a Game
+description: Submit a game found on Hacker News Show HN
+title: "[Game]: "
+labels: ["game-submission"]
+body:
+  - type: input
+    id: game-name
+    attributes:
+      label: Game Name
+      placeholder: e.g. Sandspiel
+    validations:
+      required: true
+  - type: input
+    id: play-url
+    attributes:
+      label: Play URL
+      description: Link to play or download the game.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: hn-thread
+    attributes:
+      label: Hacker News Thread
+      description: Link to the Show HN post.
+      placeholder: https://news.ycombinator.com/item?id=XXXXXXX
+    validations:
+      required: true
+  - type: input
+    id: author-name
+    attributes:
+      label: Author Name
+      placeholder: e.g. Max Bittker
+    validations:
+      required: true
+  - type: input
+    id: author-url
+    attributes:
+      label: Author Website or Profile
+      placeholder: https://github.com/username
+    validations:
+      required: false
+  - type: input
+    id: source-url
+    attributes:
+      label: Source Code URL (if open-source)
+      placeholder: https://github.com/user/repo
+    validations:
+      required: false
+  - type: dropdown
+    id: tags
+    attributes:
+      label: Tags
+      description: Select all that apply.
+      multiple: true
+      options:
+        - puzzle
+        - strategy
+        - arcade
+        - sandbox
+        - simulation
+        - rpg
+        - platformer
+        - browser
+        - mobile
+        - desktop
+        - open-source
+        - multiplayer
+        - paid
+        - free
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the game about? What makes it interesting?
+      placeholder: A short description of the game...
+    validations:
+      required: true

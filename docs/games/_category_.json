@@ -1,5 +1,8 @@
 {
   "label": "Games",
   "position": 2,
-  "link": null
+  "link": {
+    "type": "generated-index",
+    "description": "Games discovered on Hacker News Show HN."
+  }
 }

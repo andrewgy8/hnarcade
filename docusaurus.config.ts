@@ -76,7 +76,7 @@ const config: Config = {
           items: [
             {
               label: 'All Games',
-              to: '/games/all',
+              to: '/games/category/games',
             },
             {
               label: 'Tags',
