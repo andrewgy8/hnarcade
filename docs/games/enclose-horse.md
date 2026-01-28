@@ -1,0 +1,19 @@
+---
+title: "enclose.horse"
+tags: [puzzle, free]
+description: "Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls."
+---
+
+# enclose.horse
+
+Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls.
+
+| | |
+|---|---|
+| **Author** | undefined |
+| **Play** | [enclose.horse](https://enclose.horse/) |
+| **HN Thread** | [Show HN: enclose.horse](https://news.ycombinator.com/item?id=46509211) |
+
+## About
+
+Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls.
