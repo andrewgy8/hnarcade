@@ -1,0 +1,131 @@
+name: Create Game PR from Issue
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  create-game-pr:
+    if: contains(github.event.issue.labels.*.name, 'game-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse issue form
+        id: parse
+        uses: stefanbuck/github-issue-parser@v3
+        with:
+          template-path: .github/ISSUE_TEMPLATE/submit-game.yml
+
+      - name: Generate game file
+        uses: actions/github-script@v7
+        id: generate
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const data = JSON.parse(process.env.ISSUE_JSON);
+
+            const gameName = data['game-name'];
+            const playUrl = data['play-url'];
+            const hnThread = data['hn-thread'];
+            const authorName = data['author-name'];
+            const authorUrl = data['author-url'] || '';
+            const sourceUrl = data['source-url'] || '';
+            const tags = data['tags'];
+            const description = data['description'];
+
+            // Generate slug from game name
+            const slug = gameName
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-|-$/g, '');
+
+            // Parse tags (comma-separated from multi-select dropdown)
+            const tagList = tags.split(',').map(t => t.trim()).filter(Boolean);
+            const tagsYaml = tagList.join(', ');
+
+            // First line for frontmatter description and intro
+            const shortDesc = description.split('\n')[0].trim();
+
+            // Build author cell
+            const authorCell = authorUrl
+              ? `[${authorName}](${authorUrl})`
+              : authorName;
+
+            // Build play domain for display
+            const playDisplay = new URL(playUrl).hostname;
+
+            // Build source row (optional)
+            let sourceRow = '';
+            if (sourceUrl) {
+              const srcUrl = new URL(sourceUrl);
+              const sourceDisplay = srcUrl.hostname + srcUrl.pathname.replace(/\/$/, '');
+              sourceRow = `| **Source** | [${sourceDisplay}](${sourceUrl}) |`;
+            }
+
+            // Build the markdown content
+            const lines = [
+              '---',
+              `title: "${gameName.replace(/"/g, '\\"')}"`,
+              `tags: [${tagsYaml}]`,
+              `description: "${shortDesc.replace(/"/g, '\\"')}"`,
+              '---',
+              '',
+              `# ${gameName}`,
+              '',
+              shortDesc,
+              '',
+              '| | |',
+              '|---|---|',
+              `| **Author** | ${authorCell} |`,
+              `| **Play** | [${playDisplay}](${playUrl}) |`,
+              `| **HN Thread** | [Show HN: ${gameName}](${hnThread}) |`,
+            ];
+
+            if (sourceRow) {
+              lines.push(sourceRow);
+            }
+
+            lines.push('', '## About', '', description, '');
+
+            const content = lines.join('\n');
+            const filePath = path.join('docs', 'games', `${slug}.md`);
+            fs.writeFileSync(filePath, content);
+
+            core.setOutput('slug', slug);
+            core.setOutput('game-name', gameName);
+        env:
+          ISSUE_JSON: ${{ steps.parse.outputs.jsonString }}
+
+      - name: Create pull request
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Add game: ${{ steps.generate.outputs.game-name }}"
+          title: "Add game: ${{ steps.generate.outputs.game-name }}"
+          body: |
+            Adds **${{ steps.generate.outputs.game-name }}** to the game directory.
+
+            Closes #${{ github.event.issue.number }}
+          branch: "add-game/${{ steps.generate.outputs.slug }}"
+          base: main
+
+      - name: Comment on issue
+        if: steps.pr.outputs.pull-request-number
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Thanks for submitting! A pull request has been created: #${process.env.PR_NUMBER}\n\nWe'll review and merge it to add this game to the directory.`
+            });
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}

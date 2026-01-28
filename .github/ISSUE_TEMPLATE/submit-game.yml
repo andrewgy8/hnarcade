@@ -29,8 +29,9 @@ body:
   - type: input
     id: author-name
     attributes:
-      label: Author Name
-      placeholder: e.g. Max Bittker
+      label: Author Alias
+      description: Username, handle, or alias of the author.
+      placeholder: e.g. maxbittker
     validations:
       required: true
   - type: input

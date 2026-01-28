@@ -18,6 +18,6 @@ The game should have been posted as a **Show HN** on [Hacker News](https://news.
 - **Game name**
 - **Link to play** the game
 - **Hacker News thread** link (the Show HN post)
-- **Author name** and optional website/profile
+- **Author alias** and optional website/profile
 - **Tags** (genre, platform, etc.)
 - **Short description** of what makes the game interesting
