@@ -63,6 +63,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          href: 'https://github.com/andrewgy8/hnarcade',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
           href: 'https://news.ycombinator.com',
           label: 'Hacker News',
           position: 'right',
