@@ -11,9 +11,23 @@ A directory of games discovered on Hacker News Show HN posts, built with Docusau
 - `docusaurus.config.ts` — site config; docs served at `/games/` via `routeBasePath`
 - `sidebars.ts` — auto-generated sidebar from `docs/`
 - `.github/workflows/deploy.yml` — deploys to GitHub Pages on push to `main`
+- `.github/workflows/create-game-pr.yml` — auto-generates a PR from game submission issues
 - `.github/ISSUE_TEMPLATE/submit-game.yml` — structured issue form for game submissions
 
 ## Adding a game
+
+### Automated (preferred)
+
+Submit a game via the [GitHub Issue form](https://github.com/andrewgy8/hnarcade/issues/new?template=submit-game.yml). The `create-game-pr.yml` workflow will automatically:
+
+1. Parse the issue form fields
+2. Generate `docs/games/<slug>.md` from the submitted data
+3. Open a PR on branch `add-game/<slug>` that closes the issue on merge
+4. Comment on the issue with a link to the PR
+
+Review and merge the PR to publish the game.
+
+### Manual
 
 Create a new file in `docs/games/<slug>.md`:
 
@@ -30,7 +44,7 @@ Short intro paragraph.
 
 | | |
 |---|---|
-| **Author** | [Author Name](https://author-website.com) |
+| **Author** | [Author Alias](https://author-website.com) |
 | **Play** | [domain.com](https://domain.com) |
 | **HN Thread** | [Show HN: Game Name](https://news.ycombinator.com/item?id=XXXXXXX) |
 | **Source** | [github.com/user/repo](https://github.com/user/repo) |
@@ -56,5 +70,6 @@ GitHub Pages via GitHub Actions. Pushes to `main` trigger a build and deploy to 
 
 - Blog is disabled — the site is purely a game directory
 - Docs plugin is repurposed as the game catalog (`routeBasePath: 'games'`)
-- Game submissions come in via GitHub Issues using a structured form template
+- Game submissions come in via GitHub Issues using a structured form template; a workflow auto-generates a PR from each submission
+- The issue form collects an author alias (not real name)
 - Tags provide filtering; Docusaurus auto-generates tag index pages at `/games/tags`
