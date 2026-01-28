@@ -72,11 +72,6 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
-        {
-          href: 'https://news.ycombinator.com',
-          label: 'Hacker News',
-          position: 'right',
-        },
       ],
     },
     footer: {
