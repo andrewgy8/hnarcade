@@ -96,21 +96,21 @@ function normalizeUrl(url) {
 }
 
 // ---------------------------------------------------------------------------
-// 2. Check open GitHub issues to avoid duplicates
+// 2. Check GitHub issues (open and closed) to avoid duplicates
 // ---------------------------------------------------------------------------
 
-function getOpenIssueTitles() {
+function getExistingIssueTitles() {
   if (DRY_RUN) return new Set();
 
   try {
     const raw = execSync(
-      'gh issue list --label game-submission --state open --json title --limit 200',
+      'gh issue list --label game-submission --state all --json title --limit 200',
       { encoding: "utf-8", stdio: ["pipe", "pipe", "pipe"] },
     );
     const issues = JSON.parse(raw);
     return new Set(issues.map((i) => i.title.toLowerCase()));
   } catch (err) {
-    console.warn("Warning: could not fetch open issues:", err.message);
+    console.warn("Warning: could not fetch issues:", err.message);
     return new Set();
   }
 }
@@ -154,7 +154,7 @@ async function searchHN(query, cutoffTimestamp) {
 // 4. Filter & deduplicate candidates
 // ---------------------------------------------------------------------------
 
-function filterCandidates(hits, dedupIndex, openIssueTitles) {
+function filterCandidates(hits, dedupIndex, existingIssueTitles) {
   const seen = new Set(); // dedup within batch by objectID
   const candidates = [];
 
@@ -179,10 +179,10 @@ function filterCandidates(hits, dedupIndex, openIssueTitles) {
     // Dedup against existing games by play URL
     if (dedupIndex.playUrls.has(normalizeUrl(url))) continue;
 
-    // Dedup against open issue titles
+    // Dedup against existing issue titles (open and closed)
     const gameName = extractGameName(title);
     const issueTitleLower = `[game]: ${gameName}`.toLowerCase();
-    if (openIssueTitles.has(issueTitleLower)) continue;
+    if (existingIssueTitles.has(issueTitleLower)) continue;
 
     candidates.push({
       id,
@@ -285,10 +285,10 @@ async function main() {
     `Dedup index: ${dedupIndex.hnIds.size} HN IDs, ${dedupIndex.playUrls.size} play URLs`,
   );
 
-  // Step 2: check open issues
-  const openIssueTitles = getOpenIssueTitles();
+  // Step 2: check existing issues
+  const existingIssueTitles = getExistingIssueTitles();
   if (!DRY_RUN) {
-    console.log(`Open game-submission issues: ${openIssueTitles.size}`);
+    console.log(`Existing game-submission issues: ${existingIssueTitles.size}`);
   }
 
   // Step 3: query HN
@@ -302,7 +302,7 @@ async function main() {
   console.log(`Fetched ${allHits.length} total hits from HN API`);
 
   // Step 4: filter & dedup
-  const candidates = filterCandidates(allHits, dedupIndex, openIssueTitles);
+  const candidates = filterCandidates(allHits, dedupIndex, existingIssueTitles);
   console.log(`Found ${candidates.length} new candidate(s)`);
   console.log();
 
