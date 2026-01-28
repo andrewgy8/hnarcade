@@ -34,6 +34,7 @@ const config: Config = {
           routeBasePath: 'games',
           path: 'docs',
           tagsBasePath: 'tags',
+          editUrl: 'https://github.com/andrewgy8/hnarcade/edit/main/',
         },
         blog: false,
         theme: {
