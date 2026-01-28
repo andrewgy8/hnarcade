@@ -18,6 +18,6 @@ jobs:
           node-version: 20
 
       - name: Scrape HN and create issues
-        run: node scripts/scrape-hn.mjs --create-issues --days=1
+        run: node scripts/scrape-hn.mjs --create-issues --days=30
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

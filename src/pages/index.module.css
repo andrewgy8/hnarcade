@@ -1,17 +1,230 @@
 .heroBanner {
-  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 0 6rem;
   text-align: center;
+  background: #0a0a0c;
+  /* subtle radial glow behind the content */
+  background-image:
+    radial-gradient(ellipse 60% 50% at 50% 40%, rgba(255, 102, 0, 0.12) 0%, transparent 100%);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 3rem 1rem;
-  }
+/* CRT scanline overlay */
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.15) 2px,
+    rgba(0, 0, 0, 0.15) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* subtle grid pattern */
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 102, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 102, 0, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ff6600;
+  text-shadow:
+    0 0 10px rgba(255, 102, 0, 0.8),
+    0 0 30px rgba(255, 102, 0, 0.5),
+    0 0 60px rgba(255, 102, 0, 0.3);
+  margin-bottom: 0.5rem;
+}
+
+.heroSubtitle {
+  font-size: 1.35rem;
+  color: #b0b0b0;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/* decorative dashed line between subtitle and buttons */
+.divider {
+  width: 120px;
+  height: 2px;
+  margin: 2rem auto;
+  background: linear-gradient(90deg, transparent, #ff6600, transparent);
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.5);
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1.5rem;
+  gap: 1.25rem;
+  margin-top: 0;
+}
+
+.arcadeButton {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #ff6600;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.arcadeButtonPrimary {
+  composes: arcadeButton;
+  color: #0a0a0c;
+  background: #ff6600;
+  box-shadow:
+    0 0 10px rgba(255, 102, 0, 0.4),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.arcadeButtonPrimary:hover {
+  color: #0a0a0c;
+  background: #ff8533;
+  text-decoration: none;
+  box-shadow:
+    0 0 20px rgba(255, 102, 0, 0.6),
+    0 0 40px rgba(255, 102, 0, 0.3),
+    inset 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+.arcadeButtonSecondary {
+  composes: arcadeButton;
+  color: #ff6600;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.15);
+}
+
+.arcadeButtonSecondary:hover {
+  color: #fff;
+  background: rgba(255, 102, 0, 0.12);
+  text-decoration: none;
+  box-shadow:
+    0 0 20px rgba(255, 102, 0, 0.4),
+    0 0 40px rgba(255, 102, 0, 0.2);
+}
+
+/* pixel-art decorative corners */
+.cornerDecor {
+  position: absolute;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  opacity: 0.25;
+}
+
+.cornerDecor::before,
+.cornerDecor::after {
+  content: '';
+  position: absolute;
+  background: #ff6600;
+}
+
+.cornerTopLeft {
+  composes: cornerDecor;
+  top: 2rem;
+  left: 2rem;
+}
+.cornerTopLeft::before {
+  top: 0; left: 0;
+  width: 100%; height: 3px;
+}
+.cornerTopLeft::after {
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+}
+
+.cornerTopRight {
+  composes: cornerDecor;
+  top: 2rem;
+  right: 2rem;
+}
+.cornerTopRight::before {
+  top: 0; right: 0;
+  width: 100%; height: 3px;
+}
+.cornerTopRight::after {
+  top: 0; right: 0;
+  width: 3px; height: 100%;
+}
+
+.cornerBottomLeft {
+  composes: cornerDecor;
+  bottom: 2rem;
+  left: 2rem;
+}
+.cornerBottomLeft::before {
+  bottom: 0; left: 0;
+  width: 100%; height: 3px;
+}
+.cornerBottomLeft::after {
+  bottom: 0; left: 0;
+  width: 3px; height: 100%;
+}
+
+.cornerBottomRight {
+  composes: cornerDecor;
+  bottom: 2rem;
+  right: 2rem;
+}
+.cornerBottomRight::before {
+  bottom: 0; right: 0;
+  width: 100%; height: 3px;
+}
+.cornerBottomRight::after {
+  bottom: 0; right: 0;
+  width: 3px; height: 100%;
+}
+
+.homepageWrapper {
+  background: #0a0a0c;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 5rem 1rem 4rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .cornerDecor {
+    display: none;
+  }
 }
