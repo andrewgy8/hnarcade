@@ -12,7 +12,12 @@ A directory of games discovered on Hacker News Show HN posts, built with Docusau
 - `sidebars.ts` — auto-generated sidebar from `docs/`
 - `.github/workflows/deploy.yml` — deploys to GitHub Pages on push to `main`
 - `.github/workflows/create-game-pr.yml` — auto-generates a PR from game submission issues
+- `.github/workflows/scrape-hn.yml` — cron job (every 12h) that scrapes HN for game posts and creates issues
 - `.github/ISSUE_TEMPLATE/submit-game.yml` — structured issue form for game submissions
+- `scripts/scrape-hn.mjs` — HN scraper script; queries Algolia API for "Show HN" game posts
+
+## Available MCPs
+- Playwright
 
 ## Adding a game
 
@@ -26,6 +31,10 @@ Submit a game via the [GitHub Issue form](https://github.com/andrewgy8/hnarcade/
 4. Comment on the issue with a link to the PR
 
 Review and merge the PR to publish the game.
+
+### HN Scraper (automatic discovery)
+
+The `scrape-hn.yml` workflow runs every 12 hours and uses `scripts/scrape-hn.mjs` to query the HN Algolia API for recent "Show HN" game posts. It deduplicates against existing games (by HN item ID and normalized play URL) and open issues, then creates `game-submission`-labeled issues for new candidates. Those issues feed into the same `create-game-pr.yml` pipeline above. Scraper-created issues should be reviewed — tags default to `browser, free` and descriptions are minimal.
 
 ### Manual
 
@@ -61,6 +70,7 @@ Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`
 - `npm start` — local dev server
 - `npm run build` — production build (output in `build/`)
 - `npm run serve` — serve the production build locally
+- `npm run scrape` — dry-run HN scraper (add `-- --days=7` for wider window, `-- --create-issues` to create GitHub Issues)
 
 ## Deployment
 
@@ -73,3 +83,5 @@ GitHub Pages via GitHub Actions. Pushes to `main` trigger a build and deploy to 
 - Game submissions come in via GitHub Issues using a structured form template; a workflow auto-generates a PR from each submission
 - The issue form collects an author alias (not real name)
 - Tags provide filtering; Docusaurus auto-generates tag index pages at `/games/tags`
+- HN scraper uses the Algolia API (no dependencies beyond Node 20 built-in `fetch`); deduplicates by HN item ID and normalized play URL
+- Scraper creates issues (not PRs directly) so every game still gets human review before merging
