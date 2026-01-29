@@ -2,6 +2,7 @@
 title: "1D-Pong"
 tags: [browser, free]
 description: "Show HN: 1D-Pong Game at 39C3. Discovered via HN scraper."
+sidebar_position: 20
 ---
 
 # 1D-Pong

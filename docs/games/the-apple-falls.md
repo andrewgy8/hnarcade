@@ -2,6 +2,7 @@
 title: "The Apple Falls"
 tags: [browser, free]
 description: "Show HN : A game to document my electronics learning journey.. Discovered via HN scraper."
+sidebar_position: 7
 ---
 
 # The Apple Falls

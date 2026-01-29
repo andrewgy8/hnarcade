@@ -2,6 +2,7 @@
 title: "Bibdle"
 tags: [browser, free]
 description: "Show HN: A Daily Bible Game. Discovered via HN scraper."
+sidebar_position: 1
 ---
 
 # Bibdle
