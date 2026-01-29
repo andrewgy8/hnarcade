@@ -275,7 +275,7 @@ function shellEscape(s) {
 
 async function main() {
   console.log(
-    `HN Arcade Scraper — mode: ${DRY_RUN ? "dry-run" : "create-issues"}, days: ${DAYS}, min-points: ${MIN_POINTS}`,
+    `The HN Arcade Scraper — mode: ${DRY_RUN ? "dry-run" : "create-issues"}, days: ${DAYS}, min-points: ${MIN_POINTS}`,
   );
   console.log();
 

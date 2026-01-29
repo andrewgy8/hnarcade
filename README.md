@@ -2,7 +2,7 @@
 
 🕹️
 
-# HN Arcade
+# The HN Arcade
 
 A curated directory of games discovered on Hacker News Show HN posts.
 

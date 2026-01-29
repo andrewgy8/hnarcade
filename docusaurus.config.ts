@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'HN Arcade',
+  title: 'The HN Arcade',
   tagline: 'Discover games from Hacker News',
   favicon: 'img/favicon.svg',
 
@@ -49,7 +49,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'HN Arcade',
+      title: 'The HN Arcade',
       items: [
         {
           type: 'docSidebar',

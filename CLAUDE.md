@@ -1,4 +1,4 @@
-# HN Arcade
+# The HN Arcade
 
 A directory of games discovered on Hacker News Show HN posts, built with Docusaurus.
 

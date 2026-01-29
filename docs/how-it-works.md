@@ -5,7 +5,7 @@ sidebar_position: 98
 
 # How It Works
 
-HN Arcade is a community-driven directory of games discovered on [Hacker News](https://news.ycombinator.com) **Show HN** posts. Here's how games make it into the directory.
+The HN Arcade is a community-driven directory of games discovered on [Hacker News](https://news.ycombinator.com) **Show HN** posts. Here's how games make it into the directory.
 
 ## Automatic discovery
 
@@ -26,4 +26,4 @@ Every submission — whether from the scraper or the community — goes through 
 
 ## Open source
 
-HN Arcade is fully open source. The site, scraper, and automation are all in the [GitHub repository](https://github.com/andrewgy8/hnarcade). Contributions and feedback are welcome.
+The HN Arcade is fully open source. The site, scraper, and automation are all in the [GitHub repository](https://github.com/andrewgy8/hnarcade). Contributions and feedback are welcome.
