@@ -13,7 +13,7 @@ Free, open-source chess server. No ads, no registration required, full-featured.
 |---|---|
 | **Author** | [Thibault Duplessis](https://github.com/ornicar) |
 | **Play** | [lichess.org](https://lichess.org) |
-| **HN Thread** | [Show HN: Lichess](https://news.ycombinator.com/item?id=2865838) |
+| **HN Thread** | [Show HN: Lichess](https://news.ycombinator.com/item?id=32045763) |
 | **Source** | [github.com/lichess-org/lila](https://github.com/lichess-org/lila) |
 
 ## About
