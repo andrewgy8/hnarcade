@@ -2,6 +2,7 @@
 title: "Autism Simulator"
 tags: [browser]
 description: "Autism Simulator is a choose-your-own-adventure game where you try to survive various common scenarios as someone on the spectrum. The goal is to avoid burnout through your choices. Will you make it past day one?"
+sidebar_position: 61
 ---
 
 # Autism Simulator

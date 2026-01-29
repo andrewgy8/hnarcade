@@ -2,6 +2,7 @@
 title: "Cracked Sudoku"
 tags: [puzzle]
 description: "A different version of classic sudoku, with weird shapes instead of orthogonal grid"
+sidebar_position: 51
 ---
 
 # Cracked Sudoku

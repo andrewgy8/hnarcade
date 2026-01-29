@@ -2,7 +2,7 @@
 title: "AtlasChess"
 tags: [browser, free]
 description: "Show HN: I built a chess explorer that explains strategy instead of just stats. Discovered via HN scraper."
-sidebar_position: 3
+sidebar_position: 24
 ---
 
 # I built a chess explorer that explains strategy instead of just stats

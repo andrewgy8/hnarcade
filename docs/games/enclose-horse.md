@@ -2,7 +2,7 @@
 title: "enclose.horse"
 tags: [puzzle, free]
 description: "Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls."
-sidebar_position: 21
+sidebar_position: 52
 ---
 
 # enclose.horse
