@@ -75,35 +75,8 @@ const config: Config = {
       ],
     },
     footer: {
-      links: [
-        {
-          title: 'Browse',
-          items: [
-            {
-              label: 'All Games',
-              to: '/games/category/games',
-            },
-            {
-              label: 'Tags',
-              to: '/games/tags',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Hacker News',
-              href: 'https://news.ycombinator.com',
-            },
-            {
-              label: 'Show HN',
-              href: 'https://news.ycombinator.com/shownew',
-            },
-          ],
-        },
-      ],
-      copyright: `HN Arcade — A directory of games from Hacker News Show HN.`,
+      style: 'light',
+      copyright: `Games discoverd on HN. Built by <a href="https://andrew.grahamyooll.com" target="_blank" rel="noopener noreferrer">Andrew Graham-Yooll</a>`,
     },
     prism: {
       theme: prismThemes.github,
