@@ -2,7 +2,7 @@
 title: "Mooncraft 2000"
 tags: [simulation, browser, mobile, desktop, open-source, free]
 description: "A lunar-lander style game rendered with voxels. You fly from one moon base to another delivering cargo. Free, HTML5, in browser. Uses the ol' ray-casting algorithm to render the moon. Actual NASA lunar data and real names of the craters, etc."
-sidebar_position: 62
+sidebar_position: 16
 ---
 
 # Mooncraft 2000

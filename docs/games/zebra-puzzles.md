@@ -2,6 +2,7 @@
 title: "Zebra Puzzles"
 tags: [puzzle]
 description: "Daily zebra puzzle with hundreds of different themes."
+sidebar_position: 68
 ---
 
 # Zebra Puzzles

@@ -2,6 +2,7 @@
 title: "Logiquiz"
 tags: [puzzle]
 description: "Daily self-referential tests from very-easy to very-hard."
+sidebar_position: 44
 ---
 
 # Logiquiz

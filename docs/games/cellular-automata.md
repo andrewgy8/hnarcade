@@ -2,7 +2,7 @@
 title: "Cellular Automata"
 tags: [simulation]
 description: "Create any cellular automata with a couple lines of descriptive setup in json and watch how it evolves."
-sidebar_position: 24
+sidebar_position: 26
 ---
 
 # Cellular Automata

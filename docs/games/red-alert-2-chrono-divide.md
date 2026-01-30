@@ -1,8 +1,8 @@
 ---
 title: "Red Alert 2 Chrono Divide"
 tags: [browser, strategy, desktop, free]
-description: "Chrono Divide is a fan-made project which aims to recreate the original \\\\"Red Alert 2\\\\" from the \\\\"Command & Conquer\\\\" series using web technologies. The result is a game client that runs in your web browser, with no additional plugins or applications installed."
-sidebar_position: 3
+description: "Chrono Divide is a fan-made project which aims to recreate the original \\\\\"Red Alert 2\\\\\" from the \\\\\"Command & Conquer\\\\\" series using web technologies. The result is a game client that runs in your web browser, with no additional plugins or applications installed."
+sidebar_position: 8
 ---
 
 # Red Alert 2 Chrono Divide

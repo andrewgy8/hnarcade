@@ -2,7 +2,7 @@
 title: "llmgame.ai"
 tags: [browser, free]
 description: "Show HN: llmgame.ai – The Wikipedia Game but with LLMs. Discovered via HN scraper."
-sidebar_position: 10
+sidebar_position: 37
 ---
 
 # llmgame.ai

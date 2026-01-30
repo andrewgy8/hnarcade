@@ -2,7 +2,7 @@
 title: "Speed Miners"
 tags: [browser, free]
 description: "Show HN: Speed Miners – A tiny RTS resource mini-game. Discovered via HN scraper."
-sidebar_position: 42
+sidebar_position: 46
 ---
 
 # Speed Miners
