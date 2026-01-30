@@ -11,7 +11,7 @@ Trippy the Turkey has spent too much time playing outside and needs to get back 
 
 | | |
 |---|---|
-| **Author** | [nezaj](joeaverbukh.com) |
+| **Author** | [nezaj](https://joeaverbukh.com) |
 | **Play** | [savetrippy.com](https://savetrippy.com) |
 | **HN Thread** | [Show HN: Save Trippy](https://news.ycombinator.com/item?id=46071122) |
 

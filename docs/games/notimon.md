@@ -11,7 +11,7 @@ sidebar_position: 45
 
 | | |
 |---|---|
-| **Author** | [sayf-t](@sayf-t) |
+| **Author** | sayf-t |
 | **Play** | [app.malohacoast.com](https://app.malohacoast.com/) |
 | **HN Thread** | [Show HN: Notimon](https://news.ycombinator.com/item?id=46820491) |
 
