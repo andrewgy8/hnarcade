@@ -2,7 +2,7 @@
 title: "Guess My RGB"
 tags: [browser, mobile, desktop, open-source, free]
 description: "A simple RGB colour guessing game."
-sidebar_position: 3
+sidebar_position: 16
 ---
 
 # Guess My RGB

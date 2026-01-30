@@ -2,7 +2,7 @@
 title: "Delve Online - MMO Space Sim"
 tags: [multiplayer]
 description: "Hey space pilots!"
-sidebar_position: 33
+sidebar_position: 31
 ---
 
 # Delve Online - MMO Space Sim

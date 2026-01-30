@@ -2,7 +2,7 @@
 title: "Make 67"
 tags: [browser, free]
 description: "Show HN: Make 67 – a tiny maths game. Discovered via HN scraper."
-sidebar_position: 35
+sidebar_position: 20
 ---
 
 # Make 67

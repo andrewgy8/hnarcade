@@ -2,7 +2,7 @@
 title: "Interplanetary Postal Service"
 tags: [platformer, open-source, simulation, browser]
 description: "Lunar lander type game with computational fluid dynamics."
-sidebar_position: 20
+sidebar_position: 59
 ---
 
 # Interplanetary Postal Service

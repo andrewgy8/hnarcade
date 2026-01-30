@@ -2,7 +2,7 @@
 title: "Andara Game"
 tags: [browser]
 description: "I’m building a 2D space tactics game inspired by Star Trek and classic sci-fi. Movement, weapons, and shields already work with real-time execution and strict energy management. The goal is to survive by collecting energy while being hunted by a galactic federation. The project is deployed but still incomplete — feedback is very welcome."
-sidebar_position: 7
+sidebar_position: 35
 ---
 
 # Andara Game

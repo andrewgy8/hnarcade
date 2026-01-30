@@ -2,7 +2,7 @@
 title: "Music Mini Games"
 tags: [mobile]
 description: "An iOS app to help you sing & play."
-sidebar_position: 44
+sidebar_position: 50
 ---
 
 # Music Mini Games
