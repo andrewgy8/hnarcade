@@ -1,8 +1,9 @@
 ---
-title: "Flopblock"
+title: Flopblock
 tags: [puzzle]
-description: "Small puzzle game with novel rotation mechanic."
-sidebar_position: 54
+description: Small puzzle game with novel rotation mechanic.
+sidebar_position: 40
+screenshot: /img/games/flopblock.png
 ---
 
 # Flopblock

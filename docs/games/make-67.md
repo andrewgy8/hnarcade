@@ -1,8 +1,9 @@
 ---
-title: "Make 67"
+title: Make 67
 tags: [browser, free]
 description: "Show HN: Make 67 – a tiny maths game. Discovered via HN scraper."
-sidebar_position: 33
+sidebar_position: 73
+screenshot: /img/games/make-67.png
 ---
 
 # Make 67

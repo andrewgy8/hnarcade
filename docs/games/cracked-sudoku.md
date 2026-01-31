@@ -1,8 +1,9 @@
 ---
-title: "Cracked Sudoku"
+title: Cracked Sudoku
 tags: [puzzle]
-description: "A different version of classic sudoku, with weird shapes instead of orthogonal grid"
-sidebar_position: 73
+description: A different version of classic sudoku, with weird shapes instead of orthogonal grid
+sidebar_position: 43
+screenshot: /img/games/cracked-sudoku.png
 ---
 
 # Cracked Sudoku

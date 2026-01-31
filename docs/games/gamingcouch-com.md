@@ -1,8 +1,9 @@
 ---
-title: "GamingCouch.com"
+title: GamingCouch.com
 tags: [multiplayer, free, browser, mobile, desktop]
-description: "Gaming Couch is a free, web-based party platform that turns your smartphone into a game controller and your computer into a party game. Gather up to 8 friends around a central screen and jump into 18 competitive mini-games, all handcrafted by a small indie team from Finland."
-sidebar_position: 58
+description: Gaming Couch is a free, web-based party platform that turns your smartphone into a game controller and your computer into a party game. Gather up to 8 friends around a central screen and jump into 18 competitive mini-games, all handcrafted by a small indie team from Finland.
+sidebar_position: 9
+screenshot: /img/games/gamingcouch-com.png
 ---
 
 # GamingCouch.com

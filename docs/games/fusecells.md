@@ -1,8 +1,9 @@
 ---
-title: "FuseCells"
+title: FuseCells
 tags: [browser, free]
 description: "Show HN: FuseCells – 2,500 handcrafted levels logic puzzle game with leaderboard. Discovered via HN scraper."
-sidebar_position: 4
+sidebar_position: 42
+screenshot: /img/games/fusecells.png
 ---
 
 # FuseCells

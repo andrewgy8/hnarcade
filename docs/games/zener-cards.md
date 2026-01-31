@@ -1,8 +1,9 @@
 ---
-title: "Zener Cards"
+title: Zener Cards
 tags: [browser, free]
 description: "Show HN: Play Zener Cards. Discovered via HN scraper."
-sidebar_position: 8
+sidebar_position: 55
+screenshot: /img/games/zener-cards.png
 ---
 
 # Zener Cards

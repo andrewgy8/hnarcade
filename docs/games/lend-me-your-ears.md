@@ -1,8 +1,9 @@
 ---
-title: "Lend Me Your Ears"
+title: Lend Me Your Ears
 tags: [browser, free]
 description: "Show HN: I made a memory game to teach you to play piano by ear. Discovered via HN scraper."
-sidebar_position: 59
+sidebar_position: 48
+screenshot: /img/games/lend-me-your-ears.png
 ---
 
 # Lend Me Your Ears

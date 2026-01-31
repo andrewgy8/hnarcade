@@ -1,8 +1,9 @@
 ---
-title: "llmholdem.com"
+title: llmholdem.com
 tags: [browser, free]
 description: "Show HN: Play poker with LLMs, or watch them play against each other. Discovered via HN scraper."
-sidebar_position: 36
+sidebar_position: 5
+screenshot: /img/games/play-poker-with-llms-or-watch-them-play-against-each-other.png
 ---
 
 # Play poker with LLMs, or watch them play against each other

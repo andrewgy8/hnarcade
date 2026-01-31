@@ -24,8 +24,6 @@ import type {
 
 import styles from './styles.module.css';
 
-const PLACEHOLDER_IMAGE = '/img/games/placeholder.svg';
-
 function useCategoryItemsPlural() {
   const { selectMessage } = usePluralForm();
   return (count: number) =>
@@ -80,28 +78,23 @@ function CardLayout({
   description?: string;
   screenshot?: string;
 }): ReactNode {
-  const placeholderUrl = useBaseUrl(PLACEHOLDER_IMAGE);
   // Support both external URLs and local paths
   const screenshotUrl = screenshot
     ? (isExternalUrl(screenshot) ? screenshot : useBaseUrl(screenshot))
-    : placeholderUrl;
+    : null;
 
   return (
-    <CardContainer href={href} className={className}>
-      <div className={styles.cardImageContainer}>
-        <img
-          src={screenshotUrl}
-          alt={`${title} screenshot`}
-          className={styles.cardImage}
-          loading="lazy"
-          onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            if (target.src !== placeholderUrl) {
-              target.src = placeholderUrl;
-            }
-          }}
-        />
-      </div>
+    <CardContainer href={href} className={clsx(className, !screenshotUrl && styles.cardNoImage)}>
+      {screenshotUrl && (
+        <div className={styles.cardImageContainer}>
+          <img
+            src={screenshotUrl}
+            alt={`${title} screenshot`}
+            className={styles.cardImage}
+            loading="lazy"
+          />
+        </div>
+      )}
       <div className={styles.cardContent}>
         <Heading
           as="h2"

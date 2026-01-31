@@ -1,8 +1,9 @@
 ---
-title: "Logiquiz"
+title: Logiquiz
 tags: [puzzle]
-description: "Daily self-referential tests from very-easy to very-hard."
-sidebar_position: 25
+description: Daily self-referential tests from very-easy to very-hard.
+sidebar_position: 44
+screenshot: /img/games/logiquiz.png
 ---
 
 # Logiquiz

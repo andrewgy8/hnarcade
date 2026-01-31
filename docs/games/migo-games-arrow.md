@@ -1,8 +1,9 @@
 ---
 title: "Migo Games: Arrow"
 tags: [multiplayer]
-description: "Arrow is a multiplayer arrow shooting game built in Elixir / Phoenix."
-sidebar_position: 44
+description: Arrow is a multiplayer arrow shooting game built in Elixir / Phoenix.
+sidebar_position: 34
+screenshot: /img/games/migo-games-arrow.png
 ---
 
 # Migo Games: Arrow

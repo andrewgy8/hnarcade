@@ -1,8 +1,9 @@
 ---
-title: "Escape Team"
+title: Escape Team
 tags: [puzzle, multiplayer, mobile]
-description: "A printable escape room game with an app that serves as the game master. Have fun!"
-sidebar_position: 11
+description: A printable escape room game with an app that serves as the game master. Have fun!
+sidebar_position: 21
+screenshot: /img/games/escape-team.png
 ---
 
 # Escape Team

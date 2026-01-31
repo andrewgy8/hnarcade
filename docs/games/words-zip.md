@@ -1,8 +1,9 @@
 ---
-title: "Words.zip"
+title: Words.zip
 tags: [multiplayer, free, puzzle, browser]
-description: "Words.zip is a free infinite collaborative word search, where players from around the world find words on the infinite grid. You can challenge yourself to find long words, or connect lots of words to make your own shapes or patterns, or just browse other's work."
-sidebar_position: 7
+description: Words.zip is a free infinite collaborative word search, where players from around the world find words on the infinite grid. You can challenge yourself to find long words, or connect lots of words to make your own shapes or patterns, or just browse other's work.
+sidebar_position: 72
+screenshot: /img/games/words-zip.png
 ---
 
 # Words.zip

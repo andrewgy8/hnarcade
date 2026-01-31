@@ -1,8 +1,9 @@
 ---
-title: "Top Gun landing simulator"
+title: Top Gun landing simulator
 tags: [open-source, browser, mobile, desktop]
-description: "I reverse engineered the physics of Top Gun for the NES, and re-implemented it with some tweaks to make it more playable."
-sidebar_position: 31
+description: I reverse engineered the \\\\\"physics\\\\\" of Top Gun for the NES, and re-implemented it with some tweaks to make it more playable.
+sidebar_position: 53
+screenshot: /img/games/top-gun-landing-simulator.png
 ---
 
 # Top Gun landing simulator

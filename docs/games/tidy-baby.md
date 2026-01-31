@@ -1,8 +1,9 @@
 ---
-title: "Tidy Baby"
+title: Tidy Baby
 tags: [browser, free]
 description: "Show HN: Tidy Baby is a SET game but with words. Discovered via HN scraper."
-sidebar_position: 40
+sidebar_position: 7
+screenshot: /img/games/tidy-baby.png
 ---
 
 # Tidy Baby

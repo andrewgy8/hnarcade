@@ -1,8 +1,9 @@
 ---
-title: "Cursor Party"
+title: Cursor Party
 tags: [browser, free]
 description: "Show HN: Cursor Party – An MMO cursor game built in 1 hour with Elixir Phoenix. Discovered via HN scraper."
-sidebar_position: 30
+sidebar_position: 69
+screenshot: /img/games/cursor-party.png
 ---
 
 # Cursor Party

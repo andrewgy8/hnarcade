@@ -1,8 +1,9 @@
 ---
-title: "Skynet Simulator"
+title: Skynet Simulator
 tags: [puzzle]
-description: "Make Skynet!"
-sidebar_position: 65
+description: Make Skynet!
+sidebar_position: 61
+screenshot: /img/games/skynet-simulator.png
 ---
 
 # Skynet Simulator

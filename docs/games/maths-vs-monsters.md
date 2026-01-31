@@ -1,8 +1,9 @@
 ---
-title: "Maths vs Monsters"
+title: Maths vs Monsters
 tags: [open-source]
-description: "An mental arithmetic tower defence game where the user has to answer maths questions to upgrade towers"
-sidebar_position: 41
+description: An mental arithmetic tower defence game where the user has to answer maths questions to upgrade towers
+sidebar_position: 3
+screenshot: /img/games/maths-vs-monsters.png
 ---
 
 # Maths vs Monsters

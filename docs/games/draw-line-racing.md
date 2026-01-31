@@ -1,8 +1,9 @@
 ---
-title: "Draw Line Racing"
+title: Draw Line Racing
 tags: [mobile]
-description: "Draw your racing line and your car follows your line"
-sidebar_position: 28
+description: Draw your racing line and your car follows your line
+sidebar_position: 15
+screenshot: /img/games/draw-line-racing.png
 ---
 
 # Draw Line Racing

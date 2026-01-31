@@ -1,8 +1,9 @@
 ---
-title: "enclose.horse"
+title: enclose.horse
 tags: [puzzle, free]
-description: "Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls."
-sidebar_position: 27
+description: Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls.
+sidebar_position: 71
+screenshot: /img/games/enclose-horse.png
 ---
 
 # enclose.horse

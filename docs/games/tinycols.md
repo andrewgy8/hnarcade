@@ -1,8 +1,9 @@
 ---
-title: "Tinycols"
+title: Tinycols
 tags: [puzzle]
-description: "A jewel matching game for the terminal, written in C"
-sidebar_position: 35
+description: A jewel matching game for the terminal, written in C
+sidebar_position: 39
+screenshot: /img/games/tinycols.png
 ---
 
 # Tinycols

@@ -1,8 +1,9 @@
 ---
-title: "Lichess.el"
+title: Lichess.el
 tags: [browser, free]
 description: "Show HN: Lichess.el – Play Lichess Inside Emacs. Discovered via HN scraper."
-sidebar_position: 51
+sidebar_position: 22
+screenshot: /img/games/lichess-el.png
 ---
 
 # Lichess.el

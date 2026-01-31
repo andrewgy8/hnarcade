@@ -1,8 +1,9 @@
 ---
-title: "Logic Grid Puzzles"
+title: Logic Grid Puzzles
 tags: [puzzle]
-description: "Six different logic grid puzzles every day, form very easy to ultra hard."
-sidebar_position: 14
+description: Six different logic grid puzzles every day, form very easy to ultra hard.
+sidebar_position: 20
+screenshot: /img/games/logic-grid-puzzles.png
 ---
 
 # Logic Grid Puzzles

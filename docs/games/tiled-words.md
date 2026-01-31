@@ -1,8 +1,9 @@
 ---
-title: "Tiled Words"
+title: Tiled Words
 tags: [puzzle, free]
-description: "A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre."
-sidebar_position: 48
+description: A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre.
+sidebar_position: 17
+screenshot: /img/games/tiled-words.png
 ---
 
 # Tiled Words

@@ -1,8 +1,9 @@
 ---
-title: "A to Z"
+title: A to Z
 tags: [browser, free]
 description: "Show HN: A to Z – A word game I built from a childhood road trip memory. Discovered via HN scraper."
-sidebar_position: 57
+sidebar_position: 67
+screenshot: /img/games/a-to-z.png
 ---
 
 # A to Z

@@ -1,0 +1,29 @@
+.docItemContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.docItemCol {
+  max-width: 75% !important;
+}
+
+@media (max-width: 996px) {
+  .docItemCol {
+    max-width: 100% !important;
+  }
+}
+
+.screenshotContainer {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 400px;
+  object-fit: cover;
+}
