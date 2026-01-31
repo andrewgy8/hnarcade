@@ -2,7 +2,7 @@
 title: Lore Labyrinth
 tags: [puzzle]
 description: With Lore Labyrinth, you guide a yellow glowing orb through twisting corridors, razor-thin turns, and deceptive dead ends. One slip into a wall and you could lose some coins.
-sidebar_position: 36
+sidebar_position: 74
 screenshot: /img/games/lore-labyrinth.png
 ---
 
