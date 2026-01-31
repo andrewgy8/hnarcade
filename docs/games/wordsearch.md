@@ -2,7 +2,7 @@
 title: "∞ wordsearch"
 tags: [puzzle, mobile, desktop, browser]
 description: "A word search game where the puzzle never ends - as you scroll, the grid expands infinitely and new words appear. It’s quick to pick up, satisfying to play, and super addictive."
-sidebar_position: 41
+sidebar_position: 50
 ---
 
 # ∞ wordsearch

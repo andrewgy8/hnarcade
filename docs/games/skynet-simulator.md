@@ -2,7 +2,7 @@
 title: "Skynet Simulator"
 tags: [puzzle]
 description: "Make Skynet!"
-sidebar_position: 48
+sidebar_position: 65
 ---
 
 # Skynet Simulator

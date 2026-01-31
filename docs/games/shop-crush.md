@@ -2,7 +2,7 @@
 title: "Shop Crush"
 tags: [browser, free]
 description: "Show HN: I built a narrative game about running a thrift shop. Discovered via HN scraper."
-sidebar_position: 29
+sidebar_position: 68
 ---
 
 # Shop Crush

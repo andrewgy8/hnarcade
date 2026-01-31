@@ -2,7 +2,7 @@
 title: "Zsweep"
 tags: [browser, free]
 description: "Show HN: Zsweep – Play Minesweeper using only Vim motions. Discovered via HN scraper."
-sidebar_position: 52
+sidebar_position: 47
 ---
 
 # Zsweep
