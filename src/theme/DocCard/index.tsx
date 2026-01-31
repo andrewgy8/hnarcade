@@ -137,8 +137,8 @@ function CardLink({ item }: { item: PropSidebarItemLink }): ReactNode {
   const icon = isInternalUrl(item.href) ? '📄️' : '🔗';
   const doc = useDocById(item.docId ?? undefined);
 
-  // Get screenshot from doc frontmatter
-  const screenshot = doc?.frontMatter?.screenshot as string | undefined;
+  // Get screenshot from customProps (passed via sidebarItemsGenerator)
+  const screenshot = (item.customProps?.screenshot as string | undefined);
 
   return (
     <CardLayout

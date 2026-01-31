@@ -35,6 +35,36 @@ const config: Config = {
           path: 'docs',
           tagsBasePath: 'tags',
           editUrl: 'https://github.com/andrewgy8/hnarcade/edit/main/',
+          async sidebarItemsGenerator({defaultSidebarItemsGenerator, ...args}) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args);
+
+            // Recursively add screenshot to customProps for each doc item
+            function addScreenshotToItems(items: any[]): any[] {
+              return items.map((item) => {
+                if (item.type === 'category' && item.items) {
+                  return {
+                    ...item,
+                    items: addScreenshotToItems(item.items),
+                  };
+                }
+                if (item.type === 'doc') {
+                  const doc = args.docs.find((d) => d.id === item.id);
+                  if (doc?.frontMatter?.screenshot) {
+                    return {
+                      ...item,
+                      customProps: {
+                        ...item.customProps,
+                        screenshot: doc.frontMatter.screenshot,
+                      },
+                    };
+                  }
+                }
+                return item;
+              });
+            }
+
+            return addScreenshotToItems(sidebarItems);
+          },
         },
         blog: false,
         theme: {
