@@ -2,7 +2,7 @@
 title: "Draw Line Racing"
 tags: [mobile]
 description: "Draw your racing line and your car follows your line"
-sidebar_position: 15
+sidebar_position: 65
 ---
 
 # Draw Line Racing
