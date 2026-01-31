@@ -40,6 +40,7 @@ jobs:
             const authorName = data['author-name'];
             const authorUrl = data['author-url'] || '';
             const sourceUrl = data['source-url'] || '';
+            const screenshotUrl = data['screenshot-url'] || '';
             const tags = data['tags'];
             const description = data['description'];
 
@@ -72,13 +73,20 @@ jobs:
               sourceRow = `| **Source** | [${sourceDisplay}](${sourceUrl}) |`;
             }
 
+            // Build screenshot frontmatter line (optional)
+            const screenshotLine = screenshotUrl
+              ? `screenshot: "${screenshotUrl}"`
+              : '';
+
             // Build the markdown content
             const lines = [
               '---',
               `title: "${gameName.replace(/"/g, '\\"')}"`,
               `tags: [${tagsYaml}]`,
               `description: "${shortDesc.replace(/"/g, '\\"')}"`,
+              screenshotLine,
               '---',
+            ].filter(line => line !== '');
               '',
               `# ${gameName}`,
               '',
@@ -93,6 +101,11 @@ jobs:
 
             if (sourceRow) {
               lines.push(sourceRow);
+            }
+
+            // Add screenshot image if provided
+            if (screenshotUrl) {
+              lines.push('', `![${gameName} screenshot](${screenshotUrl})`, '');
             }
 
             lines.push('', '## About', '', description, '');

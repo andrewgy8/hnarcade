@@ -48,6 +48,14 @@ body:
       placeholder: https://github.com/user/repo
     validations:
       required: false
+  - type: input
+    id: screenshot-url
+    attributes:
+      label: Screenshot URL
+      description: Direct link to a screenshot image (PNG, JPG, or GIF). Use a hosted image URL (e.g., from GitHub, Imgur, or the game's website).
+      placeholder: https://example.com/screenshot.png
+    validations:
+      required: false
   - type: dropdown
     id: tags
     attributes:

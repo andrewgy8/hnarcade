@@ -8,6 +8,8 @@ A directory of games discovered on Hacker News Show HN posts, built with Docusau
 - `docs/submit.md` — submission instructions pointing to GitHub Issues
 - `src/pages/index.tsx` — homepage with hero and CTAs
 - `src/css/custom.css` — HN orange theme overrides
+- `src/theme/DocCard/` — swizzled DocCard component with screenshot support
+- `static/img/games/` — game screenshots (use `placeholder.svg` as fallback)
 - `docusaurus.config.ts` — site config; docs served at `/games/` via `routeBasePath`
 - `sidebars.ts` — auto-generated sidebar from `docs/`
 - `.github/workflows/deploy.yml` — deploys to GitHub Pages on push to `main`
@@ -45,11 +47,14 @@ Create a new file in `docs/games/<slug>.md`:
 title: Game Name
 tags: [genre, platform, other-tag]
 description: One-line description of the game.
+screenshot: /img/games/game-name.png
 ---
 
 # Game Name
 
 Short intro paragraph.
+
+![Game Name screenshot](/img/games/game-name.png)
 
 | | |
 |---|---|
@@ -62,6 +67,12 @@ Short intro paragraph.
 
 Longer description of the game.
 ```
+
+**Screenshot field:** The `screenshot` frontmatter field is used to display images on game cards. It can be:
+- A local path: `/img/games/game-name.png` (store image in `static/img/games/`)
+- An external URL: `https://example.com/screenshot.png`
+
+Games without screenshots will show a placeholder image.
 
 Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`, `simulation`, `rpg`, `platformer`, `browser`, `mobile`, `desktop`, `open-source`, `multiplayer`, `paid`, `free`.
 

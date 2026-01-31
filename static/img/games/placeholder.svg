@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" fill="none">
+  <rect width="400" height="225" fill="#1a1a1a"/>
+  <rect x="1" y="1" width="398" height="223" stroke="#333" stroke-width="2" fill="none"/>
+  <circle cx="200" cy="100" r="40" stroke="#ff6600" stroke-width="3" fill="none"/>
+  <polygon points="190,85 190,115 215,100" fill="#ff6600"/>
+  <text x="200" y="170" text-anchor="middle" fill="#666" font-family="system-ui, sans-serif" font-size="14">No screenshot available</text>
+</svg>
