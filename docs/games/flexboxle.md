@@ -1,7 +1,8 @@
 ---
-title: "Flexboxle"
+title: Flexboxle
 tags: [browser, free]
 description: "Show HN: Flexboxle – A Daily Puzzle with Flexbox. Discovered via HN scraper."
+screenshot: /img/games/flexboxle.png
 ---
 
 # Flexboxle

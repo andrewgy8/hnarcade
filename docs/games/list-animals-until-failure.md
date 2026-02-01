@@ -1,7 +1,8 @@
 ---
-title: "List Animals Until Failure"
+title: List Animals Until Failure
 tags: [browser, free]
-description: "List animals until failure. Discovered via HN."
+description: List animals until failure. Discovered via HN.
+screenshot: /img/games/list-animals-until-failure.png
 ---
 
 # List Animals Until Failure
