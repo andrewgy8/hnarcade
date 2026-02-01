@@ -2,7 +2,7 @@
 title: Flopblock
 tags: [puzzle]
 description: Small puzzle game with novel rotation mechanic.
-sidebar_position: 19
+sidebar_position: 14
 screenshot: /img/games/flopblock.png
 ---
 
