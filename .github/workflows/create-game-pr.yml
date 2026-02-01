@@ -73,20 +73,14 @@ jobs:
               sourceRow = `| **Source** | [${sourceDisplay}](${sourceUrl}) |`;
             }
 
-            // Build screenshot frontmatter line (optional)
-            const screenshotLine = screenshotUrl
-              ? `screenshot: "${screenshotUrl}"`
-              : '';
-
             // Build the markdown content
             const lines = [
               '---',
               `title: "${gameName.replace(/"/g, '\\"')}"`,
               `tags: [${tagsYaml}]`,
               `description: "${shortDesc.replace(/"/g, '\\"')}"`,
-              screenshotLine,
+              ...(screenshotUrl ? [`screenshot: "${screenshotUrl}"`] : []),
               '---',
-            ].filter(line => line !== '');
               '',
               `# ${gameName}`,
               '',
