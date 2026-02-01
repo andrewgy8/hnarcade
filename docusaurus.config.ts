@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://andrewgy8.github.io',
-  baseUrl: '/hnarcade/',
+  url: 'https://hnarcade.com',
+  baseUrl: '/',
 
   organizationName: 'andrewgy8',
   projectName: 'hnarcade',
