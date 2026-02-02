@@ -143,11 +143,11 @@ jobs:
             console.log(`Taking screenshot of ${playUrl}`);
 
             const browser = await chromium.launch({ headless: true });
-            const context = await browser.newContext({
+            const browserContext = await browser.newContext({
               viewport: { width: 1280, height: 720 },
               deviceScaleFactor: 1,
             });
-            const page = await context.newPage();
+            const page = await browserContext.newPage();
 
             try {
               await page.goto(playUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
