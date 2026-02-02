@@ -2,7 +2,7 @@
 title: Lichess.el
 tags: [browser, free]
 description: "Show HN: Lichess.el – Play Lichess Inside Emacs. Discovered via HN scraper."
-sidebar_position: 70
+sidebar_position: 57
 screenshot: /img/games/lichess-el.png
 ---
 

@@ -2,7 +2,7 @@
 title: A to Z
 tags: [browser, free]
 description: "Show HN: A to Z – A word game I built from a childhood road trip memory. Discovered via HN scraper."
-sidebar_position: 9
+sidebar_position: 14
 screenshot: /img/games/a-to-z.png
 ---
 

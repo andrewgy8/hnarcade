@@ -2,7 +2,7 @@
 title: Alien Abducto-rama
 tags: [browser, free]
 description: "Show HN: Alien Abducto-rama: a FUN browser game I made with my kids. Discovered via HN scraper."
-sidebar_position: 60
+sidebar_position: 12
 screenshot: /img/games/alien-abducto-rama.png
 ---
 
