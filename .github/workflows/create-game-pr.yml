@@ -121,64 +121,64 @@ jobs:
 
       - name: Take screenshot
         if: steps.generate.outputs.has-screenshot == 'false'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { chromium } = require('playwright');
-            const fs = require('fs');
-            const path = require('path');
+        run: |
+          node --input-type=module <<'EOF'
+          import { chromium } from 'playwright';
+          import fs from 'fs';
+          import path from 'path';
 
-            const slug = process.env.SLUG;
-            const playUrl = process.env.PLAY_URL;
-            const gameName = process.env.GAME_NAME;
-            const filePath = path.join('docs', 'games', `${slug}.md`);
-            const screenshotDir = path.join('static', 'img', 'games');
-            const screenshotFile = `${slug}.png`;
-            const screenshotPath = path.join(screenshotDir, screenshotFile);
-            const frontmatterPath = `/img/games/${screenshotFile}`;
+          const slug = process.env.SLUG;
+          const playUrl = process.env.PLAY_URL;
+          const gameName = process.env.GAME_NAME;
+          const filePath = path.join('docs', 'games', `${slug}.md`);
+          const screenshotDir = path.join('static', 'img', 'games');
+          const screenshotFile = `${slug}.png`;
+          const screenshotPath = path.join(screenshotDir, screenshotFile);
+          const frontmatterPath = `/img/games/${screenshotFile}`;
 
-            // Ensure screenshot directory exists
-            fs.mkdirSync(screenshotDir, { recursive: true });
+          // Ensure screenshot directory exists
+          fs.mkdirSync(screenshotDir, { recursive: true });
 
-            console.log(`Taking screenshot of ${playUrl}`);
+          console.log(`Taking screenshot of ${playUrl}`);
 
-            const browser = await chromium.launch({ headless: true });
-            const browserContext = await browser.newContext({
-              viewport: { width: 1280, height: 720 },
-              deviceScaleFactor: 1,
-            });
-            const page = await browserContext.newPage();
+          const browser = await chromium.launch({ headless: true });
+          const browserContext = await browser.newContext({
+            viewport: { width: 1280, height: 720 },
+            deviceScaleFactor: 1,
+          });
+          const page = await browserContext.newPage();
 
-            try {
-              await page.goto(playUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-              await page.waitForTimeout(3000);
-              await page.screenshot({ path: screenshotPath, type: 'png' });
-              console.log(`Screenshot saved to ${screenshotPath}`);
+          try {
+            await page.goto(playUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+            await page.waitForTimeout(3000);
+            await page.screenshot({ path: screenshotPath, type: 'png' });
+            console.log(`Screenshot saved to ${screenshotPath}`);
 
-              // Update the markdown file with screenshot
-              let content = fs.readFileSync(filePath, 'utf-8');
+            // Update the markdown file with screenshot
+            let content = fs.readFileSync(filePath, 'utf-8');
 
-              // Add screenshot to frontmatter
+            // Add screenshot to frontmatter
+            content = content.replace(
+              /^(---\n[\s\S]*?)(---\n)/,
+              `$1screenshot: ${frontmatterPath}\n$2`
+            );
+
+            // Add screenshot image after the table if not already present
+            if (!content.includes('![')) {
               content = content.replace(
-                /^(---\n[\s\S]*?)(---\n)/,
-                `$1screenshot: ${frontmatterPath}\n$2`
+                /(\| \*\*HN Thread\*\* \|[^\n]+\n(?:\| \*\*Source\*\* \|[^\n]+\n)?)/,
+                `$1\n![${gameName} screenshot](${frontmatterPath})\n`
               );
-
-              // Add screenshot image after the table if not already present
-              if (!content.includes('![')) {
-                content = content.replace(
-                  /(\| \*\*HN Thread\*\* \|[^\n]+\n(?:\| \*\*Source\*\* \|[^\n]+\n)?)/,
-                  `$1\n![${gameName} screenshot](${frontmatterPath})\n`
-                );
-              }
-
-              fs.writeFileSync(filePath, content);
-              console.log('Updated frontmatter with screenshot path');
-            } catch (error) {
-              console.error(`Failed to take screenshot: ${error.message}`);
-            } finally {
-              await browser.close();
             }
+
+            fs.writeFileSync(filePath, content);
+            console.log('Updated frontmatter with screenshot path');
+          } catch (error) {
+            console.error(`Failed to take screenshot: ${error.message}`);
+          } finally {
+            await browser.close();
+          }
+          EOF
         env:
           SLUG: ${{ steps.generate.outputs.slug }}
           PLAY_URL: ${{ steps.generate.outputs.play-url }}
