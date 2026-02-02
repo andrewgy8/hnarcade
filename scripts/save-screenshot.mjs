@@ -3,27 +3,21 @@
 /**
  * Save Screenshot Script
  *
- * Downloads a screenshot from a URL and saves it to the static files.
+ * Interactive script to download a screenshot from a URL and save it for a game.
  *
  * Usage:
- *   npm run save-screenshot -- --url=<image-url> --slug=<game-slug>
- *   npm run save-screenshot -- --url=<image-url> --slug=<game-slug> --update-frontmatter
- *
- * Examples:
- *   npm run save-screenshot -- --url=https://example.com/screenshot.png --slug=my-game
- *   npm run save-screenshot -- --url=https://example.com/screenshot.png --slug=my-game --update-frontmatter
+ *   npm run save-screenshot
  *
  * Options:
- *   --url                 URL of the screenshot image to download (required)
- *   --slug                Game slug for the filename (required)
- *   --update-frontmatter  Update the game's markdown frontmatter with the screenshot path
+ *   --no-update-frontmatter  Skip updating the game's markdown frontmatter
  */
 
-import { writeFile, readFile, mkdir } from "node:fs/promises";
+import { writeFile, readFile, readdir, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
+import { createInterface } from "node:readline";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -36,23 +30,107 @@ const SCREENSHOTS_DIR = join(ROOT_DIR, "static", "img", "games");
  */
 function parseArgs() {
   const args = process.argv.slice(2);
-  const result = {
-    url: null,
-    slug: null,
-    updateFrontmatter: false,
+  return {
+    updateFrontmatter: !args.includes("--no-update-frontmatter"),
   };
+}
 
-  for (const arg of args) {
-    if (arg.startsWith("--url=")) {
-      result.url = arg.slice(6);
-    } else if (arg.startsWith("--slug=")) {
-      result.slug = arg.slice(7);
-    } else if (arg === "--update-frontmatter") {
-      result.updateFrontmatter = true;
+/**
+ * Get all game slugs and titles from the games directory
+ */
+async function getGames() {
+  const files = await readdir(GAMES_DIR);
+  const games = [];
+
+  for (const file of files) {
+    if (!file.endsWith(".md")) continue;
+
+    const slug = file.replace(/\.md$/, "");
+    const content = await readFile(join(GAMES_DIR, file), "utf-8");
+    const { frontmatter } = parseFrontmatter(content);
+    const title = frontmatter.title || slug;
+
+    games.push({ slug, title, file });
+  }
+
+  return games.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+/**
+ * Filter games by search query (case-insensitive partial match on title or slug)
+ */
+function filterGames(games, query) {
+  const lowerQuery = query.toLowerCase();
+  return games.filter(
+    (g) =>
+      g.title.toLowerCase().includes(lowerQuery) ||
+      g.slug.toLowerCase().includes(lowerQuery)
+  );
+}
+
+/**
+ * Create readline interface
+ */
+function createReadline() {
+  return createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+}
+
+/**
+ * Prompt user for input
+ */
+function prompt(rl, question) {
+  return new Promise((resolve) => {
+    rl.question(question, resolve);
+  });
+}
+
+/**
+ * Interactive game selection
+ */
+async function selectGame(rl, games) {
+  console.log("\nType part of the game name to filter, then enter the number to select:\n");
+
+  let filteredGames = games;
+  let selectedGame = null;
+
+  while (!selectedGame) {
+    // Show current filtered list (max 10)
+    const displayGames = filteredGames.slice(0, 10);
+    if (filteredGames.length === 0) {
+      console.log("  No games match your search.\n");
+    } else {
+      displayGames.forEach((g, i) => {
+        console.log(`  ${i + 1}. ${g.title} (${g.slug})`);
+      });
+      if (filteredGames.length > 10) {
+        console.log(`  ... and ${filteredGames.length - 10} more (type to filter)\n`);
+      } else {
+        console.log();
+      }
+    }
+
+    const input = await prompt(rl, "Search or select [1-10]: ");
+    const trimmed = input.trim();
+
+    // Check if it's a number selection
+    const num = parseInt(trimmed, 10);
+    if (!isNaN(num) && num >= 1 && num <= displayGames.length) {
+      selectedGame = displayGames[num - 1];
+    } else if (trimmed === "") {
+      // Empty input resets filter
+      filteredGames = games;
+      console.log("\n(Filter reset)\n");
+    } else {
+      // Filter by input
+      filteredGames = filterGames(games, trimmed);
+      console.log();
     }
   }
 
-  return result;
+  return selectedGame;
 }
 
 /**
@@ -144,7 +222,6 @@ async function updateGameFrontmatter(slug, screenshotPath) {
 
   if (!existsSync(filePath)) {
     console.log(`  Note: Game file not found at ${filePath}`);
-    console.log(`  Frontmatter not updated, but screenshot was saved.`);
     return false;
   }
 
@@ -156,7 +233,7 @@ async function updateGameFrontmatter(slug, screenshotPath) {
   const newContent = `---\n${serializeFrontmatter(frontmatter)}\n---\n${body}`;
   await writeFile(filePath, newContent, "utf-8");
 
-  console.log(`  Updated frontmatter in ${filePath}`);
+  console.log(`Updated frontmatter in ${filePath}`);
   return true;
 }
 
@@ -165,65 +242,72 @@ async function updateGameFrontmatter(slug, screenshotPath) {
  */
 async function main() {
   console.log("Save Screenshot Script");
-  console.log("======================\n");
+  console.log("======================");
 
-  const { url, slug, updateFrontmatter } = parseArgs();
+  const { updateFrontmatter } = parseArgs();
 
-  // Validate arguments
-  if (!url) {
-    console.error("Error: --url is required");
-    console.error("\nUsage: npm run save-screenshot -- --url=<image-url> --slug=<game-slug>");
+  // Load games
+  console.log("\nLoading games...");
+  const games = await getGames();
+
+  if (games.length === 0) {
+    console.error("No games found in docs/games/");
     process.exit(1);
   }
 
-  if (!slug) {
-    console.error("Error: --slug is required");
-    console.error("\nUsage: npm run save-screenshot -- --url=<image-url> --slug=<game-slug>");
-    process.exit(1);
-  }
+  console.log(`Found ${games.length} games.`);
 
-  // Validate slug (alphanumeric, hyphens, underscores only)
-  if (!/^[a-z0-9_-]+$/i.test(slug)) {
-    console.error("Error: Slug must contain only alphanumeric characters, hyphens, and underscores");
-    process.exit(1);
-  }
+  const rl = createReadline();
 
-  console.log(`URL: ${url}`);
-  console.log(`Slug: ${slug}`);
-  console.log(`Update frontmatter: ${updateFrontmatter}\n`);
-
-  // Ensure screenshots directory exists
-  if (!existsSync(SCREENSHOTS_DIR)) {
-    await mkdir(SCREENSHOTS_DIR, { recursive: true });
-    console.log(`Created directory: ${SCREENSHOTS_DIR}`);
-  }
-
-  // Download the image
-  console.log("Downloading image...");
-  let imageBuffer;
   try {
-    imageBuffer = await downloadImage(url);
-  } catch (error) {
-    console.error(`Error downloading image: ${error.message}`);
-    process.exit(1);
+    // Prompt for URL
+    const url = await prompt(rl, "\nScreenshot URL: ");
+    if (!url.trim()) {
+      console.error("Error: URL is required");
+      process.exit(1);
+    }
+
+    // Select game
+    const game = await selectGame(rl, games);
+    console.log(`\nSelected: ${game.title} (${game.slug})`);
+
+    // Ensure screenshots directory exists
+    if (!existsSync(SCREENSHOTS_DIR)) {
+      await mkdir(SCREENSHOTS_DIR, { recursive: true });
+      console.log(`Created directory: ${SCREENSHOTS_DIR}`);
+    }
+
+    // Download the image
+    console.log("\nDownloading image...");
+    let imageBuffer;
+    try {
+      imageBuffer = await downloadImage(url.trim());
+    } catch (error) {
+      console.error(`Error downloading image: ${error.message}`);
+      process.exit(1);
+    }
+
+    // Save the image
+    const outputFilename = `${game.slug}.png`;
+    const outputPath = join(SCREENSHOTS_DIR, outputFilename);
+    const frontmatterPath = `/img/games/${outputFilename}`;
+
+    await writeFile(outputPath, imageBuffer);
+    console.log(`Saved screenshot to: ${outputPath}`);
+
+    // Update frontmatter by default
+    if (updateFrontmatter) {
+      console.log("\nUpdating frontmatter...");
+      await updateGameFrontmatter(game.slug, frontmatterPath);
+    } else {
+      console.log("\nSkipping frontmatter update (--no-update-frontmatter)");
+      console.log(`Screenshot path for frontmatter: ${frontmatterPath}`);
+    }
+
+    console.log("\nDone!");
+  } finally {
+    rl.close();
   }
-
-  // Save the image
-  const outputFilename = `${slug}.png`;
-  const outputPath = join(SCREENSHOTS_DIR, outputFilename);
-  const frontmatterPath = `/img/games/${outputFilename}`;
-
-  await writeFile(outputPath, imageBuffer);
-  console.log(`Saved screenshot to: ${outputPath}`);
-
-  // Update frontmatter if requested
-  if (updateFrontmatter) {
-    console.log("\nUpdating frontmatter...");
-    await updateGameFrontmatter(slug, frontmatterPath);
-  }
-
-  console.log("\nDone!");
-  console.log(`\nScreenshot path for frontmatter: ${frontmatterPath}`);
 }
 
 main().catch((error) => {
