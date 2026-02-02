@@ -15,6 +15,7 @@
     "typecheck": "tsc",
     "scrape": "node scripts/scrape-hn.mjs",
     "screenshot": "node scripts/screenshot-games.mjs",
+    "save-screenshot": "node scripts/save-screenshot.mjs",
     "submit": "node scripts/submit-from-hn.mjs"
   },
   "dependencies": {
