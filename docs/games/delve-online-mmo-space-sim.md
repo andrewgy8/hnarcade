@@ -2,7 +2,7 @@
 title: Delve Online - MMO Space Sim
 tags: [multiplayer]
 description: Hey space pilots!
-sidebar_position: 49
+sidebar_position: 27
 screenshot: /img/games/delve-online-mmo-space-sim.png
 ---
 

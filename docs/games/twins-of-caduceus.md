@@ -2,7 +2,7 @@
 title: Twins of Caduceus
 tags: [arcade]
 description: A first of its kind dual-snake control game that tests your ability to manage two snakes simultaneously in a classic retro-style arcade experience.
-sidebar_position: 62
+sidebar_position: 2
 screenshot: /img/games/twins-of-caduceus.png
 ---
 
