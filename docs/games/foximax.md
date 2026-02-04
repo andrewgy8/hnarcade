@@ -2,7 +2,7 @@
 title: Foximax
 tags: [puzzle, free, browser]
 description: Like Hangman you try to guess the word, one letter at a time.
-sidebar_position: 54
+sidebar_position: 50
 screenshot: /img/games/foximax.png
 ---
 

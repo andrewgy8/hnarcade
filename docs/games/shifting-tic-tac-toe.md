@@ -2,7 +2,7 @@
 title: Shifting Tic Tac Toe
 tags: [puzzle]
 description: The classic game with a twist—play in real-time, and there’s never a draw!
-sidebar_position: 7
+sidebar_position: 11
 screenshot: /img/games/shifting-tic-tac-toe.png
 ---
 
