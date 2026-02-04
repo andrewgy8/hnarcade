@@ -12,7 +12,7 @@ An online puzzle game inspired by Cicada 3301 that challenges players with hidde
 
 | | |
 |---|---|
-| **Author** | Perseus_ |
+| **Author** | Unattributed |
 | **Play** | [pegasus3301.com](https://pegasus3301.com/) |
 | **HN Thread** | [Show HN: Pegasus3301](https://news.ycombinator.com/item?id=46795300) |
 
