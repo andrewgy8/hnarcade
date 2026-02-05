@@ -2,7 +2,7 @@
 title: Sassy
 tags: [browser, multiplayer]
 description: Zoom games for groups. Built to quickly bounce between several games in a session
-sidebar_position: 78
+sidebar_position: 80
 screenshot: /img/games/sassy.png
 ---
 

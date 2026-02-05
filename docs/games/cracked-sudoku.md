@@ -2,7 +2,7 @@
 title: Cracked Sudoku
 tags: [puzzle]
 description: A different version of classic sudoku, with weird shapes instead of orthogonal grid
-sidebar_position: 44
+sidebar_position: 6
 screenshot: /img/games/cracked-sudoku.png
 ---
 

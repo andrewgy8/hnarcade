@@ -2,7 +2,7 @@
 title: Zebra Puzzles
 tags: [puzzle]
 description: Daily zebra puzzle with hundreds of different themes.
-sidebar_position: 24
+sidebar_position: 3
 screenshot: /img/games/zebra-puzzles.png
 ---
 

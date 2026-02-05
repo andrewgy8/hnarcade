@@ -2,7 +2,7 @@
 title: "Star Trek: The Next Generation Episode Guessing Game"
 tags: [browser, free]
 description: "Show HN: Star Trek: The Next Generation Episode Guessing Game. Discovered via HN scraper."
-sidebar_position: 54
+sidebar_position: 47
 screenshot: /img/games/star-trek-the-next-generation-episode-guessing-game.png
 ---
 
