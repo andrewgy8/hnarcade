@@ -14,6 +14,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "scrape": "node scripts/scrape-hn.mjs",
+    "archive": "node scripts/scrape-hn.mjs --archive",
     "screenshot": "node scripts/screenshot-games.mjs",
     "save-screenshot": "node scripts/save-screenshot.mjs",
     "submit": "node scripts/submit-from-hn.mjs"

@@ -86,6 +86,7 @@ Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`
 - `npm run build` — production build (output in `build/`)
 - `npm run serve` — serve the production build locally
 - `npm run scrape` — dry-run HN scraper (add `-- --days=7` for wider window, `-- --create-issues` to create GitHub Issues)
+- `npm run archive` — interactive prompt to select games from a random past month for newsletter "From the Archives" section (add `-- --month=2022-03` for specific month; supports 'r' to reject non-games)
 - `npm run screenshot` — take screenshots of all games missing them (add `-- --all` to overwrite existing, `-- --dry-run` to preview)
 
 ## Deployment

@@ -115,7 +115,7 @@ const config: Config = {
     },
     footer: {
       style: 'light',
-      copyright: `Games discovered from Hacker News. Built by <a href="https://andrew.grahamyooll.com" target="_blank" rel="noopener noreferrer">Andrew Graham-Yooll</a>`,
+      copyright: `Games discovered from Hacker News. Built by <a href="https://andrew.grahamyooll.com" target="_blank" rel="noopener noreferrer">AGY</a>`,
     },
     prism: {
       theme: prismThemes.github,
