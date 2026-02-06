@@ -102,6 +102,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/newsletter',
+          label: 'Newsletter',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/andrewgy8/hnarcade',
           label: 'GitHub',
           position: 'right',
