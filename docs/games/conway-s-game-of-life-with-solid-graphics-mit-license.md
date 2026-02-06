@@ -15,8 +15,6 @@ Show HN: Interactive Conway's Game of Life with good graphics (MIT License). Ori
 | **Play** | [symbolflux.com](http://symbolflux.com/conwayz/) |
 | **HN Thread** | [Show HN: Conway's Game of Life with Solid Graphics (MIT License)](https://news.ycombinator.com/item?id=16300657) |
 
-![Conway's Game of Life with Solid Graphics (MIT License) screenshot](/img/games/conway-s-game-of-life-with-solid-graphics-mit-license.png)
-
 ## About
 
 Show HN: Interactive Conway's Game of Life with good graphics (MIT License). Originally posted February 2018. Discovered via HN archive scraper for newsletter "From the Archives" section.

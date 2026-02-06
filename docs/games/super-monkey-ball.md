@@ -16,8 +16,6 @@ Super Monkey Ball ported to a website. Discovered via HN.
 | **Play** | [monkeyball-online.pages.dev](https://monkeyball-online.pages.dev/) |
 | **HN Thread** | [Show HN: Super Monkey Ball](https://news.ycombinator.com/item?id=46789961) |
 
-![Super Monkey Ball screenshot](/img/games/super-monkey-ball.png)
-
 ## About
 
 Super Monkey Ball ported to a website. Discovered via HN.

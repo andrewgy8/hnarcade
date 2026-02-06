@@ -16,8 +16,6 @@ This is a little game implemented over a week of tinkering and targeting Emacs.
 | **Play** | [github.com](https://github.com/vkazanov/elcity) |
 | **HN Thread** | [Show HN: Micropolis/SimCity Clone in Emacs Lisp](https://news.ycombinator.com/item?id=46897332) |
 
-![Micropolis/SimCity Clone in Emacs Lisp screenshot](/img/games/micropolis-simcity-clone-in-emacs-lisp.png)
-
 ## About
 
 This is a little game implemented over a week of tinkering and targeting Emacs.

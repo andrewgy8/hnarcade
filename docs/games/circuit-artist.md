@@ -17,9 +17,6 @@ A circuit simulator where you draw everything. NANDs and pixels. Build gates, AL
 | **HN Thread** | [Show HN: Circuit Artist](https://news.ycombinator.com/item?id=46445412) |
 | **Source** | [github.com/lets-all-be-stupid-forever/circuit-artist](https://github.com/lets-all-be-stupid-forever/circuit-artist) |
 
-![Circuit Artist screenshot](/img/games/circuit-artist.gif)
-
-
 ## About
 
 A circuit simulator where you draw everything. NANDs and pixels. Build gates, ALUs, CPUs — whatever you want. Watch signals flow, rewind time, optimize your layout. Circuits are just images.
