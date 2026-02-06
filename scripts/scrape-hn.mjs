@@ -33,7 +33,7 @@ const { values: flags } = parseArgs({
 const CREATE_ISSUES = flags["create-issues"];
 const DRY_RUN = !CREATE_ISSUES;
 const DAYS = parseInt(flags["days"], 10);
-const MIN_POINTS = parseInt(flags["min-points"], 10);
+const MIN_POINTS = parseInt(flags["min-points"], 3);
 
 const GAME_KEYWORDS =
   /\b(game|games|play|puzzle|arcade|chess|rpg|platformer|roguelike|tetris|sudoku|minesweeper|wordle|sokoban)\b/i;
