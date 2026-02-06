@@ -40,3 +40,42 @@
   --ifm-footer-link-hover-color: #ff6600;
   --ifm-footer-title-color: #ffffff;
 }
+
+/* Ensure navbar toggle (hamburger menu) is visible on dark navbar in light mode */
+.navbar__toggle {
+  color: #e0e0e0;
+}
+
+/* Ensure color mode toggle icon is visible in light mode */
+[data-theme='light'] .navbar [class*='colorModeToggle'] button {
+  color: #e0e0e0;
+}
+
+[data-theme='light'] .navbar [class*='colorModeToggle'] button:hover {
+  color: #ff6600;
+}
+
+/* Mobile sidebar (hamburger menu) - ensure light text on dark background in light mode */
+[data-theme='light'] .navbar-sidebar {
+  background-color: #0a0a0c;
+}
+
+[data-theme='light'] .navbar-sidebar .menu__link {
+  color: #e0e0e0;
+}
+
+[data-theme='light'] .navbar-sidebar .menu__link:hover {
+  color: #ff6600;
+}
+
+[data-theme='light'] .navbar-sidebar__brand {
+  color: #e0e0e0;
+}
+
+[data-theme='light'] .navbar-sidebar__close {
+  color: #e0e0e0;
+}
+
+[data-theme='light'] .navbar-sidebar__back {
+  color: #e0e0e0;
+}
