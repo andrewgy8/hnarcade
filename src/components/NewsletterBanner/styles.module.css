@@ -1,0 +1,102 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.6rem 1rem;
+  background: linear-gradient(90deg, #1a1a1c 0%, #0a0a0c 50%, #1a1a1c 100%);
+  border-bottom: 1px solid rgba(255, 102, 0, 0.3);
+  position: relative;
+}
+
+.bannerText {
+  font-size: 0.85rem;
+  color: #b0b0b0;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.bannerForm {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.emailInput {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: #e0e0e0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 102, 0, 0.3);
+  border-radius: 3px;
+  outline: none;
+  transition: all 0.2s ease;
+  width: 200px;
+}
+
+.emailInput::placeholder {
+  color: #666;
+}
+
+.emailInput:focus {
+  border-color: #ff6600;
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.3);
+}
+
+.subscribeButton {
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0a0a0c;
+  background: #ff6600;
+  border: 1px solid #ff6600;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.subscribeButton:hover {
+  background: #ff8533;
+  box-shadow: 0 0 12px rgba(255, 102, 0, 0.5);
+}
+
+.closeButton {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.closeButton:hover {
+  color: #ff6600;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.75rem 2.5rem 0.75rem 1rem;
+  }
+
+  .bannerForm {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .emailInput {
+    flex: 1;
+    width: auto;
+  }
+}
