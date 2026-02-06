@@ -92,6 +92,11 @@ const config: Config = {
           label: 'Games',
         },
         {
+          to: '/newsletter',
+          label: 'Newsletter',
+          position: 'left',
+        },
+        {
           to: '/games/tags',
           label: 'Tags',
           position: 'left',
@@ -99,11 +104,6 @@ const config: Config = {
         {
           to: '/games/how-it-works',
           label: 'How It Works',
-          position: 'left',
-        },
-        {
-          to: '/newsletter',
-          label: 'Newsletter',
           position: 'left',
         },
         {
@@ -115,7 +115,7 @@ const config: Config = {
     },
     footer: {
       style: 'light',
-      copyright: `Games discoverd on HN. Built by <a href="https://andrew.grahamyooll.com" target="_blank" rel="noopener noreferrer">Andrew Graham-Yooll</a>`,
+      copyright: `Games discovered from Hacker News. Built by <a href="https://andrew.grahamyooll.com" target="_blank" rel="noopener noreferrer">Andrew Graham-Yooll</a>`,
     },
     prism: {
       theme: prismThemes.github,

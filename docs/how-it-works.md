@@ -5,7 +5,7 @@ sidebar_position: 98
 
 # How It Works
 
-The HN Arcade is a community-driven directory of games discovered on [Hacker News](https://news.ycombinator.com) **Show HN** posts. Here's how games make it into the directory.
+The HN Arcade is a community-driven directory of games discovered from [Hacker News](https://news.ycombinator.com) **Show HN** posts. Here's how games make it into the directory.
 
 ## Automatic discovery
 
