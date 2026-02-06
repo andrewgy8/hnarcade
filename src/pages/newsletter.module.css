@@ -91,6 +91,19 @@
 .note {
   font-size: 0.85rem;
   color: #666;
+  margin-bottom: 1rem;
+}
+
+.archiveLink {
+  font-size: 0.9rem;
+  color: #ff6600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.archiveLink:hover {
+  color: #ff8533;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 996px) {

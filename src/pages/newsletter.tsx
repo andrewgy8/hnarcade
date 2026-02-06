@@ -34,6 +34,14 @@ export default function Newsletter(): ReactNode {
           <p className={styles.note}>
             No spam. No BS. Unsubscribe anytime.
           </p>
+          <a
+            href="https://buttondown.com/andrewgy8/archive"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.archiveLink}
+          >
+            Browse past issues →
+          </a>
         </div>
       </main>
     </Layout>
