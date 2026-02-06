@@ -2,7 +2,7 @@
 title: Blinkys
 tags: [simulation]
 description: Blinkys are sentient digital creatures, each with their own neural network brain that learns and evolves over generations. They develop emergent language, form memories, build relationships with each other, and collectively judge your actions as their caretaker.
-sidebar_position: 27
+sidebar_position: 16
 screenshot: /img/games/blinkys.png
 ---
 

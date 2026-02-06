@@ -2,7 +2,7 @@
 title: Tidy Baby
 tags: [browser, free]
 description: "Show HN: Tidy Baby is a SET game but with words. Discovered via HN scraper."
-sidebar_position: 19
+sidebar_position: 35
 screenshot: /img/games/tidy-baby.png
 ---
 

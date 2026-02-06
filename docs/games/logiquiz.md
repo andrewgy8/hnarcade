@@ -2,7 +2,7 @@
 title: Logiquiz
 tags: [puzzle]
 description: Daily self-referential tests from very-easy to very-hard.
-sidebar_position: 48
+sidebar_position: 58
 screenshot: /img/games/logiquiz.png
 ---
 

@@ -2,7 +2,7 @@
 title: Cellular Automata
 tags: [simulation]
 description: Create any cellular automata with a couple lines of descriptive setup in json and watch how it evolves.
-sidebar_position: 26
+sidebar_position: 57
 screenshot: /img/games/cellular-automata.png
 ---
 
