@@ -1,7 +1,7 @@
 ---
 title: "An ASCII/Node based fluid simulation to play with online"
 tags: [browser, free]
-description: "Show HN: An ASCII/Node based fluid simulation to play with online. Originally posted March 2020. Discovered via HN archive scraper for newsletter \\"From the Archives\\" section."
+description: "Show HN: An ASCII/Node based fluid simulation to play with online. Originally posted March 2020. Discovered via HN archive scraper for newsletter 'From the Archives' section."
 screenshot: /img/games/an-ascii-node-based-fluid-simulation-to-play-with-online.png
 sidebar_position: 77
 ---
