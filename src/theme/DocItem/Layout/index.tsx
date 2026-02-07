@@ -2,7 +2,7 @@
  * Custom DocItem Layout with screenshot support.
  * Swizzled from @docusaurus/theme-classic
  */
-import React from 'react';
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import { useWindowSize } from '@docusaurus/theme-common';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
@@ -16,6 +16,7 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
 import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import ContentVisibility from '@theme/ContentVisibility';
+import { trackGameView } from '@site/src/utils/analytics';
 import styles from './styles.module.css';
 
 function isExternalUrl(url: string): boolean {
@@ -66,6 +67,14 @@ function GameScreenshot() {
 export default function DocItemLayout({ children }: { children: React.ReactNode }) {
   const docTOC = useDocTOC();
   const { metadata } = useDoc();
+
+  // Track game views
+  useEffect(() => {
+    // Only track pages under /games/ route (not "How It Works" or other pages)
+    if (metadata.permalink.startsWith('/games/') && !metadata.permalink.includes('/tags')) {
+      trackGameView(metadata.title, metadata.permalink);
+    }
+  }, [metadata.title, metadata.permalink]);
 
   return (
     <div className="row">
