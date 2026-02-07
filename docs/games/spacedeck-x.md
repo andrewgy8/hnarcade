@@ -2,7 +2,7 @@
 title: SpaceDeck X
 tags: [arcade]
 description: SpaceDeck is a combination of Shoot-Em-Up and Deck Building - an ambitious goal, but the result is a fun little game. It combines the hectic shmup action with turn based boss fights. If you are not sure what does this mean, try the tutorial it should help.
-sidebar_position: 23
+sidebar_position: 61
 screenshot: /img/games/spacedeck-x.png
 ---
 

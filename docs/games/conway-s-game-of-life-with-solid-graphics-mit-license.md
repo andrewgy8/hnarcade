@@ -1,8 +1,9 @@
 ---
 title: "Conway's Game of Life with Solid Graphics (MIT License)"
 tags: [browser, free]
-description: "Show HN: Interactive Conway's Game of Life with good graphics (MIT License). Originally posted February 2018. Discovered via HN archive scraper for newsletter \"From the Archives\" section."
+description: "Show HN: Interactive Conway's Game of Life with good graphics (MIT License). Originally posted February 2018. Discovered via HN archive scraper for newsletter \\"From the Archives\\" section."
 screenshot: /img/games/conway-s-game-of-life-with-solid-graphics-mit-license.png
+sidebar_position: 66
 ---
 
 # Conway's Game of Life with Solid Graphics (MIT License)
