@@ -2,7 +2,7 @@
 title: Notimon
 tags: [rpg]
 description: "# 🌱 Notimon Garden turns note-taking into a game."
-sidebar_position: 8
+sidebar_position: 13
 screenshot: /img/games/notimon.png
 ---
 

@@ -2,7 +2,7 @@
 title: Voyage of the Marigold
 tags: [rpg, browser, free]
 description: Captain a starship through unexplored sectors on a desperate mission. VotM is a (mostly) text-based game where you play as the captain issuing high-level orders to your officers and crew. Designed to play out like a season of (classic) Star Trek, every game is different as the map is randomized.
-sidebar_position: 79
+sidebar_position: 55
 screenshot: /img/games/voyage-of-the-marigold.png
 ---
 
