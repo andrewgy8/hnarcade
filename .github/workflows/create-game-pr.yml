@@ -105,11 +105,6 @@ jobs:
               lines.push(sourceRow);
             }
 
-            // Add screenshot image if provided
-            if (screenshotUrl) {
-              lines.push('', `![${gameName} screenshot](${screenshotUrl})`, '');
-            }
-
             lines.push('', '## About', '', description, '');
 
             const content = lines.join('\n');
@@ -170,14 +165,6 @@ jobs:
               /^(---\n[\s\S]*?)(---\n)/,
               `$1screenshot: ${frontmatterPath}\n$2`
             );
-
-            // Add screenshot image after the table if not already present
-            if (!content.includes('![')) {
-              content = content.replace(
-                /(\| \*\*HN Thread\*\* \|[^\n]+\n(?:\| \*\*Source\*\* \|[^\n]+\n)?)/,
-                `$1\n![${gameName} screenshot](${frontmatterPath})\n`
-              );
-            }
 
             fs.writeFileSync(filePath, content);
             console.log('Updated frontmatter with screenshot path');

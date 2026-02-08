@@ -15,9 +15,6 @@ Tap to count aquatic creatures! Cathartic and educational game that teaches coun
 | **Play** | [memalign.github.io](https://memalign.github.io/m/counting/index.html) |
 | **HN Thread** | [Show HN: Counting Tap Toy](https://news.ycombinator.com/item?id=42631673) |
 
-![Counting Tap Toy screenshot](https://memalign.github.io/m/counting/counting.png)
-
-
 ## About
 
 Tap to count aquatic creatures! Cathartic and educational game that teaches counting to toddlers.

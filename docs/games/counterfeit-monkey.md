@@ -15,9 +15,6 @@ A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction ga
 | **Play** | [memalign.github.io](https://memalign.github.io/m/counterfeitmonkey/index.html) |
 | **HN Thread** | [Show HN: Counterfeit Monkey](https://news.ycombinator.com/item?id=25733336) |
 
-![Counterfeit Monkey screenshot](https://memalign.github.io/m/cm-map.jpg)
-
-
 ## About
 
 A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction game, Counterfeit Monkey.

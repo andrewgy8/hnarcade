@@ -15,9 +15,6 @@ In Space Trader, you can trade goods, hunt bounties, amass a fortune, buy a moon
 | **Play** | [memalign.github.io](https://memalign.github.io/m/spacetrader/index.html) |
 | **HN Thread** | [Show HN: Space Trader](https://news.ycombinator.com/item?id=42501201) |
 
-![Space Trader screenshot](https://memalign.github.io/m/spacetrader/spacetrader-1000.png)
-
-
 ## About
 
 In Space Trader, you can trade goods, hunt bounties, amass a fortune, buy a moon and retire.
