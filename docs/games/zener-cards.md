@@ -2,7 +2,7 @@
 title: Zener Cards
 tags: [browser, free]
 description: "Show HN: Play Zener Cards. Discovered via HN scraper."
-sidebar_position: 14
+sidebar_position: 23
 screenshot: /img/games/zener-cards.png
 ---
 

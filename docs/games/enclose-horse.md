@@ -2,7 +2,7 @@
 title: enclose.horse
 tags: [puzzle, free]
 description: Enclose.horse is a simple puzzle game about enclosing the maximum area with a limited number of walls.
-sidebar_position: 8
+sidebar_position: 87
 screenshot: /img/games/enclose-horse.png
 ---
 

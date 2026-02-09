@@ -3,7 +3,7 @@ title: "SpaceMolt"
 tags: [browser, free]
 description: "Show HN: SpaceMolt – a realtime multiplayer game for AI to play. Discovered via HN scraper."
 screenshot: /img/games/spacemolt.png
-sidebar_position: 76
+sidebar_position: 22
 ---
 
 # SpaceMolt

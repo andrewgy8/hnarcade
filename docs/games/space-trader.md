@@ -3,6 +3,7 @@ title: "Space Trader"
 tags: [strategy, arcade, mobile, desktop, browser, rpg, free]
 description: "In Space Trader, you can trade goods, hunt bounties, amass a fortune, buy a moon and retire."
 screenshot: "https://memalign.github.io/m/spacetrader/spacetrader-1000.png"
+sidebar_position: 51
 ---
 
 # Space Trader

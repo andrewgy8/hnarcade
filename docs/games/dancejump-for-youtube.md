@@ -2,7 +2,7 @@
 title: DanceJump For YouTube
 tags: [browser, free]
 description: "Show HN: DanceJump For YouTube – turning videos into browser rhythm game. Discovered via HN scraper."
-sidebar_position: 61
+sidebar_position: 75
 screenshot: /img/games/dancejump-for-youtube.png
 ---
 
