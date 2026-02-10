@@ -67,9 +67,6 @@ function DocCategoryGeneratedIndexPageContent({
     return [];
   });
 
-  // State for mobile filter visibility
-  const [showFiltersOnMobile, setShowFiltersOnMobile] = useState(false);
-
   // Save sort preference to localStorage and track with Google Analytics
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -225,33 +222,9 @@ function DocCategoryGeneratedIndexPageContent({
         )}
       </header>
 
-      {/* Mobile filter toggle */}
-      {allTags.length > 0 && (
-        <button
-          className={styles.mobileFilterToggle}
-          onClick={() => {
-            const newValue = !showFiltersOnMobile;
-            setShowFiltersOnMobile(newValue);
-
-            // Track filter toggle with Google Analytics
-            if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-              window.gtag('event', 'toggle_filters', {
-                event_category: 'Games',
-                event_label: newValue ? 'show' : 'hide',
-                action: newValue ? 'show' : 'hide',
-              });
-            }
-          }}
-          aria-expanded={showFiltersOnMobile}
-        >
-          {showFiltersOnMobile ? 'Hide Filters' : 'Show Filters'}
-          {selectedTags.length > 0 && ` (${selectedTags.length})`}
-        </button>
-      )}
-
       {/* Tag filters */}
       {allTags.length > 0 && (
-        <div className={`${styles.filterSection} ${showFiltersOnMobile ? styles.filterSectionVisible : ''}`}>
+        <div className={styles.filterSection}>
           <div className={styles.filterHeader}>
             <span className={styles.filterLabel}>Filter by tags:</span>
             {selectedTags.length > 0 && (
