@@ -2,7 +2,7 @@ name: Scrape HN for Games
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # every 12 hours
+    - cron: '0 */6 * * *' # every 6 hours
   workflow_dispatch: {} # manual trigger for testing
 
 jobs:
