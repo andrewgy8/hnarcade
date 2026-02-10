@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: I made a Tetris based block puzzle game. Discovered via HN scraper."
 sidebar_position: 12
 screenshot: /img/games/drop-stack-tetris.png
+dateAdded: 2026-01-28
 ---
 
 # Drop Stack Tetris

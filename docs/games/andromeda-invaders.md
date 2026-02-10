@@ -4,6 +4,7 @@ tags: [arcade, browser, mobile, desktop, open-source, free]
 description: An invaders-style game written in plain HTML and JavaScript using Canvas API and Web Audio.
 sidebar_position: 63
 screenshot: /img/games/andromeda-invaders.png
+dateAdded: 2026-01-29
 ---
 
 # Andromeda Invaders

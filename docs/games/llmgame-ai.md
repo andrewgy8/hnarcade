@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: llmgame.ai – The Wikipedia Game but with LLMs. Discovered via HN scraper."
 sidebar_position: 71
 screenshot: /img/games/llmgame-ai.png
+dateAdded: 2026-01-28
 ---
 
 # llmgame.ai

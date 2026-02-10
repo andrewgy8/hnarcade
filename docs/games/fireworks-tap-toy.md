@@ -1,9 +1,10 @@
 ---
-title: "Fireworks Tap Toy"
+title: Fireworks Tap Toy
 tags: [simulation, arcade, browser, mobile, desktop, free]
-description: "The magic of fireworks in the palm of your hand."
+description: The magic of fireworks in the palm of your hand.
 screenshot: "https://memalign.github.io/m/fireworks/fireworks.png"
 sidebar_position: 27
+dateAdded: 2026-02-08
 ---
 
 # Fireworks Tap Toy

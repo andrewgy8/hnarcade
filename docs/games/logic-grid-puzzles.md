@@ -4,6 +4,7 @@ tags: [puzzle]
 description: Six different logic grid puzzles every day, form very easy to ultra hard.
 sidebar_position: 32
 screenshot: /img/games/logic-grid-puzzles.png
+dateAdded: 2026-01-30
 ---
 
 # Logic Grid Puzzles

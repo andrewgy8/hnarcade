@@ -4,6 +4,7 @@ tags: [puzzle]
 description: Small puzzle game with novel rotation mechanic.
 sidebar_position: 81
 screenshot: /img/games/flopblock.png
+dateAdded: 2026-01-29
 ---
 
 # Flopblock

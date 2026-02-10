@@ -4,6 +4,7 @@ tags: [puzzle]
 description: A different version of classic sudoku, with weird shapes instead of orthogonal grid
 sidebar_position: 79
 screenshot: /img/games/cracked-sudoku.png
+dateAdded: 2026-01-29
 ---
 
 # Cracked Sudoku

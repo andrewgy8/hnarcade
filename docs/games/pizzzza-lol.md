@@ -4,6 +4,7 @@ tags: [free]
 description: A simple game with falling pizzas and toppings. There's a scoreboard so you can compete with people around the world for the highest score.
 sidebar_position: 14
 screenshot: /img/games/pizzzza-lol.png
+dateAdded: 2026-01-29
 ---
 
 # Pizzzza Lol

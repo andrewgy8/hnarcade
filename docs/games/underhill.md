@@ -1,9 +1,10 @@
 ---
-title: "Underhill"
+title: Underhill
 tags: [browser, free]
 description: "Show HN: I created a Mars colony RPG based on Kim Stanley Robinson's Mars books. Discovered via HN scraper."
 screenshot: /img/games/underhill.png
 sidebar_position: 6
+dateAdded: 2026-02-09
 ---
 
 # Underhill

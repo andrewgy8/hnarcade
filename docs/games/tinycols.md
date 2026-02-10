@@ -4,6 +4,7 @@ tags: [puzzle]
 description: A jewel matching game for the terminal, written in C
 sidebar_position: 87
 screenshot: /img/games/tinycols.png
+dateAdded: 2026-01-29
 ---
 
 # Tinycols

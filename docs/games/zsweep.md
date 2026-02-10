@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: Zsweep – Play Minesweeper using only Vim motions. Discovered via HN scraper."
 sidebar_position: 35
 screenshot: /img/games/zsweep.png
+dateAdded: 2026-01-28
 ---
 
 # Zsweep

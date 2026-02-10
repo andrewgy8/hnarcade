@@ -4,6 +4,7 @@ tags: [puzzle, multiplayer, mobile]
 description: A printable escape room game with an app that serves as the game master. Have fun!
 sidebar_position: 34
 screenshot: /img/games/escape-team.png
+dateAdded: 2026-01-29
 ---
 
 # Escape Team

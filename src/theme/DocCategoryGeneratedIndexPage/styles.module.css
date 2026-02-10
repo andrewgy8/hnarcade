@@ -1,0 +1,64 @@
+@media (min-width: 997px) {
+  .generatedIndexPage {
+    max-width: 75% !important;
+  }
+}
+
+/* Duplicated from .markdown h1 */
+.title {
+  --ifm-h1-font-size: 3rem;
+  margin-bottom: calc(1.25 * var(--ifm-leading));
+}
+
+/* Sort controls */
+.sortControls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+}
+
+.sortLabel {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+.sortButton,
+.sortButtonActive {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 0.375rem;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.sortButton:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-primary);
+}
+
+.sortButtonActive {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+.sortButtonActive:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+@media (max-width: 768px) {
+  .sortControls {
+    flex-wrap: wrap;
+  }
+}

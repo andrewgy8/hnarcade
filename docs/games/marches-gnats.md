@@ -4,6 +4,7 @@ tags: [puzzle, simulation, browser, free]
 description: Marches & Gnats is a browser-based coding puzzle game inspired by Advent of Code, but instead of writing code in a conventional programming language, you program a Turing machine.
 sidebar_position: 92
 screenshot: /img/games/marches-gnats.png
+dateAdded: 2026-01-29
 ---
 
 # Marches & Gnats

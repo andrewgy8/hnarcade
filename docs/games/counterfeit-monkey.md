@@ -1,9 +1,10 @@
 ---
-title: "Counterfeit Monkey"
+title: Counterfeit Monkey
 tags: [puzzle, rpg, browser, mobile, desktop, free]
-description: "A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction game, Counterfeit Monkey."
+description: A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction game, Counterfeit Monkey.
 screenshot: "https://memalign.github.io/m/cm-map.jpg"
 sidebar_position: 53
+dateAdded: 2026-02-08
 ---
 
 # Counterfeit Monkey

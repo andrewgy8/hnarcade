@@ -4,6 +4,7 @@ tags: [puzzle, free]
 description: A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre.
 sidebar_position: 8
 screenshot: /img/games/tiled-words.png
+dateAdded: 2026-01-29
 ---
 
 # Tiled Words

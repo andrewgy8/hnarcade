@@ -17,7 +17,8 @@
     "archive": "node scripts/scrape-hn.mjs --archive",
     "screenshot": "node scripts/screenshot-games.mjs",
     "save-screenshot": "node scripts/save-screenshot.mjs",
-    "submit": "node scripts/submit-from-hn.mjs"
+    "submit": "node scripts/submit-from-hn.mjs",
+    "backfill-dates": "node scripts/backfill-dates.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",

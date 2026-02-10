@@ -4,6 +4,7 @@ tags: [browser, simulation]
 description: Serve up your typing skills! A retro-style typing game where you play tennis with words.
 sidebar_position: 78
 screenshot: /img/games/typing-tennis.png
+dateAdded: 2026-01-29
 ---
 
 # Typing Tennis

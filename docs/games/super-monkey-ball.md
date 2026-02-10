@@ -1,9 +1,10 @@
 ---
-title: "Super Monkey Ball"
+title: Super Monkey Ball
 tags: [browser, free]
-description: "Super Monkey Ball ported to a website. Discovered via HN."
+description: Super Monkey Ball ported to a website. Discovered via HN.
 screenshot: /img/games/super-monkey-ball.png
 sidebar_position: 40
+dateAdded: 2026-02-02
 ---
 
 # Super Monkey Ball

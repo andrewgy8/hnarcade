@@ -4,6 +4,7 @@ tags: [browser, mobile, desktop, open-source, free]
 description: A simple RGB colour guessing game.
 sidebar_position: 89
 screenshot: /img/games/guess-my-rgb.png
+dateAdded: 2026-01-29
 ---
 
 # Guess My RGB

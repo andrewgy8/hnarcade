@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN : A game to document my electronics learning journey.. Discovered via HN scraper."
 sidebar_position: 46
 screenshot: /img/games/the-apple-falls.png
+dateAdded: 2026-01-28
 ---
 
 # The Apple Falls

@@ -4,6 +4,7 @@ tags: [multiplayer]
 description: Hey space pilots!
 sidebar_position: 38
 screenshot: /img/games/delve-online-mmo-space-sim.png
+dateAdded: 2026-01-29
 ---
 
 # Delve Online - MMO Space Sim

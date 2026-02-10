@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: A Daily Bible Game. Discovered via HN scraper."
 sidebar_position: 5
 screenshot: /img/games/bibdle.png
+dateAdded: 2026-01-28
 ---
 
 # Bibdle

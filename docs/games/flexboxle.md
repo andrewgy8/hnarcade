@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: Flexboxle – A Daily Puzzle with Flexbox. Discovered via HN scraper."
 screenshot: /img/games/flexboxle.png
 sidebar_position: 55
+dateAdded: 2026-02-01
 ---
 
 # Flexboxle

@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: I made a memory game to teach you to play piano by ear. Discovered via HN scraper."
 sidebar_position: 90
 screenshot: /img/games/lend-me-your-ears.png
+dateAdded: 2026-01-28
 ---
 
 # Lend Me Your Ears

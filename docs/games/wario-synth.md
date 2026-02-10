@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: Wario Synth – Turn any song into Game Boy version. Discovered via HN scraper."
 sidebar_position: 60
 screenshot: /img/games/wario-synth.png
+dateAdded: 2026-01-28
 ---
 
 # Wario Synth

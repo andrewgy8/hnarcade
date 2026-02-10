@@ -4,6 +4,7 @@ tags: [puzzle]
 description: Daily self-referential tests from very-easy to very-hard.
 sidebar_position: 94
 screenshot: /img/games/logiquiz.png
+dateAdded: 2026-01-30
 ---
 
 # Logiquiz

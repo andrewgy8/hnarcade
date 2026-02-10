@@ -4,6 +4,7 @@ tags: [browser, free]
 description: List animals until failure. Discovered via HN.
 screenshot: /img/games/list-animals-until-failure.png
 sidebar_position: 75
+dateAdded: 2026-02-01
 ---
 
 # List Animals Until Failure

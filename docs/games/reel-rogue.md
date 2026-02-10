@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: Reel Rogue – A browser roguelike (idler) about manipulating the odds. Discovered via HN scraper."
 sidebar_position: 26
 screenshot: /img/games/reel-rogue.png
+dateAdded: 2026-01-28
 ---
 
 # Reel Rogue

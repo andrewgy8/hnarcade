@@ -50,6 +50,7 @@ title: Game Name
 tags: [genre, platform, other-tag]
 description: One-line description of the game.
 screenshot: /img/games/game-name.png
+dateAdded: 2026-01-28
 ---
 
 # Game Name
@@ -78,6 +79,18 @@ Games without screenshots will show a placeholder image.
 
 **Auto-generating screenshots:** Run `npm run screenshot` to automatically visit each game's play URL, take a screenshot, save it to `static/img/games/`, and update the frontmatter. Requires Playwright (`npx playwright install chromium` if not installed).
 
+**dateAdded field:** The `dateAdded` frontmatter field tracks when each game was added to HN Arcade. For manually created games, use the current date in YYYY-MM-DD format. The `create-game-pr.yml` workflow automatically adds this field for new submissions.
+
+**sidebar_position field:** This field contains a random number used for shuffled/random ordering of games. It's preserved from the original game order before date-based sorting was implemented.
+
+**Sorting options:** The games index page includes toggle buttons that let users sort games by:
+- **Most Recent** — sorts by `dateAdded` (newest first)
+- **Random** — sorts by `sidebar_position` (shuffled order)
+
+The user's sort preference is saved to localStorage and persists across sessions.
+
+**Backfilling dates:** Run `npm run backfill-dates` to automatically add `dateAdded` fields to games that are missing them, using git commit history. Add `-- --all` to recalculate all dates, or `-- --dry-run` to preview changes.
+
 Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`, `simulation`, `rpg`, `platformer`, `browser`, `mobile`, `desktop`, `open-source`, `multiplayer`, `paid`, `free`.
 
 ## Commands
@@ -88,6 +101,7 @@ Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`
 - `npm run scrape` — dry-run HN scraper (add `-- --days=7` for wider window, `-- --create-issues` to create GitHub Issues)
 - `npm run archive` — interactive prompt to select games from a random past month for newsletter "From the Archives" section (add `-- --month=2022-03` for specific month; supports 'r' to reject non-games)
 - `npm run screenshot` — take screenshots of all games missing them (add `-- --all` to overwrite existing, `-- --dry-run` to preview)
+- `npm run backfill-dates` — add `dateAdded` to games from git history (add `-- --all` to recalculate all dates, `-- --dry-run` to preview)
 
 ## Deployment
 
@@ -108,3 +122,5 @@ The site has a newsletter signup page at `/newsletter` that uses [Buttondown](ht
 - Scraper creates issues (not PRs directly) so every game still gets human review before merging
 - Screenshot script uses Playwright to visit each game's play URL and capture a 1280x720 PNG
 - Screenshots are passed to DocCard via `customProps` using a custom `sidebarItemsGenerator` in `docusaurus.config.ts` (Docusaurus doesn't expose custom frontmatter through `useDocById`)
+- Frontmatter fields (`screenshot`, `dateAdded`, `sidebar_position`) are passed to `customProps` via the `sidebarItemsGenerator` to enable client-side features
+- Games index page (`DocCategoryGeneratedIndexPage`) is swizzled to add client-side sorting toggles between "Most Recent" (`dateAdded`) and "Random" (`sidebar_position`) modes, with localStorage persistence

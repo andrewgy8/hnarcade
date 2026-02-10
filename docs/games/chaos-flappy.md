@@ -4,6 +4,7 @@ tags: [platformer, arcade]
 description: Chaotic version of Flappy Bird
 sidebar_position: 47
 screenshot: /img/games/chaos-flappy.png
+dateAdded: 2026-01-30
 ---
 
 # Chaos Flappy

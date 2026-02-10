@@ -65,6 +65,9 @@ jobs:
             // First line for frontmatter description and intro
             const shortDesc = description.split('\n')[0].trim();
 
+            // Current date in YYYY-MM-DD format
+            const dateAdded = new Date().toISOString().split('T')[0];
+
             // Build author cell
             const authorCell = authorUrl
               ? `[${authorName}](${authorUrl})`
@@ -88,6 +91,7 @@ jobs:
               `tags: [${tagsYaml}]`,
               `description: "${shortDesc.replace(/"/g, '\\"')}"`,
               ...(screenshotUrl ? [`screenshot: "${screenshotUrl}"`] : []),
+              `dateAdded: ${dateAdded}`,
               '---',
               '',
               `# ${gameName}`,

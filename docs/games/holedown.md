@@ -4,6 +4,7 @@ tags: [puzzle, mobile, paid]
 description: A mesmerizing ball-shooting puzzle game about digging deep underground.
 sidebar_position: 39
 screenshot: /img/games/holedown.png
+dateAdded: 2026-01-28
 ---
 
 # Holedown

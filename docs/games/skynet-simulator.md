@@ -4,6 +4,7 @@ tags: [puzzle]
 description: Make Skynet!
 sidebar_position: 37
 screenshot: /img/games/skynet-simulator.png
+dateAdded: 2026-01-29
 ---
 
 # Skynet Simulator

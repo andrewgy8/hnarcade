@@ -4,6 +4,7 @@ tags: [browser, free]
 description: "Show HN: Mystral Native – Run JavaScript games natively with WebGPU (no browser). Discovered via HN scraper."
 sidebar_position: 22
 screenshot: /img/games/mystral-native.png
+dateAdded: 2026-01-30
 ---
 
 # Mystral Native
