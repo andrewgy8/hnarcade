@@ -76,6 +76,11 @@ const config: Config = {
                     customProps.hnId = doc.frontMatter.hnId;
                   }
 
+                  // Add tags for filtering
+                  if (doc?.frontMatter?.tags) {
+                    customProps.tags = doc.frontMatter.tags;
+                  }
+
                   return {
                     ...item,
                     customProps,

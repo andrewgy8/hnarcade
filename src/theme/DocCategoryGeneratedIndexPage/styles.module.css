@@ -10,12 +10,86 @@
   margin-bottom: calc(1.25 * var(--ifm-leading));
 }
 
+/* Tag filter section */
+.filterSection {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+}
+
+.filterHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.filterLabel {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+.clearButton {
+  padding: 0.25rem 0.75rem;
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.clearButton:hover {
+  background-color: var(--ifm-color-emphasis-300);
+}
+
+.tagButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tagButton,
+.tagButtonActive {
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 1rem;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.tagButton:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-1px);
+}
+
+.tagButtonActive {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+.tagButtonActive:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
 /* Sort controls */
 .sortControls {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   padding: 1rem;
   background-color: var(--ifm-background-surface-color);
   border: 1px solid var(--ifm-color-emphasis-300);
@@ -57,8 +131,27 @@
   border-color: var(--ifm-color-primary-dark);
 }
 
+/* Results count */
+.resultsCount {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-800);
+}
+
 @media (max-width: 768px) {
-  .sortControls {
+  .sortControls,
+  .filterSection {
     flex-wrap: wrap;
+  }
+
+  .filterHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
 }
