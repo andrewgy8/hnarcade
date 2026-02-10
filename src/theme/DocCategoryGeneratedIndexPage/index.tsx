@@ -48,6 +48,11 @@ function DocCategoryGeneratedIndexPageContent({
   const [sortMode, setSortMode] = useState<SortMode>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('gamesSortMode');
+      // Migrate old "random" value to "default"
+      if (saved === 'random') {
+        localStorage.setItem('gamesSortMode', 'default');
+        return 'default';
+      }
       return (saved as SortMode) || 'default';
     }
     return 'default';
