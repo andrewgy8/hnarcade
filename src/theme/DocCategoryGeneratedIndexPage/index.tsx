@@ -131,8 +131,8 @@ function DocCategoryGeneratedIndexPageContent({
       items = items.filter((item: any) => {
         const itemTags = item.customProps?.tags;
         if (!Array.isArray(itemTags)) return false;
-        // Show games that have ANY of the selected tags (OR logic)
-        return selectedTags.some((tag) => itemTags.includes(tag));
+        // Show games that have ALL of the selected tags (AND logic)
+        return selectedTags.every((tag) => itemTags.includes(tag));
       });
     }
 
