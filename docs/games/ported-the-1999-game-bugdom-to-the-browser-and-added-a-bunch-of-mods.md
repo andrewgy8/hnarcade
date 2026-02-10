@@ -3,6 +3,7 @@ title: "Bugdom"
 tags: [browser, free]
 description: "Show HN: Ported the 1999 game Bugdom to the browser and added a bunch of mods. Discovered via HN scraper."
 screenshot: /img/games/ported-the-1999-game-bugdom-to-the-browser-and-added-a-bunch-of-mods.png
+sidebar_position: 74
 ---
 
 # Ported the 1999 game Bugdom to the browser and added a bunch of mods

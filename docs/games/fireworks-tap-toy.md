@@ -3,7 +3,7 @@ title: "Fireworks Tap Toy"
 tags: [simulation, arcade, browser, mobile, desktop, free]
 description: "The magic of fireworks in the palm of your hand."
 screenshot: "https://memalign.github.io/m/fireworks/fireworks.png"
-sidebar_position: 55
+sidebar_position: 27
 ---
 
 # Fireworks Tap Toy

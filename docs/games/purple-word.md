@@ -3,7 +3,7 @@ title: "Purple Word"
 tags: [browser, free]
 description: "Purple Word is a daily word puzzle game where you try to guess the secret purple word using alphabetical clues."
 screenshot: /img/games/purple-word.png
-sidebar_position: 67
+sidebar_position: 73
 ---
 
 # Purple Word
