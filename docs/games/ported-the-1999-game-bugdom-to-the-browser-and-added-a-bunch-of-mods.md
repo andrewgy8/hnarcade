@@ -9,7 +9,7 @@ hnId: 46941138
 points: 19
 ---
 
-# Ported the 1999 game Bugdom to the browser and added a bunch of mods
+# Bugdom
 
 Show HN: Ported the 1999 game Bugdom to the browser and added a bunch of mods. Discovered via HN scraper.
 
