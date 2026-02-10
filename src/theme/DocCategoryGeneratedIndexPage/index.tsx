@@ -37,7 +37,7 @@ function DocCategoryGeneratedIndexPageMetadata({
   );
 }
 
-type SortMode = 'date' | 'random' | 'alphabetical' | 'popular';
+type SortMode = 'default' | 'date' | 'alphabetical' | 'popular';
 
 function DocCategoryGeneratedIndexPageContent({
   categoryGeneratedIndex,
@@ -48,9 +48,9 @@ function DocCategoryGeneratedIndexPageContent({
   const [sortMode, setSortMode] = useState<SortMode>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('gamesSortMode');
-      return (saved as SortMode) || 'date';
+      return (saved as SortMode) || 'default';
     }
-    return 'date';
+    return 'default';
   });
 
   // Save sort preference to localStorage and track with Google Analytics
@@ -140,6 +140,13 @@ function DocCategoryGeneratedIndexPageContent({
       <div className={styles.sortControls}>
         <span className={styles.sortLabel}>Sort by:</span>
         <button
+          className={sortMode === 'default' ? styles.sortButtonActive : styles.sortButton}
+          onClick={() => setSortMode('default')}
+          aria-pressed={sortMode === 'default'}
+        >
+          Default
+        </button>
+        <button
           className={sortMode === 'date' ? styles.sortButtonActive : styles.sortButton}
           onClick={() => setSortMode('date')}
           aria-pressed={sortMode === 'date'}
@@ -159,13 +166,6 @@ function DocCategoryGeneratedIndexPageContent({
           aria-pressed={sortMode === 'alphabetical'}
         >
           A-Z
-        </button>
-        <button
-          className={sortMode === 'random' ? styles.sortButtonActive : styles.sortButton}
-          onClick={() => setSortMode('random')}
-          aria-pressed={sortMode === 'random'}
-        >
-          Random
         </button>
       </div>
 
