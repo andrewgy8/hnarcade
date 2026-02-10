@@ -85,9 +85,10 @@ Games without screenshots will show a placeholder image.
 
 **Sorting options:** The games index page includes toggle buttons that let users sort games by:
 - **Most Recent** — sorts by `dateAdded` (newest first)
+- **A-Z** — alphabetical sorting by game title
 - **Random** — sorts by `sidebar_position` (shuffled order)
 
-The user's sort preference is saved to localStorage and persists across sessions.
+The user's sort preference is saved to localStorage and persists across sessions. Sort mode changes are tracked with Google Analytics using the `sort_games` event.
 
 **Backfilling dates:** Run `npm run backfill-dates` to automatically add `dateAdded` fields to games that are missing them, using git commit history. Add `-- --all` to recalculate all dates, or `-- --dry-run` to preview changes.
 
@@ -123,4 +124,4 @@ The site has a newsletter signup page at `/newsletter` that uses [Buttondown](ht
 - Screenshot script uses Playwright to visit each game's play URL and capture a 1280x720 PNG
 - Screenshots are passed to DocCard via `customProps` using a custom `sidebarItemsGenerator` in `docusaurus.config.ts` (Docusaurus doesn't expose custom frontmatter through `useDocById`)
 - Frontmatter fields (`screenshot`, `dateAdded`, `sidebar_position`) are passed to `customProps` via the `sidebarItemsGenerator` to enable client-side features
-- Games index page (`DocCategoryGeneratedIndexPage`) is swizzled to add client-side sorting toggles between "Most Recent" (`dateAdded`) and "Random" (`sidebar_position`) modes, with localStorage persistence
+- Games index page (`DocCategoryGeneratedIndexPage`) is swizzled to add client-side sorting toggles between "Most Recent" (`dateAdded`), "A-Z" (alphabetical), and "Random" (`sidebar_position`) modes, with localStorage persistence and Google Analytics event tracking

@@ -12,6 +12,17 @@ import type {Props} from '@theme/DocCategoryGeneratedIndexPage';
 
 import styles from './styles.module.css';
 
+// Google Analytics gtag function type
+declare global {
+  interface Window {
+    gtag?: (
+      command: string,
+      eventName: string,
+      params?: Record<string, any>
+    ) => void;
+  }
+}
+
 function DocCategoryGeneratedIndexPageMetadata({
   categoryGeneratedIndex,
 }: Props): ReactNode {
@@ -26,7 +37,7 @@ function DocCategoryGeneratedIndexPageMetadata({
   );
 }
 
-type SortMode = 'date' | 'random';
+type SortMode = 'date' | 'random' | 'alphabetical';
 
 function DocCategoryGeneratedIndexPageContent({
   categoryGeneratedIndex,
@@ -37,15 +48,24 @@ function DocCategoryGeneratedIndexPageContent({
   const [sortMode, setSortMode] = useState<SortMode>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('gamesSortMode');
-      return (saved === 'random' ? 'random' : 'date') as SortMode;
+      return (saved as SortMode) || 'date';
     }
     return 'date';
   });
 
-  // Save sort preference to localStorage
+  // Save sort preference to localStorage and track with Google Analytics
   useEffect(() => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('gamesSortMode', sortMode);
+
+      // Track sort mode change with Google Analytics
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'sort_games', {
+          event_category: 'Games',
+          event_label: sortMode,
+          sort_mode: sortMode,
+        });
+      }
     }
   }, [sortMode]);
 
@@ -65,6 +85,13 @@ function DocCategoryGeneratedIndexPageContent({
         if (!dateA && dateB) return 1;
         if (dateA && !dateB) return -1;
         return 0;
+      });
+    } else if (sortMode === 'alphabetical') {
+      // Sort alphabetically by label/title
+      return items.sort((a, b) => {
+        const labelA = (a as any).label || '';
+        const labelB = (b as any).label || '';
+        return labelA.localeCompare(labelB, 'en', { sensitivity: 'base' });
       });
     } else {
       // Sort by sidebar_position (random order)
@@ -105,6 +132,13 @@ function DocCategoryGeneratedIndexPageContent({
           aria-pressed={sortMode === 'date'}
         >
           Most Recent
+        </button>
+        <button
+          className={sortMode === 'alphabetical' ? styles.sortButtonActive : styles.sortButton}
+          onClick={() => setSortMode('alphabetical')}
+          aria-pressed={sortMode === 'alphabetical'}
+        >
+          A-Z
         </button>
         <button
           className={sortMode === 'random' ? styles.sortButtonActive : styles.sortButton}
