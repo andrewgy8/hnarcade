@@ -1,23 +1,24 @@
 ---
 title: Space Trader
 tags: [strategy, arcade, mobile, desktop, browser, rpg, free]
-description: In Space Trader, you can trade goods, hunt bounties, amass a fortune, buy a moon and retire.
+description: "In Space Trader, you can trade goods, hunt bounties, amass a fortune, buy a moon and retire."
 screenshot: "https://memalign.github.io/m/spacetrader/spacetrader-1000.png"
 sidebar_position: 93
 dateAdded: 2026-02-08
+submissionMethod: manual
 hnId: 42501201
 points: 8
 ---
-
 # Space Trader
-
-In Space Trader, you can trade goods, hunt bounties, amass a fortune, buy a moon and retire.
 
 | | |
 |---|---|
 | **Author** | [memalign](https://memalign.github.io) |
 | **Play** | [memalign.github.io](https://memalign.github.io/m/spacetrader/index.html) |
 | **HN Thread** | [Show HN: Space Trader](https://news.ycombinator.com/item?id=42501201) |
+| **HN Points** | 8 |
+| **Date Added** | 2026-02-08 |
+| **Tags** | strategy, arcade, mobile, desktop, browser, rpg, free |
 
 ## About
 

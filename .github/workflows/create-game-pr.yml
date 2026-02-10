@@ -81,8 +81,18 @@ jobs:
             const tagList = tags.split(',').map(t => t.trim()).filter(Boolean);
             const tagsYaml = tagList.join(', ');
 
-            // First line for frontmatter description and intro
-            const shortDesc = description.split('\n')[0].trim();
+            // Clean description: remove "Show HN:" prefix and "Discovered via HN scraper" suffix
+            let cleanDesc = description.trim();
+            cleanDesc = cleanDesc.replace(/^Show HN:\s*/i, '');
+            cleanDesc = cleanDesc.replace(/\s*Discovered via HN scraper\.?\s*$/i, '');
+            cleanDesc = cleanDesc.replace(/\s*Originally posted \d{4}-\d{2}\.\s*Discovered via HN archive scraper for newsletter "From the Archives" section\.?\s*$/i, '');
+
+            // First line for frontmatter description
+            const shortDesc = cleanDesc.split('\n')[0].trim();
+
+            // Determine submission method based on issue labels
+            const issueLabels = context.payload.issue.labels.map(l => l.name);
+            const submissionMethod = issueLabels.includes('game-submission') ? 'scraped' : 'manual';
 
             // Current date in YYYY-MM-DD format
             const dateAdded = new Date().toISOString().split('T')[0];
@@ -111,13 +121,12 @@ jobs:
               `description: "${shortDesc.replace(/"/g, '\\"')}"`,
               ...(screenshotUrl ? [`screenshot: "${screenshotUrl}"`] : []),
               `dateAdded: ${dateAdded}`,
+              `submissionMethod: ${submissionMethod}`,
               ...(hnId ? [`hnId: ${hnId}`] : []),
               ...(hnId ? [`points: ${points}`] : []),
               '---',
               '',
               `# ${gameName}`,
-              '',
-              shortDesc,
               '',
               '| | |',
               '|---|---|',
@@ -130,7 +139,14 @@ jobs:
               lines.push(sourceRow);
             }
 
-            lines.push('', '## About', '', description, '');
+            // Add metadata rows
+            if (hnId) {
+              lines.push(`| **HN Points** | ${points} |`);
+            }
+            lines.push(`| **Date Added** | ${dateAdded} |`);
+            lines.push(`| **Tags** | ${tagsYaml} |`);
+
+            lines.push('', '## About', '', cleanDesc, '');
 
             const content = lines.join('\n');
             const filePath = path.join('docs', 'games', `${slug}.md`);

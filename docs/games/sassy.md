@@ -1,21 +1,21 @@
 ---
 title: Sassy
 tags: [browser, multiplayer]
-description: Zoom games for groups. Built to quickly bounce between several games in a session
-sidebar_position: 20
+description: "Zoom games for groups. Built to quickly bounce between several games in a session"
 screenshot: /img/games/sassy.png
+sidebar_position: 20
 dateAdded: 2026-01-29
+submissionMethod: manual
 ---
-
 # Sassy
-
-Zoom games for groups. Built to quickly bounce between several games in a session
 
 | | |
 |---|---|
 | **Author** | vorpus |
 | **Play** | [play.cncl.co](https://play.cncl.co/) |
 | **HN Thread** | [Show HN: Sassy](https://news.ycombinator.com/item?id=46707319) |
+| **Date Added** | 2026-01-29 |
+| **Tags** | browser, multiplayer |
 
 ## About
 

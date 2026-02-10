@@ -1,23 +1,24 @@
 ---
 title: Delve Online - MMO Space Sim
 tags: [multiplayer]
-description: Hey space pilots!
-sidebar_position: 38
+description: "Hey space pilots!"
 screenshot: /img/games/delve-online-mmo-space-sim.png
+sidebar_position: 38
 dateAdded: 2026-01-29
+submissionMethod: manual
 hnId: 45745129
 points: 3
 ---
-
 # Delve Online - MMO Space Sim
-
-Hey space pilots!
 
 | | |
 |---|---|
 | **Author** | TNPKyias |
 | **Play** | [play.delve-online.com](https://play.delve-online.com) |
 | **HN Thread** | [Show HN: Delve Online - MMO Space Sim](https://news.ycombinator.com/item?id=45745129) |
+| **HN Points** | 3 |
+| **Date Added** | 2026-01-29 |
+| **Tags** | multiplayer |
 
 ## About
 

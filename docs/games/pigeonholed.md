@@ -1,23 +1,24 @@
 ---
 title: Pigeonholed
 tags: [browser, free, simulation, puzzle]
-description: This game was inspired by my experience working as a mailman. Specifically the part where you roughly sort letters by zip-code and occasionally deal with letters that are supposed to go to other postal offices or even other countries.
-sidebar_position: 85
+description: "This game was inspired by my experience working as a mailman. Specifically the part where you roughly sort letters by zip-code and occasionally deal with letters that are supposed to go to other postal offices or even other countries."
 screenshot: /img/games/pigeonholed.png
+sidebar_position: 85
 dateAdded: 2026-01-29
+submissionMethod: manual
 hnId: 42246769
 points: 2
 ---
-
 # Pigeonholed
-
-This game was inspired by my experience working as a mailman. Specifically the part where you roughly sort letters by zip-code and occasionally deal with letters that are supposed to go to other postal offices or even other countries.
 
 | | |
 |---|---|
 | **Author** | [holoflash](https://github.com/holoflash) |
 | **Play** | [pigeonholed.redas.dev](https://pigeonholed.redas.dev/) |
 | **HN Thread** | [Show HN: Pigeonholed](https://news.ycombinator.com/item?id=42246769) |
+| **HN Points** | 2 |
+| **Date Added** | 2026-01-29 |
+| **Tags** | browser, free, simulation, puzzle |
 
 ## About
 

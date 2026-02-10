@@ -1,23 +1,24 @@
 ---
 title: Purple Word
 tags: [browser, free]
-description: Purple Word is a daily word puzzle game where you try to guess the secret purple word using alphabetical clues.
+description: "Purple Word is a daily word puzzle game where you try to guess the secret purple word using alphabetical clues."
 screenshot: /img/games/purple-word.png
 sidebar_position: 73
 dateAdded: 2026-02-06
+submissionMethod: manual
 hnId: 46910764
 points: 8
 ---
-
 # Purple Word
-
-Purple Word is a daily word puzzle game where you try to guess the secret purple word using alphabetical clues.
 
 | | |
 |---|---|
 | **Author** | [gentlyenvy](https://news.ycombinator.com/user?id=gentlyenvy) |
 | **Play** | [purpleword.com](https://purpleword.com) |
 | **HN Thread** | [Show HN: Purple Word](https://news.ycombinator.com/item?id=46910764) |
+| **HN Points** | 8 |
+| **Date Added** | 2026-02-06 |
+| **Tags** | browser, free |
 
 ## About
 

@@ -1,23 +1,24 @@
 ---
 title: Bugdom
 tags: [browser, free]
-description: "Show HN: Ported the 1999 game Bugdom to the browser and added a bunch of mods. Discovered via HN scraper."
+description: "Ported the 1999 game Bugdom to the browser and added a bunch of mods."
 screenshot: /img/games/ported-the-1999-game-bugdom-to-the-browser-and-added-a-bunch-of-mods.png
 sidebar_position: 74
 dateAdded: 2026-02-10
+submissionMethod: scraped
 hnId: 46941138
 points: 19
 ---
-
 # Bugdom
-
-Show HN: Ported the 1999 game Bugdom to the browser and added a bunch of mods. Discovered via HN scraper.
 
 | | |
 |---|---|
 | **Author** | [reallyeli](https://news.ycombinator.com/user?id=reallyeli) |
 | **Play** | [reallyeli.com](https://reallyeli.com/bugdom/Bugdom.html) |
 | **HN Thread** | [Show HN: Ported the 1999 game Bugdom to the browser and added a bunch of mods](https://news.ycombinator.com/item?id=46941138) |
+| **HN Points** | 19 |
+| **Date Added** | 2026-02-10 |
+| **Tags** | browser, free |
 
 ## About
 

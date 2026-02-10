@@ -1,23 +1,24 @@
 ---
 title: Holedown
 tags: [puzzle, mobile, paid]
-description: A mesmerizing ball-shooting puzzle game about digging deep underground.
-sidebar_position: 39
+description: "A mesmerizing ball-shooting puzzle game about digging deep underground."
 screenshot: /img/games/holedown.png
+sidebar_position: 39
 dateAdded: 2026-01-28
+submissionMethod: manual
 hnId: 17633978
 points: 3
 ---
-
 # Holedown
-
-A mesmerizing ball-shooting puzzle game about digging deep underground through layers of blocks.
 
 | | |
 |---|---|
 | **Author** | [Martin Jonasson (grapefrukt)](https://grapefrukt.com) |
 | **Play** | [holedown.com](https://holedown.com) |
 | **HN Thread** | [Show HN: Holedown](https://news.ycombinator.com/item?id=17633978) |
+| **HN Points** | 3 |
+| **Date Added** | 2026-01-28 |
+| **Tags** | puzzle, mobile, paid |
 
 ## About
 

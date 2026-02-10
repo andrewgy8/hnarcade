@@ -1,23 +1,24 @@
 ---
 title: Counterfeit Monkey
 tags: [puzzle, rpg, browser, mobile, desktop, free]
-description: A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction game, Counterfeit Monkey.
+description: "A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction game, Counterfeit Monkey."
 screenshot: "https://memalign.github.io/m/cm-map.jpg"
 sidebar_position: 53
 dateAdded: 2026-02-08
+submissionMethod: manual
 hnId: 25733336
 points: 3
 ---
-
 # Counterfeit Monkey
-
-A mobile-friendly demo based on Emily Short’s brilliant Interactive Fiction game, Counterfeit Monkey.
 
 | | |
 |---|---|
 | **Author** | [memalign](https://memalign.github.io) |
 | **Play** | [memalign.github.io](https://memalign.github.io/m/counterfeitmonkey/index.html) |
 | **HN Thread** | [Show HN: Counterfeit Monkey](https://news.ycombinator.com/item?id=25733336) |
+| **HN Points** | 3 |
+| **Date Added** | 2026-02-08 |
+| **Tags** | puzzle, rpg, browser, mobile, desktop, free |
 
 ## About
 

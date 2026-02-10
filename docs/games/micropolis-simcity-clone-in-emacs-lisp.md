@@ -1,23 +1,24 @@
 ---
 title: Micropolis/SimCity Clone in Emacs Lisp
 tags: [open-source, strategy, simulation]
-description: This is a little game implemented over a week of tinkering and targeting Emacs.
+description: "This is a little game implemented over a week of tinkering and targeting Emacs."
 screenshot: /img/games/micropolis-simcity-clone-in-emacs-lisp.png
 sidebar_position: 45
 dateAdded: 2026-02-05
+submissionMethod: manual
 hnId: 46897332
 points: 175
 ---
-
 # Micropolis/SimCity Clone in Emacs Lisp
-
-This is a little game implemented over a week of tinkering and targeting Emacs.
 
 | | |
 |---|---|
 | **Author** | Vkazanov |
 | **Play** | [github.com](https://github.com/vkazanov/elcity) |
 | **HN Thread** | [Show HN: Micropolis/SimCity Clone in Emacs Lisp](https://news.ycombinator.com/item?id=46897332) |
+| **HN Points** | 175 |
+| **Date Added** | 2026-02-05 |
+| **Tags** | open-source, strategy, simulation |
 
 ## About
 

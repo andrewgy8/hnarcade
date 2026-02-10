@@ -1,23 +1,24 @@
 ---
 title: Tiled Words
 tags: [puzzle, free]
-description: A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre.
-sidebar_position: 8
+description: "A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre."
 screenshot: /img/games/tiled-words.png
+sidebar_position: 8
 dateAdded: 2026-01-29
+submissionMethod: manual
 hnId: 45750789
 points: 13
 ---
-
 # Tiled Words
-
-A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre.
 
 | | |
 |---|---|
 | **Author** | paulhebert |
 | **Play** | [tiledwords.com](https://tiledwords.com) |
 | **HN Thread** | [Show HN: Tiled Words](https://news.ycombinator.com/item?id=45750789) |
+| **HN Points** | 13 |
+| **Date Added** | 2026-01-29 |
+| **Tags** | puzzle, free |
 
 ## About
 

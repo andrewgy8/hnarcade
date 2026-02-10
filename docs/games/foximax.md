@@ -1,23 +1,24 @@
 ---
 title: Foximax
 tags: [puzzle, free, browser]
-description: Like Hangman you try to guess the word, one letter at a time.
-sidebar_position: 19
+description: "Like Hangman you try to guess the word, one letter at a time."
 screenshot: /img/games/foximax.png
+sidebar_position: 19
 dateAdded: 2026-01-29
+submissionMethod: manual
 hnId: 33054972
 points: 12
 ---
-
 # Foximax
-
-Like Hangman you try to guess the word, one letter at a time.
 
 | | |
 |---|---|
 | **Author** | Martin Clayton |
 | **Play** | [foximax.com](https://foximax.com) |
 | **HN Thread** | [Show HN: Foximax](https://news.ycombinator.com/item?id=33054972) |
+| **HN Points** | 12 |
+| **Date Added** | 2026-01-29 |
+| **Tags** | puzzle, free, browser |
 
 ## About
 

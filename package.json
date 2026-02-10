@@ -19,7 +19,10 @@
     "save-screenshot": "node scripts/save-screenshot.mjs",
     "submit": "node scripts/submit-from-hn.mjs",
     "backfill-dates": "node scripts/backfill-dates.mjs",
-    "update-points": "node scripts/update-hn-points.mjs"
+    "update-points": "node scripts/update-hn-points.mjs",
+    "fix-pages": "node scripts/fix-game-pages.mjs",
+    "clean-descriptions": "node scripts/clean-descriptions.mjs",
+    "clean-about": "node scripts/clean-about-sections.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",

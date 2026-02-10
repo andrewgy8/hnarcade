@@ -1,17 +1,15 @@
 ---
 title: Lichess
 tags: [strategy, multiplayer, open-source, browser]
-description: Free, open-source chess server powered by volunteers and donations.
-sidebar_position: 86
+description: "Free, open-source chess server powered by volunteers and donations."
 screenshot: /img/games/lichess.png
+sidebar_position: 86
 dateAdded: 2026-01-28
+submissionMethod: manual
 hnId: 32045763
 points: 466
 ---
-
 # Lichess
-
-Free, open-source chess server. No ads, no registration required, full-featured.
 
 | | |
 |---|---|
@@ -19,6 +17,9 @@ Free, open-source chess server. No ads, no registration required, full-featured.
 | **Play** | [lichess.org](https://lichess.org) |
 | **HN Thread** | [Show HN: Lichess](https://news.ycombinator.com/item?id=32045763) |
 | **Source** | [github.com/lichess-org/lila](https://github.com/lichess-org/lila) |
+| **HN Points** | 466 |
+| **Date Added** | 2026-01-28 |
+| **Tags** | strategy, multiplayer, open-source, browser |
 
 ## About
 

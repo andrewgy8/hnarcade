@@ -53,13 +53,12 @@ tags: [genre, platform, other-tag]
 description: One-line description of the game.
 screenshot: /img/games/game-name.png
 dateAdded: 2026-01-28
+submissionMethod: manual
+hnId: XXXXXXX
+points: 0
 ---
 
 # Game Name
-
-Short intro paragraph.
-
-![Game Name screenshot](/img/games/game-name.png)
 
 | | |
 |---|---|
@@ -67,6 +66,9 @@ Short intro paragraph.
 | **Play** | [domain.com](https://domain.com) |
 | **HN Thread** | [Show HN: Game Name](https://news.ycombinator.com/item?id=XXXXXXX) |
 | **Source** | [github.com/user/repo](https://github.com/user/repo) |
+| **HN Points** | 0 |
+| **Date Added** | 2026-01-28 |
+| **Tags** | genre, platform, other-tag |
 
 ## About
 
@@ -84,6 +86,8 @@ Games without screenshots will show a placeholder image.
 **dateAdded field:** The `dateAdded` frontmatter field tracks when each game was added to HN Arcade. For manually created games, use the current date in YYYY-MM-DD format. The `create-game-pr.yml` workflow automatically adds this field for new submissions.
 
 **sidebar_position field:** This field contains a random number used for shuffled/random ordering of games. It's preserved from the original game order before date-based sorting was implemented.
+
+**submissionMethod field:** Tracks how a game was added to the directory (`scraped` for games discovered via HN scraper, `manual` for user-submitted or manually added games). This field is used internally to track submission sources but is not displayed on the site.
 
 **Sorting options:** The games index page includes toggle buttons that let users sort games by:
 - **Most Recent** — sorts by `dateAdded` (newest first)
@@ -109,6 +113,9 @@ Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`
 - `npm run screenshot` — take screenshots of all games missing them (add `-- --all` to overwrite existing, `-- --dry-run` to preview)
 - `npm run backfill-dates` — add `dateAdded` to games from git history (add `-- --all` to recalculate all dates, `-- --dry-run` to preview)
 - `npm run update-points` — fetch current HN points for all games (add `-- --dry-run` to preview, `-- --all` to force update even if points exist, `-- --recent-days=14` to only update games from past 14 days)
+- `npm run fix-pages` — fix game detail pages to remove intro text duplication and add metadata (HN points, date added, tags) to tables
+- `npm run clean-descriptions` — clean game descriptions by removing "Show HN:" prefixes, "Discovered via HN scraper" suffixes, and adding submissionMethod field
+- `npm run clean-about` — clean About sections in game files by removing "Show HN:" prefixes and "Discovered via HN scraper" suffixes
 
 ## Deployment
 
@@ -132,3 +139,6 @@ The site has a newsletter signup page at `/newsletter` that uses [Buttondown](ht
 - Frontmatter fields (`screenshot`, `dateAdded`, `sidebar_position`, `points`, `hnId`) are passed to `customProps` via the `sidebarItemsGenerator` to enable client-side features
 - Games index page (`DocCategoryGeneratedIndexPage`) is swizzled to add client-side sorting toggles between "Most Recent" (`dateAdded`), "Popular" (`points`), "A-Z" (alphabetical), and "Random" (`sidebar_position`) modes, with localStorage persistence and Google Analytics event tracking
 - HN points are automatically fetched and updated via a scheduled GitHub Action; new game submissions include points at creation time
+- Game detail pages follow a consistent format: metadata table immediately after the title (no intro text), with HN points, date added, and tags included in the table; unique content goes in the About section (no duplication of the description)
+- Game descriptions are automatically cleaned to remove "Show HN:" prefixes and "Discovered via HN scraper" suffixes for a cleaner presentation
+- The `submissionMethod` frontmatter field tracks whether a game was `scraped` (via HN scraper) or `manual` (user-submitted or manually added)

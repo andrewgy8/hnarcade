@@ -421,9 +421,13 @@ function printCandidate(c) {
 }
 
 function createIssue(c, isArchive = false) {
+  // Clean the title by removing "Show HN:" prefix
+  const cleanTitle = c.title.replace(/^Show HN:\s*/i, '').trim();
+
+  // Add archive note if applicable
   const archiveNote = isArchive
-    ? ` Originally posted ${c.archiveMonth}. Discovered via HN archive scraper for newsletter "From the Archives" section.`
-    : " Discovered via HN scraper.";
+    ? ` Originally posted ${c.archiveMonth}.`
+    : '';
 
   const body = [
     `### Game Name`,
@@ -456,7 +460,7 @@ function createIssue(c, isArchive = false) {
     ``,
     `### Description`,
     ``,
-    `${c.title}.${archiveNote}`,
+    `${cleanTitle}.${archiveNote}`,
   ].join("\n");
 
   const issueTitle = `[Game]: ${c.gameName}`;

@@ -1,24 +1,25 @@
 ---
 title: Bibdle
 tags: [browser, free]
-description: "Show HN: A Daily Bible Game. Discovered via HN scraper."
-sidebar_position: 5
+description: "A Daily Bible Game."
 screenshot: /img/games/bibdle.png
+sidebar_position: 5
 dateAdded: 2026-01-28
+submissionMethod: scraped
 hnId: 46541885
 points: 49
 ---
-
 # Bibdle
-
-Show HN: A Daily Bible Game. Discovered via HN scraper.
 
 | | |
 |---|---|
 | **Author** | [egglemonsoup](https://news.ycombinator.com/user?id=egglemonsoup) |
 | **Play** | [bibdle.com](https://bibdle.com) |
 | **HN Thread** | [Show HN: Bibdle](https://news.ycombinator.com/item?id=46541885) |
+| **HN Points** | 49 |
+| **Date Added** | 2026-01-28 |
+| **Tags** | browser, free |
 
 ## About
 
-Show HN: A Daily Bible Game. Discovered via HN scraper.
+A Daily Bible Game.

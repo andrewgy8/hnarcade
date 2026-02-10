@@ -1,23 +1,24 @@
 ---
 title: Lore Labyrinth
 tags: [puzzle]
-description: With Lore Labyrinth, you guide a yellow glowing orb through twisting corridors, razor-thin turns, and deceptive dead ends. One slip into a wall and you could lose some coins.
-sidebar_position: 36
+description: "With Lore Labyrinth, you guide a yellow glowing orb through twisting corridors, razor-thin turns, and deceptive dead ends. One slip into a wall and you could lose some coins."
 screenshot: /img/games/lore-labyrinth.png
+sidebar_position: 36
 dateAdded: 2026-01-30
+submissionMethod: manual
 hnId: 46811882
 points: 1
 ---
-
 # Lore Labyrinth
-
-With Lore Labyrinth, you guide a yellow glowing orb through twisting corridors, razor-thin turns, and deceptive dead ends. One slip into a wall and you could lose some coins.
 
 | | |
 |---|---|
 | **Author** | [falkor](https://entropicsystems.net) |
 | **Play** | [lorelabyrinth.entropicsystems.net](https://lorelabyrinth.entropicsystems.net) |
 | **HN Thread** | [Show HN: Lore Labyrinth](https://news.ycombinator.com/item?id=46811882) |
+| **HN Points** | 1 |
+| **Date Added** | 2026-01-30 |
+| **Tags** | puzzle |
 
 ## About
 

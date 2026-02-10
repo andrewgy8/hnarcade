@@ -1,24 +1,25 @@
 ---
 title: Wario Synth
 tags: [browser, free]
-description: "Show HN: Wario Synth – Turn any song into Game Boy version. Discovered via HN scraper."
-sidebar_position: 60
+description: "Wario Synth – Turn any song into Game Boy version."
 screenshot: /img/games/wario-synth.png
+sidebar_position: 60
 dateAdded: 2026-01-28
+submissionMethod: scraped
 hnId: 46452916
 points: 72
 ---
-
 # Wario Synth
-
-Show HN: Wario Synth – Turn any song into Game Boy version. Discovered via HN scraper.
 
 | | |
 |---|---|
 | **Author** | [birdmania](https://news.ycombinator.com/user?id=birdmania) |
 | **Play** | [www.wario.style](https://www.wario.style) |
 | **HN Thread** | [Show HN: Wario Synth](https://news.ycombinator.com/item?id=46452916) |
+| **HN Points** | 72 |
+| **Date Added** | 2026-01-28 |
+| **Tags** | browser, free |
 
 ## About
 
-Show HN: Wario Synth – Turn any song into Game Boy version. Discovered via HN scraper.
+Wario Synth – Turn any song into Game Boy version.
