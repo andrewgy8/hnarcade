@@ -1,5 +1,5 @@
 ---
-title: "Ported the 1999 game Bugdom to the browser and added a bunch of mods"
+title: "Bugdom"
 tags: [browser, free]
 description: "Show HN: Ported the 1999 game Bugdom to the browser and added a bunch of mods. Discovered via HN scraper."
 screenshot: /img/games/ported-the-1999-game-bugdom-to-the-browser-and-added-a-bunch-of-mods.png
