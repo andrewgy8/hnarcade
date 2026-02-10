@@ -5,6 +5,8 @@ description: Tap Toy is a fun little web app for relaxation. Tap the screen to l
 screenshot: "https://memalign.github.io/m/taptoy/taptoy.jpg"
 sidebar_position: 15
 dateAdded: 2026-02-08
+hnId: 31564785
+points: 3
 ---
 
 # Tap Toy

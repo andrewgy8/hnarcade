@@ -5,6 +5,8 @@ description: "Show HN: Mystral Native – Run JavaScript games natively with Web
 sidebar_position: 22
 screenshot: /img/games/mystral-native.png
 dateAdded: 2026-01-30
+hnId: 46784221
+points: 50
 ---
 
 # Mystral Native

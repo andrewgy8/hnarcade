@@ -5,6 +5,8 @@ description: Autism Simulator is a choose-your-own-adventure game where you try 
 sidebar_position: 11
 screenshot: /img/games/autism-simulator.png
 dateAdded: 2026-01-29
+hnId: 45438346
+points: 779
 ---
 
 # Autism Simulator

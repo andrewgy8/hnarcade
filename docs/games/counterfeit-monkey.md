@@ -5,6 +5,8 @@ description: A mobile-friendly demo based on Emily Short’s brilliant Interacti
 screenshot: "https://memalign.github.io/m/cm-map.jpg"
 sidebar_position: 53
 dateAdded: 2026-02-08
+hnId: 25733336
+points: 3
 ---
 
 # Counterfeit Monkey

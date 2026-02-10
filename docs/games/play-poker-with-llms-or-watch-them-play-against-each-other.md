@@ -5,6 +5,8 @@ description: "Show HN: Play poker with LLMs, or watch them play against each oth
 sidebar_position: 7
 screenshot: /img/games/play-poker-with-llms-or-watch-them-play-against-each-other.png
 dateAdded: 2026-01-28
+hnId: 46569061
+points: 163
 ---
 
 # Play poker with LLMs, or watch them play against each other

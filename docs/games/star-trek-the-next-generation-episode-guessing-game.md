@@ -5,6 +5,8 @@ description: "Show HN: Star Trek: The Next Generation Episode Guessing Game. Dis
 sidebar_position: 4
 screenshot: /img/games/star-trek-the-next-generation-episode-guessing-game.png
 dateAdded: 2026-01-28
+hnId: 46553532
+points: 5
 ---
 
 # Star Trek: The Next Generation Episode Guessing Game

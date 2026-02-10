@@ -5,6 +5,8 @@ description: Eightile is a free daily nested anagram solver word game. You unscr
 sidebar_position: 62
 screenshot: /img/games/eightile.png
 dateAdded: 2026-01-29
+hnId: 46802682
+points: 3
 ---
 
 # Eightile

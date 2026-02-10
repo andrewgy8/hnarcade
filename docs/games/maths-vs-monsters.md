@@ -5,6 +5,8 @@ description: An mental arithmetic tower defence game where the user has to answe
 sidebar_position: 48
 screenshot: /img/games/maths-vs-monsters.png
 dateAdded: 2026-01-29
+hnId: 46369233
+points: 2
 ---
 
 # Maths vs Monsters

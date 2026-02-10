@@ -5,6 +5,8 @@ description: I reverse engineered the \\\\\"physics\\\\\" of Top Gun for the NES
 sidebar_position: 24
 screenshot: /img/games/top-gun-landing-simulator.png
 dateAdded: 2026-01-29
+hnId: 46274822
+points: 381
 ---
 
 # Top Gun landing simulator

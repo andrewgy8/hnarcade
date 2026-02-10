@@ -5,6 +5,8 @@ description: This game was inspired by my experience working as a mailman. Speci
 sidebar_position: 85
 screenshot: /img/games/pigeonholed.png
 dateAdded: 2026-01-29
+hnId: 42246769
+points: 2
 ---
 
 # Pigeonholed

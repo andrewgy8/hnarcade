@@ -5,6 +5,8 @@ description: A printable escape room game with an app that serves as the game ma
 sidebar_position: 34
 screenshot: /img/games/escape-team.png
 dateAdded: 2026-01-29
+hnId: 29154825
+points: 89
 ---
 
 # Escape Team

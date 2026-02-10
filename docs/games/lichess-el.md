@@ -5,6 +5,8 @@ description: "Show HN: Lichess.el – Play Lichess Inside Emacs. Discovered via 
 sidebar_position: 57
 screenshot: /img/games/lichess-el.png
 dateAdded: 2026-01-30
+hnId: 46779861
+points: 22
 ---
 
 # Lichess.el

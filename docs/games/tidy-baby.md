@@ -5,6 +5,8 @@ description: "Show HN: Tidy Baby is a SET game but with words. Discovered via HN
 sidebar_position: 43
 screenshot: /img/games/tidy-baby.png
 dateAdded: 2026-01-28
+hnId: 46434580
+points: 37
 ---
 
 # Tidy Baby

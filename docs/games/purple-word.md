@@ -5,6 +5,8 @@ description: Purple Word is a daily word puzzle game where you try to guess the 
 screenshot: /img/games/purple-word.png
 sidebar_position: 73
 dateAdded: 2026-02-06
+hnId: 46910764
+points: 8
 ---
 
 # Purple Word

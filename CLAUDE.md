@@ -16,9 +16,11 @@ A directory of games discovered from Hacker News Show HN posts, built with Docus
 - `.github/workflows/deploy.yml` — deploys to GitHub Pages on push to `main`
 - `.github/workflows/create-game-pr.yml` — auto-generates a PR from game submission issues
 - `.github/workflows/scrape-hn.yml` — cron job (every 12h) that scrapes HN for game posts and creates issues
+- `.github/workflows/update-hn-points.yml` — cron job (daily) that updates HN points for games added in past 14 days
 - `.github/ISSUE_TEMPLATE/submit-game.yml` — structured issue form for game submissions
 - `scripts/scrape-hn.mjs` — HN scraper script; queries Algolia API for "Show HN" game posts
 - `scripts/screenshot-games.mjs` — takes screenshots of all games and updates frontmatter
+- `scripts/update-hn-points.mjs` — updates HN points for all games from Algolia API
 
 ## Available MCPs
 - Playwright
@@ -85,10 +87,13 @@ Games without screenshots will show a placeholder image.
 
 **Sorting options:** The games index page includes toggle buttons that let users sort games by:
 - **Most Recent** — sorts by `dateAdded` (newest first)
+- **HN Ranking** — sorts by HN `points` (highest first)
 - **A-Z** — alphabetical sorting by game title
 - **Random** — sorts by `sidebar_position` (shuffled order)
 
 The user's sort preference is saved to localStorage and persists across sessions. Sort mode changes are tracked with Google Analytics using the `sort_games` event.
+
+**HN points tracking:** Each game's HN item ID and points are stored in frontmatter (`hnId`, `points`). The `update-hn-points.yml` workflow runs daily to fetch updated points from the HN Algolia API for games added in the past 14 days and commits changes. New game submissions automatically fetch points when the PR is created.
 
 **Backfilling dates:** Run `npm run backfill-dates` to automatically add `dateAdded` fields to games that are missing them, using git commit history. Add `-- --all` to recalculate all dates, or `-- --dry-run` to preview changes.
 
@@ -103,6 +108,7 @@ Tags should be lowercase. Common tags: `puzzle`, `strategy`, `arcade`, `sandbox`
 - `npm run archive` — interactive prompt to select games from a random past month for newsletter "From the Archives" section (add `-- --month=2022-03` for specific month; supports 'r' to reject non-games)
 - `npm run screenshot` — take screenshots of all games missing them (add `-- --all` to overwrite existing, `-- --dry-run` to preview)
 - `npm run backfill-dates` — add `dateAdded` to games from git history (add `-- --all` to recalculate all dates, `-- --dry-run` to preview)
+- `npm run update-points` — fetch current HN points for all games (add `-- --dry-run` to preview, `-- --all` to force update even if points exist, `-- --recent-days=14` to only update games from past 14 days)
 
 ## Deployment
 
@@ -123,5 +129,6 @@ The site has a newsletter signup page at `/newsletter` that uses [Buttondown](ht
 - Scraper creates issues (not PRs directly) so every game still gets human review before merging
 - Screenshot script uses Playwright to visit each game's play URL and capture a 1280x720 PNG
 - Screenshots are passed to DocCard via `customProps` using a custom `sidebarItemsGenerator` in `docusaurus.config.ts` (Docusaurus doesn't expose custom frontmatter through `useDocById`)
-- Frontmatter fields (`screenshot`, `dateAdded`, `sidebar_position`) are passed to `customProps` via the `sidebarItemsGenerator` to enable client-side features
-- Games index page (`DocCategoryGeneratedIndexPage`) is swizzled to add client-side sorting toggles between "Most Recent" (`dateAdded`), "A-Z" (alphabetical), and "Random" (`sidebar_position`) modes, with localStorage persistence and Google Analytics event tracking
+- Frontmatter fields (`screenshot`, `dateAdded`, `sidebar_position`, `points`, `hnId`) are passed to `customProps` via the `sidebarItemsGenerator` to enable client-side features
+- Games index page (`DocCategoryGeneratedIndexPage`) is swizzled to add client-side sorting toggles between "Most Recent" (`dateAdded`), "Popular" (`points`), "A-Z" (alphabetical), and "Random" (`sidebar_position`) modes, with localStorage persistence and Google Analytics event tracking
+- HN points are automatically fetched and updated via a scheduled GitHub Action; new game submissions include points at creation time

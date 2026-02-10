@@ -5,6 +5,8 @@ description: "Show HN: Zsweep – Play Minesweeper using only Vim motions. Disco
 sidebar_position: 35
 screenshot: /img/games/zsweep.png
 dateAdded: 2026-01-28
+hnId: 46667849
+points: 78
 ---
 
 # Zsweep

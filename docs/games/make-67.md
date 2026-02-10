@@ -5,6 +5,8 @@ description: "Show HN: Make 67 – a tiny maths game. Discovered via HN scraper.
 sidebar_position: 1
 screenshot: /img/games/make-67.png
 dateAdded: 2026-01-28
+hnId: 46431819
+points: 5
 ---
 
 # Make 67

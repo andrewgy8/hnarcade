@@ -37,7 +37,7 @@ function DocCategoryGeneratedIndexPageMetadata({
   );
 }
 
-type SortMode = 'date' | 'random' | 'alphabetical';
+type SortMode = 'date' | 'random' | 'alphabetical' | 'popular';
 
 function DocCategoryGeneratedIndexPageContent({
   categoryGeneratedIndex,
@@ -93,6 +93,19 @@ function DocCategoryGeneratedIndexPageContent({
         const labelB = (b as any).label || '';
         return labelA.localeCompare(labelB, 'en', { sensitivity: 'base' });
       });
+    } else if (sortMode === 'popular') {
+      // Sort by HN points (most popular first)
+      return items.sort((a, b) => {
+        const pointsA = (a as any).customProps?.points as number | undefined;
+        const pointsB = (b as any).customProps?.points as number | undefined;
+
+        if (pointsA !== undefined && pointsB !== undefined) {
+          return pointsB - pointsA; // Descending order
+        }
+        if (pointsA === undefined && pointsB !== undefined) return 1;
+        if (pointsA !== undefined && pointsB === undefined) return -1;
+        return 0;
+      });
     } else {
       // Sort by sidebar_position (random order)
       return items.sort((a, b) => {
@@ -132,6 +145,13 @@ function DocCategoryGeneratedIndexPageContent({
           aria-pressed={sortMode === 'date'}
         >
           Most Recent
+        </button>
+        <button
+          className={sortMode === 'popular' ? styles.sortButtonActive : styles.sortButton}
+          onClick={() => setSortMode('popular')}
+          aria-pressed={sortMode === 'popular'}
+        >
+          HN Ranking
         </button>
         <button
           className={sortMode === 'alphabetical' ? styles.sortButtonActive : styles.sortButton}

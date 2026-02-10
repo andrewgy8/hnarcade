@@ -5,6 +5,8 @@ description: A falling sand game built with Rust and WebAssembly.
 sidebar_position: 31
 screenshot: /img/games/sandspiel.png
 dateAdded: 2026-01-28
+hnId: 18696291
+points: 1323
 ---
 
 # Sandspiel

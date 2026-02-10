@@ -5,6 +5,8 @@ description: "Show HN: Cursor Party – An MMO cursor game built in 1 hour with 
 sidebar_position: 68
 screenshot: /img/games/cursor-party.png
 dateAdded: 2026-01-28
+hnId: 46462546
+points: 10
 ---
 
 # Cursor Party

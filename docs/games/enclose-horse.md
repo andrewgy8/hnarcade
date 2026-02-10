@@ -5,6 +5,8 @@ description: Enclose.horse is a simple puzzle game about enclosing the maximum a
 sidebar_position: 25
 screenshot: /img/games/enclose-horse.png
 dateAdded: 2026-01-28
+hnId: 46509211
+points: 1217
 ---
 
 # enclose.horse

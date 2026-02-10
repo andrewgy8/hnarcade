@@ -5,6 +5,8 @@ description: Tap to count aquatic creatures! Cathartic and educational game that
 screenshot: "https://memalign.github.io/m/counting/counting.png"
 sidebar_position: 17
 dateAdded: 2026-02-08
+hnId: 42631673
+points: 31
 ---
 
 # Counting Tap Toy

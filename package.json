@@ -18,7 +18,8 @@
     "screenshot": "node scripts/screenshot-games.mjs",
     "save-screenshot": "node scripts/save-screenshot.mjs",
     "submit": "node scripts/submit-from-hn.mjs",
-    "backfill-dates": "node scripts/backfill-dates.mjs"
+    "backfill-dates": "node scripts/backfill-dates.mjs",
+    "update-points": "node scripts/update-hn-points.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",

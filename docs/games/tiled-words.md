@@ -5,6 +5,8 @@ description: A week ago I launched Tiled Words, my own unique spin on the daily 
 sidebar_position: 8
 screenshot: /img/games/tiled-words.png
 dateAdded: 2026-01-29
+hnId: 45750789
+points: 13
 ---
 
 # Tiled Words

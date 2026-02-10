@@ -5,6 +5,8 @@ description: "Show HN: Ported the 1999 game Bugdom to the browser and added a bu
 screenshot: /img/games/ported-the-1999-game-bugdom-to-the-browser-and-added-a-bunch-of-mods.png
 sidebar_position: 74
 dateAdded: 2026-02-10
+hnId: 46941138
+points: 19
 ---
 
 # Ported the 1999 game Bugdom to the browser and added a bunch of mods

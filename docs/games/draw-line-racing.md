@@ -5,6 +5,8 @@ description: Draw your racing line and your car follows your line
 sidebar_position: 3
 screenshot: /img/games/draw-line-racing.png
 dateAdded: 2026-01-29
+hnId: 46311540
+points: 2
 ---
 
 # Draw Line Racing

@@ -5,6 +5,8 @@ description: "Show HN: SpaceMolt – a realtime multiplayer game for AI to play.
 screenshot: /img/games/spacemolt.png
 sidebar_position: 80
 dateAdded: 2026-02-07
+hnId: 46914267
+points: 10
 ---
 
 # SpaceMolt

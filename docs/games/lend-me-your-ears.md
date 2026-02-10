@@ -5,6 +5,8 @@ description: "Show HN: I made a memory game to teach you to play piano by ear. D
 sidebar_position: 90
 screenshot: /img/games/lend-me-your-ears.png
 dateAdded: 2026-01-28
+hnId: 46556210
+points: 565
 ---
 
 # Lend Me Your Ears

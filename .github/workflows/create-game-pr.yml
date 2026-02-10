@@ -52,6 +52,25 @@ jobs:
             const tags = data['tags'];
             const description = data['description'];
 
+            // Extract HN item ID from thread URL
+            const hnIdMatch = hnThread.match(/item\?id=(\d+)/);
+            const hnId = hnIdMatch ? hnIdMatch[1] : null;
+
+            // Fetch HN points if we have an item ID
+            let points = 0;
+            if (hnId) {
+              try {
+                const hnResp = await fetch(`https://hn.algolia.com/api/v1/items/${hnId}`);
+                if (hnResp.ok) {
+                  const hnData = await hnResp.json();
+                  points = hnData.points || 0;
+                  console.log(`Fetched HN points for item ${hnId}: ${points}`);
+                }
+              } catch (error) {
+                console.warn(`Failed to fetch HN points: ${error.message}`);
+              }
+            }
+
             // Generate slug from game name
             const slug = gameName
               .toLowerCase()
@@ -92,6 +111,8 @@ jobs:
               `description: "${shortDesc.replace(/"/g, '\\"')}"`,
               ...(screenshotUrl ? [`screenshot: "${screenshotUrl}"`] : []),
               `dateAdded: ${dateAdded}`,
+              ...(hnId ? [`hnId: ${hnId}`] : []),
+              ...(hnId ? [`points: ${points}`] : []),
               '---',
               '',
               `# ${gameName}`,

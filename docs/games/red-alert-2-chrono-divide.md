@@ -5,6 +5,8 @@ description: Chrono Divide is a fan-made project which aims to recreate the orig
 sidebar_position: 67
 screenshot: /img/games/red-alert-2-chrono-divide.png
 dateAdded: 2026-01-29
+hnId: 45991853
+points: 497
 ---
 
 # Red Alert 2 Chrono Divide

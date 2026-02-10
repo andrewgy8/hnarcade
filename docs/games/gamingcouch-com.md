@@ -5,6 +5,8 @@ description: Gaming Couch is a free, web-based party platform that turns your sm
 sidebar_position: 29
 screenshot: /img/games/gamingcouch-com.png
 dateAdded: 2026-01-29
+hnId: 46344573
+points: 437
 ---
 
 # GamingCouch.com

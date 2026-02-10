@@ -5,6 +5,8 @@ description: Like Hangman you try to guess the word, one letter at a time.
 sidebar_position: 19
 screenshot: /img/games/foximax.png
 dateAdded: 2026-01-29
+hnId: 33054972
+points: 12
 ---
 
 # Foximax

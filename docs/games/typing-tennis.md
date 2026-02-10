@@ -5,6 +5,8 @@ description: Serve up your typing skills! A retro-style typing game where you pl
 sidebar_position: 78
 screenshot: /img/games/typing-tennis.png
 dateAdded: 2026-01-29
+hnId: 46695492
+points: 5
 ---
 
 # Typing Tennis

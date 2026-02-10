@@ -5,6 +5,8 @@ description: Words.zip is a free infinite collaborative word search, where playe
 sidebar_position: 44
 screenshot: /img/games/words-zip.png
 dateAdded: 2026-01-29
+hnId: 46588892
+points: 11
 ---
 
 # Words.zip

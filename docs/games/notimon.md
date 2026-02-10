@@ -1,10 +1,12 @@
 ---
 title: Notimon
 tags: [rpg]
-description: "🌱 Notimon Garden turns note-taking into a game."
+description: 🌱 Notimon Garden turns note-taking into a game.
 sidebar_position: 69
 screenshot: /img/games/notimon.png
 dateAdded: 2026-01-30
+hnId: 46820491
+points: 1
 ---
 
 # Notimon

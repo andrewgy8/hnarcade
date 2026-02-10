@@ -5,6 +5,8 @@ description: "Show HN: Alien Abducto-rama: a FUN browser game I made with my kid
 sidebar_position: 28
 screenshot: /img/games/alien-abducto-rama.png
 dateAdded: 2026-01-28
+hnId: 46744524
+points: 6
 ---
 
 # Alien Abducto-rama

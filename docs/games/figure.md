@@ -5,6 +5,8 @@ description: Figure is a daily logic puzzle game, sort of like Bejeweled meets W
 sidebar_position: 56
 screenshot: /img/games/figure.png
 dateAdded: 2026-01-30
+hnId: 32376154
+points: 417
 ---
 
 # Figure

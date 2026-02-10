@@ -5,6 +5,8 @@ description: CaveRibbon is a one-button game where you control a ribbon gliding 
 screenshot: "https://memalign.github.io/m/cr/CaveRibbon-gameplay.png"
 sidebar_position: 64
 dateAdded: 2026-02-08
+hnId: 39428646
+points: 17
 ---
 
 # Cave Ribbon

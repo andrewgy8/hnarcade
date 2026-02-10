@@ -5,6 +5,8 @@ description: Blinkys are sentient digital creatures, each with their own neural 
 sidebar_position: 16
 screenshot: /img/games/blinkys.png
 dateAdded: 2026-01-29
+hnId: 46799668
+points: 1
 ---
 
 # Blinkys

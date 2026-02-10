@@ -5,6 +5,8 @@ description: A different version of classic sudoku, with weird shapes instead of
 sidebar_position: 79
 screenshot: /img/games/cracked-sudoku.png
 dateAdded: 2026-01-29
+hnId: 43349385
+points: 188
 ---
 
 # Cracked Sudoku

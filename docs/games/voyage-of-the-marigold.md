@@ -5,6 +5,8 @@ description: Captain a starship through unexplored sectors on a desperate missio
 sidebar_position: 88
 screenshot: /img/games/voyage-of-the-marigold.png
 dateAdded: 2026-01-29
+hnId: 40031483
+points: 7
 ---
 
 # Voyage of the Marigold

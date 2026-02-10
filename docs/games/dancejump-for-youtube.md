@@ -5,6 +5,8 @@ description: "Show HN: DanceJump For YouTube – turning videos into browser rhy
 sidebar_position: 95
 screenshot: /img/games/dancejump-for-youtube.png
 dateAdded: 2026-01-28
+hnId: 46619844
+points: 5
 ---
 
 # DanceJump For YouTube

@@ -5,6 +5,8 @@ description: A simple game with falling pizzas and toppings. There's a scoreboar
 sidebar_position: 14
 screenshot: /img/games/pizzzza-lol.png
 dateAdded: 2026-01-29
+hnId: 42555590
+points: 11
 ---
 
 # Pizzzza Lol

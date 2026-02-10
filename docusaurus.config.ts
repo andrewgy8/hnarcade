@@ -66,6 +66,16 @@ const config: Config = {
                     customProps.sidebarPosition = doc.frontMatter.sidebar_position;
                   }
 
+                  // Add HN points for popularity sorting
+                  if (doc?.frontMatter?.points !== undefined) {
+                    customProps.points = doc.frontMatter.points;
+                  }
+
+                  // Add HN ID for reference
+                  if (doc?.frontMatter?.hnId) {
+                    customProps.hnId = doc.frontMatter.hnId;
+                  }
+
                   return {
                     ...item,
                     customProps,

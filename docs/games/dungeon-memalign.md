@@ -5,6 +5,8 @@ description: You open your eyes and find yourself in dimly lit surroundings. The
 screenshot: "https://memalign.github.io/m/dungeon.jpg"
 sidebar_position: 51
 dateAdded: 2026-02-08
+hnId: 25262631
+points: 106
 ---
 
 # Dungeon Memalign

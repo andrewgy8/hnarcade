@@ -5,6 +5,8 @@ description: "Show HN: Speed Miners – A tiny RTS resource mini-game. Discovere
 sidebar_position: 18
 screenshot: /img/games/speed-miners.png
 dateAdded: 2026-01-28
+hnId: 46662399
+points: 49
 ---
 
 # Speed Miners

@@ -5,6 +5,8 @@ description: This is a little game implemented over a week of tinkering and targ
 screenshot: /img/games/micropolis-simcity-clone-in-emacs-lisp.png
 sidebar_position: 45
 dateAdded: 2026-02-05
+hnId: 46897332
+points: 175
 ---
 
 # Micropolis/SimCity Clone in Emacs Lisp

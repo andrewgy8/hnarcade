@@ -5,6 +5,8 @@ description: I’m building a 2D space tactics game inspired by Star Trek and cl
 sidebar_position: 41
 screenshot: /img/games/andara-game.png
 dateAdded: 2026-01-29
+hnId: 46794038
+points: 1
 ---
 
 # Andara Game

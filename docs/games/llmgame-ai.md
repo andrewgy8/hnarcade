@@ -5,6 +5,8 @@ description: "Show HN: llmgame.ai – The Wikipedia Game but with LLMs. Discover
 sidebar_position: 71
 screenshot: /img/games/llmgame-ai.png
 dateAdded: 2026-01-28
+hnId: 46508299
+points: 28
 ---
 
 # llmgame.ai

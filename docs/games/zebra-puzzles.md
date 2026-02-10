@@ -5,6 +5,8 @@ description: Daily zebra puzzle with hundreds of different themes.
 sidebar_position: 96
 screenshot: /img/games/zebra-puzzles.png
 dateAdded: 2026-01-30
+hnId: 39765519
+points: 32
 ---
 
 # Zebra Puzzles

@@ -5,6 +5,8 @@ description: "Show HN: I built a narrative game about running a thrift shop. Dis
 sidebar_position: 65
 screenshot: /img/games/shop-crush.png
 dateAdded: 2026-01-28
+hnId: 46705582
+points: 9
 ---
 
 # Shop Crush

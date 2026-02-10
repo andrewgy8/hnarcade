@@ -5,6 +5,8 @@ description: A first of its kind dual-snake control game that tests your ability
 sidebar_position: 49
 screenshot: /img/games/twins-of-caduceus.png
 dateAdded: 2026-01-29
+hnId: 44984922
+points: 2
 ---
 
 # Twins of Caduceus

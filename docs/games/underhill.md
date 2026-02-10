@@ -5,6 +5,8 @@ description: "Show HN: I created a Mars colony RPG based on Kim Stanley Robinson
 screenshot: /img/games/underhill.png
 sidebar_position: 6
 dateAdded: 2026-02-09
+hnId: 46936237
+points: 300
 ---
 
 # Underhill

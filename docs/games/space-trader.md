@@ -5,6 +5,8 @@ description: In Space Trader, you can trade goods, hunt bounties, amass a fortun
 screenshot: "https://memalign.github.io/m/spacetrader/spacetrader-1000.png"
 sidebar_position: 93
 dateAdded: 2026-02-08
+hnId: 42501201
+points: 8
 ---
 
 # Space Trader

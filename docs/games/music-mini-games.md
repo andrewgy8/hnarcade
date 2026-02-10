@@ -5,6 +5,8 @@ description: An iOS app to help you sing & play.
 sidebar_position: 21
 screenshot: /img/games/music-mini-games.png
 dateAdded: 2026-01-29
+hnId: 45697650
+points: 4
 ---
 
 # Music Mini Games

@@ -5,6 +5,8 @@ description: "Show HN: Reel Rogue – A browser roguelike (idler) about manipula
 sidebar_position: 26
 screenshot: /img/games/reel-rogue.png
 dateAdded: 2026-01-28
+hnId: 46749314
+points: 6
 ---
 
 # Reel Rogue

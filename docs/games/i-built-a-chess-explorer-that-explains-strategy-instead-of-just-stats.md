@@ -5,6 +5,8 @@ description: "Show HN: I built a chess explorer that explains strategy instead o
 sidebar_position: 54
 screenshot: /img/games/i-built-a-chess-explorer-that-explains-strategy-instead-of-just-stats.png
 dateAdded: 2026-01-28
+hnId: 46707464
+points: 14
 ---
 
 # I built a chess explorer that explains strategy instead of just stats

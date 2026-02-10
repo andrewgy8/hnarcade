@@ -5,6 +5,8 @@ description: ParaGopher is a retro-style arcade game written in Go using Ebiteng
 sidebar_position: 76
 screenshot: /img/games/paragopher.png
 dateAdded: 2026-01-29
+hnId: 42694202
+points: 1
 ---
 
 # ParaGopher

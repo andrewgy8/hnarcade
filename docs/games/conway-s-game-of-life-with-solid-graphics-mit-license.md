@@ -5,6 +5,8 @@ description: "Show HN: Interactive Conway's Game of Life with good graphics (MIT
 screenshot: /img/games/conway-s-game-of-life-with-solid-graphics-mit-license.png
 sidebar_position: 52
 dateAdded: 2026-02-06
+hnId: 16300657
+points: 5
 ---
 
 # Conway's Game of Life with Solid Graphics (MIT License)

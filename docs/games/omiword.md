@@ -5,6 +5,8 @@ description: Every day, spell 4 common American English words by dragging tiles 
 sidebar_position: 83
 screenshot: /img/games/omiword.png
 dateAdded: 2026-01-29
+hnId: 43654350
+points: 56
 ---
 
 # Omiword

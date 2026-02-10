@@ -5,6 +5,8 @@ description: Trippy the Turkey has spent too much time playing outside and needs
 sidebar_position: 2
 screenshot: /img/games/save-trippy.png
 dateAdded: 2026-01-30
+hnId: 46071122
+points: 6
 ---
 
 # Save Trippy

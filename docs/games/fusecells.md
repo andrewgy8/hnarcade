@@ -5,6 +5,8 @@ description: "Show HN: FuseCells – 2,500 handcrafted levels logic puzzle game 
 sidebar_position: 72
 screenshot: /img/games/fusecells.png
 dateAdded: 2026-01-28
+hnId: 46439772
+points: 6
 ---
 
 # FuseCells

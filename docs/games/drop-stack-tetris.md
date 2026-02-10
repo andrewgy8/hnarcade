@@ -5,6 +5,8 @@ description: "Show HN: I made a Tetris based block puzzle game. Discovered via H
 sidebar_position: 12
 screenshot: /img/games/drop-stack-tetris.png
 dateAdded: 2026-01-28
+hnId: 46667660
+points: 7
 ---
 
 # Drop Stack Tetris

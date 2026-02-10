@@ -5,6 +5,8 @@ description: Super Monkey Ball ported to a website. Discovered via HN.
 screenshot: /img/games/super-monkey-ball.png
 sidebar_position: 40
 dateAdded: 2026-02-02
+hnId: 46789961
+points: 278
 ---
 
 # Super Monkey Ball

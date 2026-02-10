@@ -5,6 +5,8 @@ description: A puzzle game with photons, superposition and quantum measurement, 
 screenshot: "https://old.quantumgame.io/img/services/gameplay.png"
 sidebar_position: 10
 dateAdded: 2026-02-01
+hnId: 14432176
+points: 86
 ---
 
 # Quantum Game with Photons

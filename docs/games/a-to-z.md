@@ -5,6 +5,8 @@ description: "Show HN: A to Z – A word game I built from a childhood road trip
 sidebar_position: 13
 screenshot: /img/games/a-to-z.png
 dateAdded: 2026-01-28
+hnId: 46531295
+points: 13
 ---
 
 # A to Z

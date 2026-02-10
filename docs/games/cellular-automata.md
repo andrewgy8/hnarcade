@@ -5,6 +5,8 @@ description: Create any cellular automata with a couple lines of descriptive set
 sidebar_position: 66
 screenshot: /img/games/cellular-automata.png
 dateAdded: 2026-01-29
+hnId: 26466275
+points: 111
 ---
 
 # Cellular Automata

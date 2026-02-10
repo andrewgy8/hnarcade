@@ -5,6 +5,8 @@ description: A combination of chess and poker with customization options. No acc
 sidebar_position: 61
 screenshot: /img/games/chess-hold-em.png
 dateAdded: 2026-01-29
+hnId: 45548924
+points: 7
 ---
 
 # Chess Hold'em

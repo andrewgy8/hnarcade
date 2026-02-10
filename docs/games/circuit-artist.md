@@ -5,6 +5,8 @@ description: A circuit simulator where you draw everything. NANDs and pixels. Bu
 screenshot: /img/games/circuit-artist.gif
 sidebar_position: 82
 dateAdded: 2026-02-01
+hnId: 46445412
+points: 135
 ---
 
 # Circuit Artist

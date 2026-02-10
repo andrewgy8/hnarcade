@@ -5,6 +5,8 @@ description: A simple RGB colour guessing game.
 sidebar_position: 89
 screenshot: /img/games/guess-my-rgb.png
 dateAdded: 2026-01-29
+hnId: 39882018
+points: 618
 ---
 
 # Guess My RGB

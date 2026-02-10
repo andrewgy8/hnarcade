@@ -5,6 +5,8 @@ description: With Lore Labyrinth, you guide a yellow glowing orb through twistin
 sidebar_position: 36
 screenshot: /img/games/lore-labyrinth.png
 dateAdded: 2026-01-30
+hnId: 46811882
+points: 1
 ---
 
 # Lore Labyrinth

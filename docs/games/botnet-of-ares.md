@@ -5,6 +5,8 @@ description: Botnet of Ares is an incremental hacking roguelite set in a cyberpu
 sidebar_position: 50
 screenshot: /img/games/botnet-of-ares.png
 dateAdded: 2026-01-29
+hnId: 46731307
+points: 1
 ---
 
 # Botnet of Ares

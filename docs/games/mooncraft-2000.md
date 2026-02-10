@@ -5,6 +5,8 @@ description: A lunar-lander style game rendered with voxels. You fly from one mo
 sidebar_position: 42
 screenshot: /img/games/mooncraft-2000.png
 dateAdded: 2026-01-29
+hnId: 31153333
+points: 149
 ---
 
 # Mooncraft 2000

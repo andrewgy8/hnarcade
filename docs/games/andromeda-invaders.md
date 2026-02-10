@@ -5,6 +5,8 @@ description: An invaders-style game written in plain HTML and JavaScript using C
 sidebar_position: 63
 screenshot: /img/games/andromeda-invaders.png
 dateAdded: 2026-01-29
+hnId: 34464865
+points: 167
 ---
 
 # Andromeda Invaders

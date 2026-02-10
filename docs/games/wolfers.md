@@ -5,6 +5,8 @@ description: Feed your brain and your wolf! Wolfers is a series of games inspire
 screenshot: "https://memalign.github.io/m/wolfer/wolfer.png"
 sidebar_position: 9
 dateAdded: 2026-02-08
+hnId: 45802499
+points: 2
 ---
 
 # Wolfers

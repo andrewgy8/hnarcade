@@ -5,6 +5,8 @@ description: Free, open-source chess server powered by volunteers and donations.
 sidebar_position: 86
 screenshot: /img/games/lichess.png
 dateAdded: 2026-01-28
+hnId: 32045763
+points: 466
 ---
 
 # Lichess

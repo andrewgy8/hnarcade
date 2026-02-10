@@ -5,6 +5,8 @@ description: A word search game where the puzzle never ends - as you scroll, the
 sidebar_position: 77
 screenshot: /img/games/wordsearch.png
 dateAdded: 2026-01-29
+hnId: 46231460
+points: 25
 ---
 
 # ∞ wordsearch

@@ -5,6 +5,8 @@ description: Marches & Gnats is a browser-based coding puzzle game inspired by A
 sidebar_position: 92
 screenshot: /img/games/marches-gnats.png
 dateAdded: 2026-01-29
+hnId: 46797936
+points: 2
 ---
 
 # Marches & Gnats

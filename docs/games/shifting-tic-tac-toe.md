@@ -5,6 +5,8 @@ description: The classic game with a twist—play in real-time, and there’s ne
 sidebar_position: 70
 screenshot: /img/games/shifting-tic-tac-toe.png
 dateAdded: 2026-01-28
+hnId: 42971188
+points: 5
 ---
 
 # Shifting Tic Tac Toe

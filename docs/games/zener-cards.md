@@ -5,6 +5,8 @@ description: "Show HN: Play Zener Cards. Discovered via HN scraper."
 sidebar_position: 91
 screenshot: /img/games/zener-cards.png
 dateAdded: 2026-01-30
+hnId: 46819111
+points: 6
 ---
 
 # Zener Cards

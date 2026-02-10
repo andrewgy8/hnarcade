@@ -5,6 +5,8 @@ description: An online puzzle game inspired by Cicada 3301 that challenges playe
 sidebar_position: 59
 screenshot: /img/games/pegasus3301.png
 dateAdded: 2026-01-29
+hnId: 46795300
+points: 4
 ---
 
 # Pegasus3301

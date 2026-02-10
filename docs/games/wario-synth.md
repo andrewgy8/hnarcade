@@ -5,6 +5,8 @@ description: "Show HN: Wario Synth – Turn any song into Game Boy version. Disc
 sidebar_position: 60
 screenshot: /img/games/wario-synth.png
 dateAdded: 2026-01-28
+hnId: 46452916
+points: 72
 ---
 
 # Wario Synth

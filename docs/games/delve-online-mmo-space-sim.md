@@ -5,6 +5,8 @@ description: Hey space pilots!
 sidebar_position: 38
 screenshot: /img/games/delve-online-mmo-space-sim.png
 dateAdded: 2026-01-29
+hnId: 45745129
+points: 3
 ---
 
 # Delve Online - MMO Space Sim

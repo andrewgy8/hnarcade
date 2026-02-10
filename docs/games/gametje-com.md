@@ -5,6 +5,8 @@ description: "It is a casual gaming platform focused on simple multiplayer games
 sidebar_position: 84
 screenshot: /img/games/gametje-com.png
 dateAdded: 2026-01-29
+hnId: 45887709
+points: 112
 ---
 
 # Gametje.com

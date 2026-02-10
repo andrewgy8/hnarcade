@@ -5,6 +5,8 @@ description: "Show HN: Flexboxle – A Daily Puzzle with Flexbox. Discovered via
 screenshot: /img/games/flexboxle.png
 sidebar_position: 55
 dateAdded: 2026-02-01
+hnId: 46837177
+points: 5
 ---
 
 # Flexboxle

@@ -5,6 +5,8 @@ description: Six different logic grid puzzles every day, form very easy to ultra
 sidebar_position: 32
 screenshot: /img/games/logic-grid-puzzles.png
 dateAdded: 2026-01-30
+hnId: 46160198
+points: 1
 ---
 
 # Logic Grid Puzzles

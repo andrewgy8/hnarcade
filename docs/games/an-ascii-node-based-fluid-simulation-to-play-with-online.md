@@ -5,6 +5,8 @@ description: "Show HN: An ASCII/Node based fluid simulation to play with online.
 screenshot: /img/games/an-ascii-node-based-fluid-simulation-to-play-with-online.png
 sidebar_position: 23
 dateAdded: 2026-02-06
+hnId: 22682539
+points: 10
 ---
 
 # An ASCII/Node based fluid simulation to play with online

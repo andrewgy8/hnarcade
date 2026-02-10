@@ -5,6 +5,8 @@ description: Swipe to slice pizzas! Can you unlock all 15?
 screenshot: "https://memalign.github.io/m/slice/slice.jpg"
 sidebar_position: 33
 dateAdded: 2026-02-08
+hnId: 40393005
+points: 25
 ---
 
 # Slice Tap Toy
