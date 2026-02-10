@@ -139,11 +139,6 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/games/tags',
-          label: 'Tags',
-          position: 'left',
-        },
-        {
           to: '/games/how-it-works',
           label: 'How It Works',
           position: 'left',

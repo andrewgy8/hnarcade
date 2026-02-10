@@ -62,6 +62,9 @@ function DocCategoryGeneratedIndexPageContent({
     return [];
   });
 
+  // State for mobile filter visibility
+  const [showFiltersOnMobile, setShowFiltersOnMobile] = useState(false);
+
   // Save sort preference to localStorage and track with Google Analytics
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -84,11 +87,12 @@ function DocCategoryGeneratedIndexPageContent({
       localStorage.setItem('gamesSelectedTags', JSON.stringify(selectedTags));
 
       // Track tag filter changes with Google Analytics
-      if (typeof window.gtag === 'function' && selectedTags.length > 0) {
+      if (typeof window.gtag === 'function') {
         window.gtag('event', 'filter_games', {
           event_category: 'Games',
-          event_label: selectedTags.join(','),
+          event_label: selectedTags.length > 0 ? selectedTags.join(',') : 'none',
           selected_tags: selectedTags,
+          filter_count: selectedTags.length,
         });
       }
     }
@@ -119,6 +123,14 @@ function DocCategoryGeneratedIndexPageContent({
 
   // Clear all tag filters
   const clearTagFilters = () => {
+    // Track clear action with Google Analytics
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'clear_filters', {
+        event_category: 'Games',
+        event_label: 'clear_all',
+        previous_filter_count: selectedTags.length,
+      });
+    }
     setSelectedTags([]);
   };
 
@@ -208,9 +220,33 @@ function DocCategoryGeneratedIndexPageContent({
         )}
       </header>
 
+      {/* Mobile filter toggle */}
+      {allTags.length > 0 && (
+        <button
+          className={styles.mobileFilterToggle}
+          onClick={() => {
+            const newValue = !showFiltersOnMobile;
+            setShowFiltersOnMobile(newValue);
+
+            // Track filter toggle with Google Analytics
+            if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+              window.gtag('event', 'toggle_filters', {
+                event_category: 'Games',
+                event_label: newValue ? 'show' : 'hide',
+                action: newValue ? 'show' : 'hide',
+              });
+            }
+          }}
+          aria-expanded={showFiltersOnMobile}
+        >
+          {showFiltersOnMobile ? 'Hide Filters' : 'Show Filters'}
+          {selectedTags.length > 0 && ` (${selectedTags.length})`}
+        </button>
+      )}
+
       {/* Tag filters */}
       {allTags.length > 0 && (
-        <div className={styles.filterSection}>
+        <div className={`${styles.filterSection} ${showFiltersOnMobile ? styles.filterSectionVisible : ''}`}>
           <div className={styles.filterHeader}>
             <span className={styles.filterLabel}>Filter by tags:</span>
             {selectedTags.length > 0 && (
