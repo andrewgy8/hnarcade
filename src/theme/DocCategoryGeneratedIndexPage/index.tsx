@@ -53,6 +53,15 @@ function DocCategoryGeneratedIndexPageContent({
     return 'default';
   });
 
+  // State for selected tags with localStorage persistence
+  const [selectedTags, setSelectedTags] = useState<string[]>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('gamesSelectedTags');
+      return saved ? JSON.parse(saved) : [];
+    }
+    return [];
+  });
+
   // Save sort preference to localStorage and track with Google Analytics
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -69,9 +78,63 @@ function DocCategoryGeneratedIndexPageContent({
     }
   }, [sortMode]);
 
-  // Sort items based on current mode
+  // Save tag selection to localStorage and track with Google Analytics
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('gamesSelectedTags', JSON.stringify(selectedTags));
+
+      // Track tag filter changes with Google Analytics
+      if (typeof window.gtag === 'function' && selectedTags.length > 0) {
+        window.gtag('event', 'filter_games', {
+          event_category: 'Games',
+          event_label: selectedTags.join(','),
+          selected_tags: selectedTags,
+        });
+      }
+    }
+  }, [selectedTags]);
+
+  // Extract all unique tags from all games
+  const allTags = useMemo(() => {
+    const tagSet = new Set<string>();
+    category.items.forEach((item: any) => {
+      const tags = item.customProps?.tags;
+      if (Array.isArray(tags)) {
+        tags.forEach((tag: string) => tagSet.add(tag));
+      }
+    });
+    return Array.from(tagSet).sort();
+  }, [category.items]);
+
+  // Toggle tag selection
+  const toggleTag = (tag: string) => {
+    setSelectedTags((prev) => {
+      if (prev.includes(tag)) {
+        return prev.filter((t) => t !== tag);
+      } else {
+        return [...prev, tag];
+      }
+    });
+  };
+
+  // Clear all tag filters
+  const clearTagFilters = () => {
+    setSelectedTags([]);
+  };
+
+  // Filter and sort items based on current mode
   const sortedItems = useMemo(() => {
-    const items = [...category.items];
+    let items = [...category.items];
+
+    // Apply tag filtering if any tags are selected
+    if (selectedTags.length > 0) {
+      items = items.filter((item: any) => {
+        const itemTags = item.customProps?.tags;
+        if (!Array.isArray(itemTags)) return false;
+        // Show games that have ANY of the selected tags (OR logic)
+        return selectedTags.some((tag) => itemTags.includes(tag));
+      });
+    }
 
     if (sortMode === 'date') {
       // Sort by dateAdded (most recent first)
@@ -127,7 +190,9 @@ function DocCategoryGeneratedIndexPageContent({
         return 0;
       });
     }
-  }, [category.items, sortMode]);
+
+    return items;
+  }, [category.items, sortMode, selectedTags]);
 
   return (
     <div className={styles.generatedIndexPage}>
@@ -142,6 +207,35 @@ function DocCategoryGeneratedIndexPageContent({
           <p>{categoryGeneratedIndex.description}</p>
         )}
       </header>
+
+      {/* Tag filters */}
+      {allTags.length > 0 && (
+        <div className={styles.filterSection}>
+          <div className={styles.filterHeader}>
+            <span className={styles.filterLabel}>Filter by tags:</span>
+            {selectedTags.length > 0 && (
+              <button
+                className={styles.clearButton}
+                onClick={clearTagFilters}
+              >
+                Clear all ({selectedTags.length})
+              </button>
+            )}
+          </div>
+          <div className={styles.tagButtons}>
+            {allTags.map((tag) => (
+              <button
+                key={tag}
+                className={selectedTags.includes(tag) ? styles.tagButtonActive : styles.tagButton}
+                onClick={() => toggleTag(tag)}
+                aria-pressed={selectedTags.includes(tag)}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Sort controls */}
       <div className={styles.sortControls}>
@@ -184,6 +278,13 @@ function DocCategoryGeneratedIndexPageContent({
           {sortMode === 'alphabeticalDesc' ? 'Z-A' : 'A-Z'}
         </button>
       </div>
+
+      {/* Results count */}
+      {selectedTags.length > 0 && (
+        <div className={styles.resultsCount}>
+          Showing {sortedItems.length} {sortedItems.length === 1 ? 'game' : 'games'}
+        </div>
+      )}
 
       <article className="margin-top--lg">
         <DocCardList items={sortedItems} className={styles.list} />
