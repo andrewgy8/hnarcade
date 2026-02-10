@@ -1,5 +1,5 @@
 ---
-title: Star Trek: The Next Generation Episode Guessing Game
+title: "Star Trek: The Next Generation Episode Guessing Game"
 tags: [browser, free]
 description: "Star Trek: The Next Generation Episode Guessing Game."
 screenshot: /img/games/star-trek-the-next-generation-episode-guessing-game.png

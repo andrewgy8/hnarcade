@@ -1,5 +1,5 @@
 ---
-title: Migo Games: Arrow
+title: "Migo Games: Arrow"
 tags: [multiplayer]
 description: "Arrow is a multiplayer arrow shooting game built in Elixir / Phoenix."
 screenshot: /img/games/migo-games-arrow.png
