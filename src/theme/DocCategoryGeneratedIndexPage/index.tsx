@@ -37,7 +37,7 @@ function DocCategoryGeneratedIndexPageMetadata({
   );
 }
 
-type SortMode = 'default' | 'date' | 'alphabetical' | 'popular';
+type SortMode = 'default' | 'date' | 'alphabetical' | 'alphabeticalDesc' | 'popular';
 
 function DocCategoryGeneratedIndexPageContent({
   categoryGeneratedIndex,
@@ -87,11 +87,18 @@ function DocCategoryGeneratedIndexPageContent({
         return 0;
       });
     } else if (sortMode === 'alphabetical') {
-      // Sort alphabetically by label/title
+      // Sort alphabetically by label/title (A-Z)
       return items.sort((a, b) => {
         const labelA = (a as any).label || '';
         const labelB = (b as any).label || '';
         return labelA.localeCompare(labelB, 'en', { sensitivity: 'base' });
+      });
+    } else if (sortMode === 'alphabeticalDesc') {
+      // Sort reverse alphabetically by label/title (Z-A)
+      return items.sort((a, b) => {
+        const labelA = (a as any).label || '';
+        const labelB = (b as any).label || '';
+        return labelB.localeCompare(labelA, 'en', { sensitivity: 'base' });
       });
     } else if (sortMode === 'popular') {
       // Sort by HN points (most popular first)
@@ -161,11 +168,20 @@ function DocCategoryGeneratedIndexPageContent({
           HN Ranking
         </button>
         <button
-          className={sortMode === 'alphabetical' ? styles.sortButtonActive : styles.sortButton}
-          onClick={() => setSortMode('alphabetical')}
-          aria-pressed={sortMode === 'alphabetical'}
+          className={sortMode === 'alphabetical' || sortMode === 'alphabeticalDesc' ? styles.sortButtonActive : styles.sortButton}
+          onClick={() => {
+            // Toggle between A-Z and Z-A
+            if (sortMode === 'alphabetical') {
+              setSortMode('alphabeticalDesc');
+            } else if (sortMode === 'alphabeticalDesc') {
+              setSortMode('alphabetical');
+            } else {
+              setSortMode('alphabetical');
+            }
+          }}
+          aria-pressed={sortMode === 'alphabetical' || sortMode === 'alphabeticalDesc'}
         >
-          A-Z
+          {sortMode === 'alphabeticalDesc' ? 'Z-A' : 'A-Z'}
         </button>
       </div>
 
