@@ -3,7 +3,7 @@ title: Logic Grid Puzzles
 tags: [puzzle]
 description: "Six different logic grid puzzles every day, form very easy to ultra hard."
 screenshot: /img/games/logic-grid-puzzles.png
-sidebar_position: 32
+sidebar_position: 20
 dateAdded: 2026-01-30
 submissionMethod: manual
 hnId: 46160198

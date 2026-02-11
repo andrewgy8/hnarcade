@@ -3,7 +3,7 @@ title: Counting Tap Toy
 tags: [arcade, browser, mobile, desktop, free]
 description: "Tap to count aquatic creatures! Cathartic and educational game that teaches counting to toddlers."
 screenshot: "https://memalign.github.io/m/counting/counting.png"
-sidebar_position: 17
+sidebar_position: 1
 dateAdded: 2026-02-08
 submissionMethod: manual
 hnId: 42631673
