@@ -3,7 +3,7 @@ title: A to Z
 tags: [browser, free]
 description: "A to Z – A word game I built from a childhood road trip memory."
 screenshot: /img/games/a-to-z.png
-sidebar_position: 33
+sidebar_position: 63
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46531295

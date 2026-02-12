@@ -3,7 +3,7 @@ title: Slice Tap Toy
 tags: [arcade, browser, mobile, desktop, free]
 description: "Swipe to slice pizzas! Can you unlock all 15?"
 screenshot: "https://memalign.github.io/m/slice/slice.jpg"
-sidebar_position: 82
+sidebar_position: 60
 dateAdded: 2026-02-08
 submissionMethod: manual
 hnId: 40393005
