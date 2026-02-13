@@ -1,6 +1,6 @@
 <div align="center">
 
-🕹️
+<img src="static/img/newsletter-icon.png" alt="HN Arcade" width="100">
 
 # The HN Arcade
 
