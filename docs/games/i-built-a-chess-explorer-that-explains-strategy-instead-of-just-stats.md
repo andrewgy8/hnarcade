@@ -3,7 +3,7 @@ title: AtlasChess
 tags: [browser, free]
 description: "I built a chess explorer that explains strategy instead of just stats."
 screenshot: /img/games/i-built-a-chess-explorer-that-explains-strategy-instead-of-just-stats.png
-sidebar_position: 1
+sidebar_position: 15
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46707464

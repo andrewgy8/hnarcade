@@ -3,7 +3,7 @@ title: Shop Crush
 tags: [browser, free]
 description: "I built a narrative game about running a thrift shop."
 screenshot: /img/games/shop-crush.png
-sidebar_position: 8
+sidebar_position: 2
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46705582
