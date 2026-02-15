@@ -3,7 +3,7 @@ title: Bugdom
 tags: [browser, free]
 description: "Ported the 1999 game Bugdom to the browser and added a bunch of mods."
 screenshot: /img/games/ported-the-1999-game-bugdom-to-the-browser-and-added-a-bunch-of-mods.png
-sidebar_position: 21
+sidebar_position: 63
 dateAdded: 2026-02-10
 submissionMethod: scraped
 hnId: 46941138

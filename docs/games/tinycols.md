@@ -3,7 +3,7 @@ title: Tinycols
 tags: [puzzle]
 description: "A jewel matching game for the terminal, written in C"
 screenshot: /img/games/tinycols.png
-sidebar_position: 28
+sidebar_position: 26
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 42363931
