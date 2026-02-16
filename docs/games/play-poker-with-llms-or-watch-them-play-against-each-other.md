@@ -1,6 +1,6 @@
 ---
 title: llmholdem.com
-tags: [browser, free]
+tags: [browser, free, ai-friendly]
 description: "Play poker with LLMs, or watch them play against each other."
 screenshot: /img/games/play-poker-with-llms-or-watch-them-play-against-each-other.png
 sidebar_position: 84
@@ -18,7 +18,7 @@ points: 163
 | **HN Thread** | [Show HN: Play poker with LLMs, or watch them play against each other](https://news.ycombinator.com/item?id=46569061) |
 | **HN Points** | 163 |
 | **Date Added** | 2026-01-28 |
-| **Tags** | browser, free |
+| **Tags** | browser, free, ai-friendly |
 
 ## About
 

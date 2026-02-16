@@ -1,6 +1,6 @@
 ---
 title: "Hallucinating Splines"
-tags: [simulation]
+tags: [simulation, ai-friendly]
 description: "Hallucinating Splines is a headless city simulator based off Micropolis, the open-source version of the original SimCity (1989). Anyone can pull an API and either have an LLM play the game or build ML/RL models to play and maximize population! What makes it fun is trying to wrangle AI agents into playing properly and optimizing for the right thing."
 dateAdded: 2026-02-12
 submissionMethod: scraped
@@ -20,7 +20,7 @@ sidebar_position: 83
 | **Source** | [github.com/andrewedunn/hallucinating-splines](https://github.com/andrewedunn/hallucinating-splines) |
 | **HN Points** | 204 |
 | **Date Added** | 2026-02-12 |
-| **Tags** | simulation |
+| **Tags** | simulation, ai-friendly |
 
 ## About
 

@@ -1,6 +1,6 @@
 ---
 title: llmgame.ai
-tags: [browser, free]
+tags: [browser, free, ai-friendly]
 description: "llmgame.ai – The Wikipedia Game but with LLMs."
 screenshot: /img/games/llmgame-ai.png
 sidebar_position: 23
@@ -18,7 +18,7 @@ points: 28
 | **HN Thread** | [Show HN: llmgame.ai](https://news.ycombinator.com/item?id=46508299) |
 | **HN Points** | 28 |
 | **Date Added** | 2026-01-28 |
-| **Tags** | browser, free |
+| **Tags** | browser, free, ai-friendly |
 
 ## About
 

@@ -1,0 +1,32 @@
+# HN Arcade
+
+> A curated directory of indie games discovered from Hacker News "Show HN" posts. Browse, discover, and play games built by indie developers.
+
+## Site Info
+
+- URL: https://hnarcade.com
+- All games: https://hnarcade.com/games
+- AI-friendly games: https://hnarcade.com/games/tags/ai-friendly
+- Tags index: https://hnarcade.com/games/tags
+- Submit a game: https://github.com/andrewgy8/hnarcade/issues/new?template=submit-game.yml
+
+## AI-Friendly Games
+
+These games are specifically designed for LLMs and AI agents to play:
+
+- [Hallucinating Splines](https://hallucinatingsplines.com/): A headless city simulator based on Micropolis (open-source SimCity). Pull the API and have an LLM play the game or build ML/RL models to maximize population. Source: https://github.com/andrewedunn/hallucinating-splines
+- [llmgame.ai](https://www.llmgame.ai): The Wikipedia Game but with LLMs.
+- [llmholdem.com](https://llmholdem.com/): Play poker with LLMs, or watch them play against each other.
+
+## Browsing Games
+
+Each game page includes:
+- Title and description
+- Play link (direct URL to the game)
+- Author info
+- HN thread link and points
+- Tags (genre, platform, etc.)
+
+Games can be sorted by: Most Recent, HN Ranking, A-Z, or Random.
+
+Common tags: puzzle, strategy, arcade, sandbox, simulation, rpg, platformer, browser, mobile, desktop, open-source, multiplayer, free, ai-friendly.
