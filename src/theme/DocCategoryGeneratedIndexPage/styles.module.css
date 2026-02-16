@@ -102,8 +102,7 @@
   font-size: 0.95rem;
 }
 
-.sortButton,
-.sortButtonActive {
+.sortButton {
   padding: 0.5rem 1rem;
   border: 1px solid var(--ifm-color-emphasis-400);
   border-radius: 0.375rem;
@@ -121,6 +120,7 @@
 }
 
 .sortButtonActive {
+  composes: sortButton;
   background-color: var(--ifm-color-primary);
   color: white;
   border-color: var(--ifm-color-primary);
