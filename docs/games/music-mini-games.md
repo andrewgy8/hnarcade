@@ -3,7 +3,7 @@ title: Music Mini Games
 tags: [mobile]
 description: "An iOS app to help you sing & play."
 screenshot: /img/games/music-mini-games.png
-sidebar_position: 51
+sidebar_position: 25
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 45697650
