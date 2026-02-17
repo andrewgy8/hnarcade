@@ -3,7 +3,7 @@ title: Eightile
 tags: [puzzle]
 description: "Eightile is a free daily nested anagram solver word game. You unscramble letters to form valid words and each time you do, another letter is added and you do it again. Win by finding an 8-letter word before the time runs out. You can play the game in English, Spanish, French, and Galician."
 screenshot: /img/games/eightile.png
-sidebar_position: 87
+sidebar_position: 20
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 46802682

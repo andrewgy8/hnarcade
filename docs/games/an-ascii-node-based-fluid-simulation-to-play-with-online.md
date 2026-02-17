@@ -3,7 +3,7 @@ title: An ASCII/Node based fluid simulation to play with online
 tags: [browser, free]
 description: "An ASCII/Node based fluid simulation to play with online. Originally posted March 2020. Discovered via HN archive scraper for newsletter 'From the Archives' section."
 screenshot: /img/games/an-ascii-node-based-fluid-simulation-to-play-with-online.png
-sidebar_position: 2
+sidebar_position: 28
 dateAdded: 2026-02-06
 submissionMethod: scraped
 hnId: 22682539
