@@ -3,7 +3,7 @@ title: The Apple Falls
 tags: [browser, free]
 description: "Show HN : A game to document my electronics learning journey.."
 screenshot: /img/games/the-apple-falls.png
-sidebar_position: 79
+sidebar_position: 6
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46477842
