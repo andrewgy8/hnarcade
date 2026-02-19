@@ -3,7 +3,7 @@ title: DanceJump For YouTube
 tags: [browser, free]
 description: "DanceJump For YouTube – turning videos into browser rhythm game."
 screenshot: /img/games/dancejump-for-youtube.png
-sidebar_position: 99
+sidebar_position: 84
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46619844

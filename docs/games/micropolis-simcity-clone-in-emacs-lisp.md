@@ -3,7 +3,7 @@ title: Micropolis/SimCity Clone in Emacs Lisp
 tags: [open-source, strategy, simulation]
 description: "This is a little game implemented over a week of tinkering and targeting Emacs."
 screenshot: /img/games/micropolis-simcity-clone-in-emacs-lisp.png
-sidebar_position: 47
+sidebar_position: 98
 dateAdded: 2026-02-05
 submissionMethod: manual
 hnId: 46897332

@@ -7,7 +7,7 @@ dateAdded: 2026-02-17
 submissionMethod: scraped
 hnId: 40091379
 points: 138
-sidebar_position: 76
+sidebar_position: 91
 ---
 
 # Talk to Me Human
