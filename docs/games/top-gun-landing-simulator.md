@@ -3,7 +3,7 @@ title: Top Gun landing simulator
 tags: [open-source, browser, mobile, desktop]
 description: 'I reverse engineered the "physics" of Top Gun for the NES, and re-implemented it with some tweaks to make it more playable.'
 screenshot: /img/games/top-gun-landing-simulator.png
-sidebar_position: 59
+sidebar_position: 12
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 46274822
