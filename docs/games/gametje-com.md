@@ -3,7 +3,7 @@ title: Gametje.com
 tags: [mobile, browser, multiplayer, paid, free]
 description: "It is a casual gaming platform focused on simple multiplayer games that can be played in person with a central screen (like a TV) or remotely via video chat. You can also play on your smart Android based TVs via the  [Smart TV App](https://play.google.com/store/apps/details?id=com.gametje). It is also available directly in Discord as an [embedded activity](https://discord.com/discovery/applications/1215323000866607125). You can also host and play from a single phone removing the need for a central screen."
 screenshot: /img/games/gametje-com.png
-sidebar_position: 20
+sidebar_position: 71
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 45887709
