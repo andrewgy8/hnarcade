@@ -3,7 +3,7 @@ title: Drop Stack Tetris
 tags: [browser, free]
 description: "I made a Tetris based block puzzle game."
 screenshot: /img/games/drop-stack-tetris.png
-sidebar_position: 95
+sidebar_position: 87
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46667660

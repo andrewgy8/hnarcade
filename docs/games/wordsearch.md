@@ -3,7 +3,7 @@ title: ∞ wordsearch
 tags: [puzzle, mobile, desktop, browser]
 description: "A word search game where the puzzle never ends - as you scroll, the grid expands infinitely and new words appear. It’s quick to pick up, satisfying to play, and super addictive."
 screenshot: /img/games/wordsearch.png
-sidebar_position: 85
+sidebar_position: 70
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 46231460

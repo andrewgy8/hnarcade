@@ -3,7 +3,7 @@ title: Bibdle
 tags: [browser, free]
 description: "A Daily Bible Game."
 screenshot: /img/games/bibdle.png
-sidebar_position: 48
+sidebar_position: 15
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46541885
