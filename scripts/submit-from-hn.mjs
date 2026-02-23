@@ -16,7 +16,7 @@ import { createInterface } from "node:readline/promises";
 // CLI args
 // ---------------------------------------------------------------------------
 
-const { values: flags } = parseArgs({
+const { values: flags, positionals } = parseArgs({
   options: {
     "dry-run": { type: "boolean", default: false },
     help: { type: "boolean", short: "h", default: false },
@@ -174,7 +174,12 @@ function createIssue(item) {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const input = await prompt("HN thread URL or ID: ");
+  // Accept URL/ID as positional argument (for non-interactive use, e.g. GitHub Actions)
+  let input = positionals[0] || process.env.HN_URL || "";
+
+  if (!input) {
+    input = await prompt("HN thread URL or ID: ");
+  }
 
   if (!input) {
     console.error("No URL provided.");
