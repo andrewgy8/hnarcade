@@ -3,7 +3,7 @@ title: Pegasus3301
 tags: [puzzle, strategy, browser, free]
 description: "An online puzzle game inspired by Cicada 3301 that challenges players with hidden clues, ciphers, and subtle misdirection across multiple stages. Designed to reward curiosity and careful reasoning."
 screenshot: /img/games/pegasus3301.png
-sidebar_position: 60
+sidebar_position: 6
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 46795300

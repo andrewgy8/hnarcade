@@ -3,7 +3,7 @@ title: Pigeonholed
 tags: [browser, free, simulation, puzzle]
 description: "This game was inspired by my experience working as a mailman. Specifically the part where you roughly sort letters by zip-code and occasionally deal with letters that are supposed to go to other postal offices or even other countries."
 screenshot: /img/games/pigeonholed.png
-sidebar_position: 49
+sidebar_position: 37
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 42246769

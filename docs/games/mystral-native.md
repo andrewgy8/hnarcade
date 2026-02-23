@@ -3,7 +3,7 @@ title: Mystral Native
 tags: [browser, free]
 description: "Mystral Native – Run JavaScript games natively with WebGPU (no browser)."
 screenshot: /img/games/mystral-native.png
-sidebar_position: 16
+sidebar_position: 22
 dateAdded: 2026-01-30
 submissionMethod: scraped
 hnId: 46784221

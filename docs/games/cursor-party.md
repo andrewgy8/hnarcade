@@ -3,7 +3,7 @@ title: Cursor Party
 tags: [browser, free]
 description: "Cursor Party – An MMO cursor game built in 1 hour with Elixir Phoenix."
 screenshot: /img/games/cursor-party.png
-sidebar_position: 17
+sidebar_position: 20
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46462546
