@@ -1,0 +1,26 @@
+name: Submit Game from HN Link
+
+on:
+  workflow_dispatch:
+    inputs:
+      hn-url:
+        description: 'Hacker News thread URL (e.g. https://news.ycombinator.com/item?id=12345678)'
+        required: true
+        type: string
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Create game submission issue
+        run: node scripts/submit-from-hn.mjs "${{ github.event.inputs.hn-url }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
