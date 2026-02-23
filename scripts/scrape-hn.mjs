@@ -17,6 +17,9 @@
  *
  * Reject mode (mark an HN post as not a valid game):
  *   node scripts/scrape-hn.mjs --reject=17509601      # creates closed issue with not-a-game label
+ *
+ * Add item mode (create a game submission issue for a specific HN post):
+ *   node scripts/scrape-hn.mjs --add-item=47111981 --create-issues
  */
 
 import { readFileSync, readdirSync } from "node:fs";
@@ -38,6 +41,7 @@ const { values: flags } = parseArgs({
     archive: { type: "boolean", default: false },
     month: { type: "string" }, // YYYY-MM format, e.g., "2022-03"
     reject: { type: "string" }, // HN item ID to reject
+    "add-item": { type: "string" }, // HN item ID to add as a game-submission issue
     pick: { type: "string" }, // comma-separated candidate numbers to create issues for (e.g., "1,3,5")
   },
   strict: false,
@@ -50,6 +54,7 @@ const MIN_POINTS = parseInt(flags["min-points"] ?? "5", 10);
 const ARCHIVE_MODE = flags["archive"];
 const ARCHIVE_MONTH = flags["month"]; // undefined means random
 const REJECT_ID = flags["reject"]; // HN ID to mark as not-a-game
+const ADD_ITEM_ID = flags["add-item"]; // HN ID to add as a game-submission issue
 const PICK_CANDIDATES = flags["pick"]; // e.g., "1,3" to pick candidates 1 and 3
 
 const GAME_KEYWORDS =
@@ -209,6 +214,63 @@ async function rejectHNItem(hnId) {
     console.log(`"${gameName}" will be skipped in future scraper runs.`);
   } catch (err) {
     console.error(`Failed to create rejection issue: ${err.message}`);
+    process.exit(1);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 2c. Add a specific HN item as a game-submission issue
+// ---------------------------------------------------------------------------
+
+async function addHNItem(hnId) {
+  console.log(`Fetching HN item ${hnId}...`);
+  let item;
+  try {
+    item = await fetchHNItem(hnId);
+  } catch (err) {
+    console.error(`Failed to fetch HN item ${hnId}: ${err.message}`);
+    process.exit(1);
+  }
+
+  const title = item.title || "";
+  const gameName = extractGameName(title);
+  const url = item.url || "";
+  const author = item.author || "unknown";
+  const points = item.points || 0;
+
+  console.log(`Adding: ${gameName}`);
+  console.log(`  URL:    ${url}`);
+  console.log(`  HN:     https://news.ycombinator.com/item?id=${hnId}`);
+  console.log(`  Points: ${points}  Author: ${author}`);
+  console.log();
+
+  if (!url) {
+    console.error(`HN item ${hnId} has no URL. Cannot create game submission.`);
+    process.exit(1);
+  }
+
+  const candidate = {
+    id: hnId,
+    title,
+    gameName,
+    url,
+    hnUrl: `https://news.ycombinator.com/item?id=${hnId}`,
+    points,
+    author,
+  };
+
+  if (DRY_RUN) {
+    console.log(`[dry-run] Would create game-submission issue for: ${gameName}`);
+    console.log(`  Add --create-issues flag to actually create the issue.`);
+    return;
+  }
+
+  try {
+    createIssue(candidate, false);
+    console.log();
+    console.log(`"${gameName}" has been submitted for review.`);
+  } catch (err) {
+    console.error(`Failed to create game submission issue for "${gameName}": ${err.message}`);
     process.exit(1);
   }
 }
@@ -688,6 +750,8 @@ async function runNormalMode() {
 async function main() {
   if (REJECT_ID) {
     await rejectHNItem(REJECT_ID);
+  } else if (ADD_ITEM_ID) {
+    await addHNItem(ADD_ITEM_ID);
   } else if (ARCHIVE_MODE) {
     await runArchiveMode();
   } else {
