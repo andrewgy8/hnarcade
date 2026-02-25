@@ -3,7 +3,7 @@ title: FuseCells
 tags: [browser, free]
 description: "FuseCells – 2,500 handcrafted levels logic puzzle game with leaderboard."
 screenshot: /img/games/fusecells.png
-sidebar_position: 39
+sidebar_position: 33
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46439772

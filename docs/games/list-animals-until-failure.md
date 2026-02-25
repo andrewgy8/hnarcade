@@ -3,7 +3,7 @@ title: List Animals Until Failure
 tags: [browser, free]
 description: "List animals until failure. Discovered via HN."
 screenshot: /img/games/list-animals-until-failure.png
-sidebar_position: 37
+sidebar_position: 73
 dateAdded: 2026-02-01
 submissionMethod: manual
 hnId: 46842603
