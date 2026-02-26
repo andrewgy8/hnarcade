@@ -3,7 +3,7 @@ title: llmholdem.com
 tags: [browser, free, ai-friendly]
 description: "Play poker with LLMs, or watch them play against each other."
 screenshot: /img/games/play-poker-with-llms-or-watch-them-play-against-each-other.png
-sidebar_position: 104
+sidebar_position: 40
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46569061

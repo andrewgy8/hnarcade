@@ -3,7 +3,7 @@ title: Omiword
 tags: [puzzle, browser, mobile, desktop, free]
 description: "Every day, spell 4 common American English words by dragging tiles within sectors. Puzzles start easy on Mondays, and get trickier throughout the week."
 screenshot: /img/games/omiword.png
-sidebar_position: 57
+sidebar_position: 7
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 43654350
