@@ -3,7 +3,7 @@ title: Quantum Game with Photons
 tags: [puzzle, browser, free, simulation]
 description: "A puzzle game with photons, superposition and quantum measurement, right in your browser. With true quantum mechanics underneath!"
 screenshot: "https://old.quantumgame.io/img/services/gameplay.png"
-sidebar_position: 17
+sidebar_position: 67
 dateAdded: 2026-02-01
 submissionMethod: manual
 hnId: 14432176

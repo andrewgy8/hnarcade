@@ -3,7 +3,7 @@ title: Lichess.el
 tags: [browser, free]
 description: "Lichess.el – Play Lichess Inside Emacs."
 screenshot: /img/games/lichess-el.png
-sidebar_position: 83
+sidebar_position: 42
 dateAdded: 2026-01-30
 submissionMethod: scraped
 hnId: 46779861

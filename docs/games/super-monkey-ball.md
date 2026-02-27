@@ -3,7 +3,7 @@ title: Super Monkey Ball
 tags: [browser, free]
 description: "Super Monkey Ball ported to a website. Discovered via HN."
 screenshot: /img/games/super-monkey-ball.png
-sidebar_position: 90
+sidebar_position: 10
 dateAdded: 2026-02-02
 submissionMethod: manual
 hnId: 46789961

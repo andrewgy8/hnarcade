@@ -3,7 +3,7 @@ title: Underhill
 tags: [browser, free]
 description: "I created a Mars colony RPG based on Kim Stanley Robinson's Mars books."
 screenshot: /img/games/underhill.png
-sidebar_position: 81
+sidebar_position: 17
 dateAdded: 2026-02-09
 submissionMethod: scraped
 hnId: 46936237

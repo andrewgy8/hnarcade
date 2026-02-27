@@ -3,7 +3,7 @@ title: Tiled Words
 tags: [puzzle, free]
 description: "A week ago I launched Tiled Words, my own unique spin on the daily word puzzle genre."
 screenshot: /img/games/tiled-words.png
-sidebar_position: 9
+sidebar_position: 12
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 45750789
