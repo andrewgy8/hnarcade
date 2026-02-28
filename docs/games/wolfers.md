@@ -3,7 +3,7 @@ title: Wolfers
 tags: [puzzle, browser, mobile, desktop, free, arcade]
 description: "Feed your brain and your wolf! Wolfers is a series of games inspired by the iconic Word Munchers and Number Munchers games of the 1980s/1990s. Wolf down correct answers while avoiding the WoeBots! Take refuge in the Safe Space... if it appears in time!"
 screenshot: "https://memalign.github.io/m/wolfer/wolfer.png"
-sidebar_position: 39
+sidebar_position: 105
 dateAdded: 2026-02-08
 submissionMethod: manual
 hnId: 45802499

@@ -3,7 +3,7 @@ title: Draw Line Racing
 tags: [mobile]
 description: "Draw your racing line and your car follows your line"
 screenshot: /img/games/draw-line-racing.png
-sidebar_position: 104
+sidebar_position: 91
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 46311540

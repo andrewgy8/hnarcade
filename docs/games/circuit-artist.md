@@ -3,7 +3,7 @@ title: Circuit Artist
 tags: [simulation, desktop, open-source]
 description: "A circuit simulator where you draw everything. NANDs and pixels. Build gates, ALUs, CPUs — whatever you want. Watch signals flow, rewind time, optimize your layout. Circuits are just images."
 screenshot: /img/games/circuit-artist.gif
-sidebar_position: 97
+sidebar_position: 90
 dateAdded: 2026-02-01
 submissionMethod: manual
 hnId: 46445412

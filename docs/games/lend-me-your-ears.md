@@ -3,7 +3,7 @@ title: Lend Me Your Ears
 tags: [browser, free]
 description: "I made a memory game to teach you to play piano by ear."
 screenshot: /img/games/lend-me-your-ears.png
-sidebar_position: 61
+sidebar_position: 21
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46556210
