@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47111981
 points: 129
 screenshot: /img/games/3d-mahjong-built-in-css.png
-sidebar_position: 85
+sidebar_position: 108
 ---
 
 # 3D Mahjong, Built in CSS

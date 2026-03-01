@@ -3,7 +3,7 @@ title: Guess My RGB
 tags: [browser, mobile, desktop, open-source, free]
 description: "A simple RGB colour guessing game."
 screenshot: /img/games/guess-my-rgb.png
-sidebar_position: 87
+sidebar_position: 8
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 39882018

@@ -3,7 +3,7 @@ title: Chess Hold'em
 tags: [free, browser, mobile, desktop, multiplayer, strategy]
 description: "A combination of chess and poker with customization options. No account needed to play. Compete against the computer or play with a friend."
 screenshot: /img/games/chess-hold-em.png
-sidebar_position: 7
+sidebar_position: 95
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 45548924
