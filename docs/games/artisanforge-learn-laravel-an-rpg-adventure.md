@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 46932044
 points: 25
 screenshot: /img/games/artisanforge-learn-laravel-an-rpg-adventure.png
-sidebar_position: 16
+sidebar_position: 97
 ---
 
 # ArtisanForge: Learn Laravel an RPG adventure
