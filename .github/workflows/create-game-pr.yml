@@ -87,8 +87,14 @@ jobs:
             cleanDesc = cleanDesc.replace(/\s*Discovered via HN scraper\.?\s*$/i, '');
             cleanDesc = cleanDesc.replace(/\s*Originally posted \d{4}-\d{2}\.\s*Discovered via HN archive scraper for newsletter "From the Archives" section\.?\s*$/i, '');
 
-            // First line for frontmatter description
-            const shortDesc = cleanDesc.split('\n')[0].trim();
+            // First line for frontmatter description, sanitized for YAML
+            let shortDesc = cleanDesc.split('\n')[0].trim();
+            // Strip characters that are problematic in YAML double-quoted strings
+            shortDesc = shortDesc.replace(/[\\"`]/g, '').replace(/\s+/g, ' ').trim();
+            // Truncate to a reasonable length for a one-line description
+            if (shortDesc.length > 200) {
+              shortDesc = shortDesc.slice(0, 197) + '...';
+            }
 
             // Determine submission method based on issue labels
             const issueLabels = context.payload.issue.labels.map(l => l.name);
