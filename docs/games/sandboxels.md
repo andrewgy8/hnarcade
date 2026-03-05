@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 46946308
 points: 387
 screenshot: /img/games/sandboxels.png
-sidebar_position: 11
+sidebar_position: 77
 ---
 
 # Sandboxels
