@@ -3,7 +3,7 @@ title: Dungeon Memalign
 tags: [puzzle, rpg, browser, mobile, desktop, free]
 description: "You open your eyes and find yourself in dimly lit surroundings. The air is damp and cool. The smell of mildew reminds you of an old basement. In your head, you label this location 'room 👀👃'."
 screenshot: "https://memalign.github.io/m/dungeon.jpg"
-sidebar_position: 89
+sidebar_position: 31
 dateAdded: 2026-02-08
 submissionMethod: manual
 hnId: 25262631
