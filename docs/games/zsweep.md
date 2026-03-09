@@ -3,7 +3,7 @@ title: Zsweep
 tags: [browser, free]
 description: "Zsweep – Play Minesweeper using only Vim motions."
 screenshot: /img/games/zsweep.png
-sidebar_position: 83
+sidebar_position: 46
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46667849
