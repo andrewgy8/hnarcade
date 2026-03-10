@@ -3,7 +3,7 @@ title: Zener Cards
 tags: [browser, free]
 description: "Play Zener Cards."
 screenshot: /img/games/zener-cards.png
-sidebar_position: 81
+sidebar_position: 16
 dateAdded: 2026-01-30
 submissionMethod: scraped
 hnId: 46819111
