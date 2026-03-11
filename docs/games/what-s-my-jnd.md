@@ -14,7 +14,7 @@ screenshot: /img/games/what-s-my-jnd.png
 | | |
 |---|---|
 | **Author** | [Keithamus](https://news.ycombinator.com/user?id=Keithamus) |
-| **Play** | [www.keithcirkel.co.uk](https://www.keithcirkel.co.uk/whats-my-jnd/?r=ARUjKP__-ve-) |
+| **Play** | [www.keithcirkel.co.uk](https://www.keithcirkel.co.uk/whats-my-jnd/) |
 | **HN Thread** | [Show HN: What's my JND?](https://news.ycombinator.com/item?id=47321188) |
 | **HN Points** | 41 |
 | **Date Added** | 2026-03-11 |
