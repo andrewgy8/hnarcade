@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47034678
 points: 5
 screenshot: /img/games/subletters.png
-sidebar_position: 44
+sidebar_position: 28
 ---
 
 # Subletters
