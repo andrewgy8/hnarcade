@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 46946593
 points: 204
 screenshot: /img/games/hallucinating-splines.png
-sidebar_position: 65
+sidebar_position: 44
 ---
 
 # Hallucinating Splines
