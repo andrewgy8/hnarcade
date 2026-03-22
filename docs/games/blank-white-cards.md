@@ -7,7 +7,7 @@ dateAdded: 2026-03-03
 submissionMethod: scraped
 hnId: 44675377
 points: 1
-sidebar_position: 67
+sidebar_position: 11
 ---
 
 # Blank White Cards
