@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47403343
 points: 6
 screenshot: /img/games/tic-tac-word.png
-sidebar_position: 10
+sidebar_position: 65
 ---
 
 # Tic-Tac-Word
