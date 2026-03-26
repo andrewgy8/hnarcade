@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47197218
 points: 5
 screenshot: /img/games/stacked-game-of-life.png
-sidebar_position: 86
+sidebar_position: 109
 ---
 
 # Stacked Game of Life
