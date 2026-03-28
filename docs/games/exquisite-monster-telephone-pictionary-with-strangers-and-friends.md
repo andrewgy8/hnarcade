@@ -7,7 +7,7 @@ dateAdded: 2026-03-03
 submissionMethod: scraped
 hnId: 47223604
 points: 1
-sidebar_position: 69
+sidebar_position: 84
 ---
 
 # Exquisite.Monster – Telephone Pictionary with strangers and friends
