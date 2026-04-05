@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47501632
 points: 7
 screenshot: /img/games/off-by.png
-sidebar_position: 53
+sidebar_position: 98
 ---
 
 # Off By
