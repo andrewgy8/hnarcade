@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47600002
 points: 6
 screenshot: /img/games/mario-galaxy-style-game.png
-sidebar_position: 131
+sidebar_position: 57
 ---
 
 # Mario Galaxy Style Game
