@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47492770
 points: 5
 screenshot: /img/games/daily-unfold.png
-sidebar_position: 64
+sidebar_position: 54
 ---
 
 # Daily Unfold
