@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 47729925
 points: 6
 screenshot: /img/games/kampfinsel.png
+sidebar_position: 47
 ---
 
 # Kampfinsel

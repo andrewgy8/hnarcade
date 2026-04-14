@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47321188
 points: 41
 screenshot: /img/games/what-s-my-jnd.png
-sidebar_position: 57
+sidebar_position: 131
 ---
 
 # What's my JND?
