@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47141214
 points: 5
 screenshot: /img/games/permanent-underclass.png
-sidebar_position: 97
+sidebar_position: 118
 ---
 
 # Permanent Underclass
