@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47729477
 points: 46
 screenshot: /img/games/hormuz-havoc.png
-sidebar_position: 112
+sidebar_position: 65
 ---
 
 # Hormuz Havoc
