@@ -3,7 +3,7 @@ title: Tidy Baby
 tags: [browser, free]
 description: "Tidy Baby is a SET game but with words."
 screenshot: /img/games/tidy-baby.png
-sidebar_position: 152
+sidebar_position: 20
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46434580
