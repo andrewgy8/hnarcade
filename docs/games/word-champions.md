@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 22422347
 points: 76
 screenshot: /img/games/word-champions.png
-sidebar_position: 22
+sidebar_position: 122
 ---
 
 # Word Champions
