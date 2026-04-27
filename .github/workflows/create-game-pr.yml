@@ -42,12 +42,21 @@ jobs:
 
             const data = JSON.parse(process.env.ISSUE_JSON);
 
+            // Submitters sometimes paste URLs without a scheme (e.g. "www.example.com").
+            // new URL() rejects those, so normalize before any URL parsing.
+            const normalizeUrl = (u) => {
+              if (!u) return '';
+              const trimmed = u.trim();
+              if (!trimmed) return '';
+              return /^[a-z][a-z0-9+.-]*:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`;
+            };
+
             const gameName = data['game-name'];
-            const playUrl = data['play-url'];
+            const playUrl = normalizeUrl(data['play-url']);
             const hnThread = data['hn-thread'];
             const authorName = data['author-name'];
-            const authorUrl = data['author-url'] || '';
-            const sourceUrl = data['source-url'] || '';
+            const authorUrl = normalizeUrl(data['author-url']);
+            const sourceUrl = normalizeUrl(data['source-url']);
             const screenshotUrl = data['screenshot-url'] || '';
             const tags = data['tags'];
             const description = data['description'];
