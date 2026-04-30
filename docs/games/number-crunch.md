@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 46858221
 points: 4
 screenshot: /img/games/number-crunch.png
-sidebar_position: 18
+sidebar_position: 80
 ---
 
 # Number Crunch
