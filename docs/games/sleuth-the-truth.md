@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47787081
 points: 5
 screenshot: /img/games/sleuth-the-truth.png
-sidebar_position: 124
+sidebar_position: 78
 ---
 
 # Sleuth the Truth

@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47842342
 points: 5
 screenshot: /img/games/trees-hate-you.png
-sidebar_position: 109
+sidebar_position: 48
 ---
 
 # Trees Hate You
