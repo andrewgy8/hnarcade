@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47794703
 points: 5
 screenshot: /img/games/gitori.png
-sidebar_position: 133
+sidebar_position: 10
 ---
 
 # Gitori
