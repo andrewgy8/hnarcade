@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47914369
 points: 50
 screenshot: /img/games/tiao.png
-sidebar_position: 81
+sidebar_position: 153
 ---
 
 # Tiao

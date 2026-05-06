@@ -3,7 +3,7 @@ title: llmgame.ai
 tags: [browser, free, ai-friendly]
 description: "llmgame.ai – The Wikipedia Game but with LLMs."
 screenshot: /img/games/llmgame-ai.png
-sidebar_position: 59
+sidebar_position: 55
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46508299
