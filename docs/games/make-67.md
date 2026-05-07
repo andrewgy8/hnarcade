@@ -3,7 +3,7 @@ title: Make 67
 tags: [browser, free]
 description: "Make 67 – a tiny maths game."
 screenshot: /img/games/make-67.png
-sidebar_position: 58
+sidebar_position: 21
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46431819

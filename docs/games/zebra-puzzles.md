@@ -3,7 +3,7 @@ title: Zebra Puzzles
 tags: [puzzle]
 description: "Daily zebra puzzle with hundreds of different themes."
 screenshot: /img/games/zebra-puzzles.png
-sidebar_position: 1
+sidebar_position: 5
 dateAdded: 2026-01-30
 submissionMethod: manual
 hnId: 39765519
