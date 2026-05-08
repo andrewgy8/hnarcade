@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47954074
 points: 21
 screenshot: /img/games/simdrive.png
-sidebar_position: 72
+sidebar_position: 18
 ---
 
 # SimDrive
