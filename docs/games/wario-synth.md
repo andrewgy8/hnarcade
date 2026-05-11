@@ -3,7 +3,7 @@ title: Wario Synth
 tags: [browser, free]
 description: "Wario Synth – Turn any song into Game Boy version."
 screenshot: /img/games/wario-synth.png
-sidebar_position: 22
+sidebar_position: 148
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46452916

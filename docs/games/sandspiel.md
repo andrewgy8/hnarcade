@@ -3,7 +3,7 @@ title: Sandspiel
 tags: [sandbox, simulation, open-source, browser]
 description: "A falling sand game built with Rust and WebAssembly."
 screenshot: /img/games/sandspiel.png
-sidebar_position: 12
+sidebar_position: 107
 dateAdded: 2026-01-28
 submissionMethod: manual
 hnId: 18696291
