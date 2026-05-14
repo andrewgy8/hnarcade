@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47117747
 points: 5
 screenshot: /img/games/gridl.png
-sidebar_position: 158
+sidebar_position: 12
 ---
 
 # Gridl

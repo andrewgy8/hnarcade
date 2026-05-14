@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47591630
 points: 0
 screenshot: /img/games/wild-magic.png
-sidebar_position: 126
+sidebar_position: 71
 ---
 
 # Wild Magic
