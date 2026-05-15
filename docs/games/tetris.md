@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47923359
 points: 7
 screenshot: /img/games/tetris.png
-sidebar_position: 47
+sidebar_position: 42
 ---
 
 # Tetris

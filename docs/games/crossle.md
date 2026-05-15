@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47430505
 points: 9
 screenshot: /img/games/crossle.png
-sidebar_position: 132
+sidebar_position: 15
 ---
 
 # Crossle
