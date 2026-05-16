@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 20668273
 points: 9
 screenshot: /img/games/web-liero.png
-sidebar_position: 2
+sidebar_position: 124
 ---
 
 # Web Liero
