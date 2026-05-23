@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47282303
 points: 5
 screenshot: /img/games/neonetrek.png
-sidebar_position: 50
+sidebar_position: 161
 ---
 
 # NeoNetrek
