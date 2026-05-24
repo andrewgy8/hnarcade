@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47698455
 points: 39
 screenshot: /img/games/starfling.png
-sidebar_position: 46
+sidebar_position: 94
 ---
 
 # Starfling
