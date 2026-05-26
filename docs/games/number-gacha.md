@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48123359
 points: 143
 screenshot: /img/games/number-gacha.png
-sidebar_position: 33
+sidebar_position: 10
 ---
 
 # Number Gacha
