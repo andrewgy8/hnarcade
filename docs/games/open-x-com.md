@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47437801
 points: 5
 screenshot: /img/games/open-x-com.png
-sidebar_position: 102
+sidebar_position: 50
 ---
 
 # Open X-Com

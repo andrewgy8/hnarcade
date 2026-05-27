@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47592307
 points: 5
 screenshot: /img/games/ironedome-commander.png
-sidebar_position: 17
+sidebar_position: 86
 ---
 
 # Ironedome Commander
