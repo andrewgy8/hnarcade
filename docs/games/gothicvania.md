@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47034752
 points: 3
 screenshot: /img/games/gothicvania.png
-sidebar_position: 2
+sidebar_position: 125
 ---
 
 # Gothicvania

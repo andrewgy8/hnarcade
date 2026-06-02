@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47913044
 points: 7
 screenshot: /img/games/time-pin.png
-sidebar_position: 9
+sidebar_position: 21
 ---
 
 # Time Pin
