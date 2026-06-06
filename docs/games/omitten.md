@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48221356
 points: 6
 screenshot: /img/games/omitten.png
-sidebar_position: 53
+sidebar_position: 14
 ---
 
 # Omitten
