@@ -32,6 +32,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
