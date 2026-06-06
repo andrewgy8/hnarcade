@@ -31,7 +31,6 @@
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "playwright": "^1.58.1",
-    "posthog-js": "^1.381.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
