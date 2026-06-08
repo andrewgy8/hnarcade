@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47328876
 points: 8
 screenshot: /img/games/artifice.png
-sidebar_position: 156
+sidebar_position: 113
 ---
 
 # Artifice
