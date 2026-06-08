@@ -11,7 +11,17 @@ import Heading from '@theme/Heading';
 import type {Props} from '@theme/DocCategoryGeneratedIndexPage';
 
 import styles from './styles.module.css';
-import { trackEvent } from '@site/src/utils/analytics';
+
+// Google Analytics gtag function type
+declare global {
+  interface Window {
+    gtag?: (
+      command: string,
+      eventName: string,
+      params?: Record<string, any>
+    ) => void;
+  }
+}
 
 function DocCategoryGeneratedIndexPageMetadata({
   categoryGeneratedIndex,
@@ -57,28 +67,36 @@ function DocCategoryGeneratedIndexPageContent({
     return [];
   });
 
-  // Save sort preference to localStorage and track analytics
+  // Save sort preference to localStorage and track with Google Analytics
   useEffect(() => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('gamesSortMode', sortMode);
-      trackEvent('sort_games', {
-        event_category: 'Games',
-        event_label: sortMode,
-        sort_mode: sortMode,
-      });
+
+      // Track sort mode change with Google Analytics
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'sort_games', {
+          event_category: 'Games',
+          event_label: sortMode,
+          sort_mode: sortMode,
+        });
+      }
     }
   }, [sortMode]);
 
-  // Save tag selection to localStorage and track analytics
+  // Save tag selection to localStorage and track with Google Analytics
   useEffect(() => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('gamesSelectedTags', JSON.stringify(selectedTags));
-      trackEvent('filter_games', {
-        event_category: 'Games',
-        event_label: selectedTags.length > 0 ? selectedTags.join(',') : 'none',
-        selected_tags: selectedTags,
-        filter_count: selectedTags.length,
-      });
+
+      // Track tag filter changes with Google Analytics
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'filter_games', {
+          event_category: 'Games',
+          event_label: selectedTags.length > 0 ? selectedTags.join(',') : 'none',
+          selected_tags: selectedTags,
+          filter_count: selectedTags.length,
+        });
+      }
     }
   }, [selectedTags]);
 
@@ -107,11 +125,14 @@ function DocCategoryGeneratedIndexPageContent({
 
   // Clear all tag filters
   const clearTagFilters = () => {
-    trackEvent('clear_filters', {
-      event_category: 'Games',
-      event_label: 'clear_all',
-      previous_filter_count: selectedTags.length,
-    });
+    // Track clear action with Google Analytics
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'clear_filters', {
+        event_category: 'Games',
+        event_label: 'clear_all',
+        previous_filter_count: selectedTags.length,
+      });
+    }
     setSelectedTags([]);
   };
 
