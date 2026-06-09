@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47917521
 points: 7
 screenshot: /img/games/paper-millionaire.png
-sidebar_position: 94
+sidebar_position: 155
 ---
 
 # Paper Millionaire
