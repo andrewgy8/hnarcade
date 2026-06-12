@@ -3,7 +3,7 @@ title: Reel Rogue
 tags: [browser, free]
 description: "Reel Rogue – A browser roguelike (idler) about manipulating the odds."
 screenshot: /img/games/reel-rogue.png
-sidebar_position: 22
+sidebar_position: 163
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46749314
