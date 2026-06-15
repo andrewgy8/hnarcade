@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47145082
 points: 5
 screenshot: /img/games/linex.png
-sidebar_position: 138
+sidebar_position: 12
 ---
 
 # Linex
