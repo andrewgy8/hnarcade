@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47915274
 points: 28
 screenshot: /img/games/startup-equity-adventure.png
-sidebar_position: 62
+sidebar_position: 137
 ---
 
 # Startup Equity Adventure
