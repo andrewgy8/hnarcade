@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 31785199
 points: 815
 screenshot: /img/games/sim-central-bank.png
-sidebar_position: 82
+sidebar_position: 24
 ---
 
 # Sim Central Bank

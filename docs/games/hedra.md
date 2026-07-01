@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47377736
 points: 6
 screenshot: /img/games/hedra.png
-sidebar_position: 10
+sidebar_position: 70
 ---
 
 # Hedra
