@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47271751
 points: 24
 screenshot: /img/games/yare.png
-sidebar_position: 87
+sidebar_position: 140
 ---
 
 # Yare
