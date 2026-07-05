@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47019979
 points: 6
 screenshot: /img/games/the-alan-parsons-project.png
-sidebar_position: 26
+sidebar_position: 88
 ---
 
 # The Alan Parsons Project

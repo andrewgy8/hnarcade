@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48524289
 points: 6
 screenshot: /img/games/motplot.png
-sidebar_position: 100
+sidebar_position: 119
 ---
 
 # Motplot
