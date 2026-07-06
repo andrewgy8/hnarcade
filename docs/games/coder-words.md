@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48241225
 points: 8
 screenshot: /img/games/coder-words.png
-sidebar_position: 58
+sidebar_position: 67
 ---
 
 # Coder Words
