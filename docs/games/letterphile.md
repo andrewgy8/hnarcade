@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48773232
 points: 5
 screenshot: /img/games/letterphile.png
-sidebar_position: 49
+sidebar_position: 83
 ---
 
 # Letterphile

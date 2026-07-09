@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48798153
 points: 177
 screenshot: /img/games/homegames.png
-sidebar_position: 189
+sidebar_position: 77
 ---
 
 # Homegames
