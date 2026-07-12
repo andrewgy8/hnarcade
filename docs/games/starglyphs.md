@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48702104
 points: 26
 screenshot: /img/games/starglyphs.png
-sidebar_position: 8
+sidebar_position: 161
 ---
 
 # Starglyphs
