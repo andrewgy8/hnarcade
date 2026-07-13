@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47920666
 points: 5
 screenshot: /img/games/yubiclicker.png
-sidebar_position: 82
+sidebar_position: 133
 ---
 
 # YubiClicker
