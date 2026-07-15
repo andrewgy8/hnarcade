@@ -3,7 +3,7 @@ title: Alien Abducto-rama
 tags: [browser, free]
 description: "Alien Abducto-rama: a FUN browser game I made with my kids."
 screenshot: /img/games/alien-abducto-rama.png
-sidebar_position: 189
+sidebar_position: 103
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46744524
