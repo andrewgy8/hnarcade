@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47719740
 points: 754
 screenshot: /img/games/1d-chess.png
-sidebar_position: 142
+sidebar_position: 3
 ---
 
 # 1D Chess
