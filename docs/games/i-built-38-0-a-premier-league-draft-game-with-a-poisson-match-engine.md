@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48839681
 points: 5
 screenshot: /img/games/i-built-38-0-a-premier-league-draft-game-with-a-poisson-match-engine.png
-sidebar_position: 38
+sidebar_position: 187
 ---
 
 # I built 38-0, a Premier League draft game with a Poisson match engine
