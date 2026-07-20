@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48788180
 points: 5
 screenshot: /img/games/typocalypse.png
-sidebar_position: 56
+sidebar_position: 87
 ---
 
 # Typocalypse
