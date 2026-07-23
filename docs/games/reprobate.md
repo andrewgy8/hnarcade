@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47282225
 points: 28
 screenshot: /img/games/reprobate.png
-sidebar_position: 28
+sidebar_position: 134
 ---
 
 # Reprobate
