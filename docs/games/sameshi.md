@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47014500
 points: 215
 screenshot: /img/games/sameshi.png
-sidebar_position: 24
+sidebar_position: 86
 ---
 
 # Sameshi
