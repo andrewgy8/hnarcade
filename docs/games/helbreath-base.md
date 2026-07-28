@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47328190
 points: 5
 screenshot: /img/games/helbreath-base.png
-sidebar_position: 152
+sidebar_position: 147
 ---
 
 # Helbreath Base

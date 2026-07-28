@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47640728
 points: 184
 screenshot: /img/games/mvidia.png
-sidebar_position: 192
+sidebar_position: 201
 ---
 
 # Mvidia
