@@ -6,7 +6,7 @@ dateAdded: 2026-06-29
 submissionMethod: scraped
 hnId: 48629213
 points: 251
-sidebar_position: 49
+sidebar_position: 41
 ---
 
 # Puzzle Air
