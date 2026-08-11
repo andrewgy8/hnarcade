@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48308376
 points: 376
 screenshot: /img/games/continue-y-n.png
-sidebar_position: 28
+sidebar_position: 32
 ---
 
 # Continue? Y/N

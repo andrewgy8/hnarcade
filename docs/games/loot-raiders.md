@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48889064
 points: 10
 screenshot: /img/games/loot-raiders.png
-sidebar_position: 57
+sidebar_position: 162
 ---
 
 # Loot Raiders
