@@ -3,7 +3,7 @@ title: Chaos Flappy
 tags: [platformer, arcade]
 description: "Chaotic version of Flappy Bird"
 screenshot: /img/games/chaos-flappy.png
-sidebar_position: 14
+sidebar_position: 60
 dateAdded: 2026-01-30
 submissionMethod: manual
 hnId: 46001989
