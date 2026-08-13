@@ -7,7 +7,7 @@ dateAdded: 2026-04-13
 submissionMethod: scraped
 hnId: 47337776
 points: 1
-sidebar_position: 22
+sidebar_position: 116
 ---
 
 # Knowledge Worker
