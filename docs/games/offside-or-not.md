@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 26825724
 points: 61
 screenshot: /img/games/offside-or-not.png
-sidebar_position: 44
+sidebar_position: 26
 ---
 
 # Offside or Not

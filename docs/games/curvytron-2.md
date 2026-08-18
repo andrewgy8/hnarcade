@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48733433
 points: 15
 screenshot: /img/games/curvytron-2.png
-sidebar_position: 105
+sidebar_position: 12
 ---
 
 # Curvytron 2

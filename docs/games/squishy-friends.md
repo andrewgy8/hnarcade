@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48506364
 points: 5
 screenshot: /img/games/squishy-friends.png
-sidebar_position: 42
+sidebar_position: 157
 ---
 
 # Squishy & Friends

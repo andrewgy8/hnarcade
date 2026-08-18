@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47589735
 points: 10
 screenshot: /img/games/wageslave.png
-sidebar_position: 200
+sidebar_position: 174
 ---
 
 # Wageslave
