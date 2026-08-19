@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47564919
 points: 5
 screenshot: /img/games/danobang.png
-sidebar_position: 126
+sidebar_position: 91
 ---
 
 # Danobang!
