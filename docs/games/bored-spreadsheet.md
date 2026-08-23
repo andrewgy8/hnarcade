@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48447238
 points: 19
 screenshot: /img/games/bored-spreadsheet.png
-sidebar_position: 148
+sidebar_position: 89
 ---
 
 # Bored Spreadsheet
