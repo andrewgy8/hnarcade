@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48977628
 points: 70
 screenshot: /img/games/read-the-tape.png
-sidebar_position: 188
+sidebar_position: 85
 ---
 
 # Read the Tape

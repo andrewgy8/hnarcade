@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48510341
 points: 154
 screenshot: /img/games/putt-day.png
-sidebar_position: 125
+sidebar_position: 16
 ---
 
 # Putt.day
