@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48941510
 points: 5
 screenshot: /img/games/deadly-dispatch.png
-sidebar_position: 173
+sidebar_position: 161
 ---
 
 # Deadly Dispatch
