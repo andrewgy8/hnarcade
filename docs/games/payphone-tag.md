@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47563177
 points: 14
 screenshot: /img/games/payphone-tag.png
-sidebar_position: 37
+sidebar_position: 195
 ---
 
 # Payphone Tag
