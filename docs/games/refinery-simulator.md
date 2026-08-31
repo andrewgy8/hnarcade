@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47338091
 points: 127
 screenshot: /img/games/refinery-simulator.png
-sidebar_position: 111
+sidebar_position: 198
 ---
 
 # Refinery Simulator
