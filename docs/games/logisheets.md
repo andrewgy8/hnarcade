@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49030100
 points: 19
 screenshot: /img/games/logisheets.png
-sidebar_position: 196
+sidebar_position: 67
 ---
 
 # Logisheets
