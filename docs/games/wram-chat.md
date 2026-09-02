@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48951768
 points: 6
 screenshot: /img/games/wram-chat.png
-sidebar_position: 193
+sidebar_position: 157
 ---
 
 # Wram.chat
