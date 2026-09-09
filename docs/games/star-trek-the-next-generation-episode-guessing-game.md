@@ -3,7 +3,7 @@ title: "Star Trek: The Next Generation Episode Guessing Game"
 tags: [browser, free]
 description: "Star Trek: The Next Generation Episode Guessing Game."
 screenshot: /img/games/star-trek-the-next-generation-episode-guessing-game.png
-sidebar_position: 176
+sidebar_position: 88
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46553532
