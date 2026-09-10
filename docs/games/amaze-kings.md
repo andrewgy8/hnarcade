@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 49578046
 points: 16
 screenshot: /img/games/amaze-kings.png
+sidebar_position: 166
 ---
 
 # Amaze Kings
