@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49343029
 points: 9
 screenshot: /img/games/loft-day.png
-sidebar_position: 225
+sidebar_position: 106
 ---
 
 # Loft Day
