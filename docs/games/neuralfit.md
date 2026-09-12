@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48767589
 points: 6
 screenshot: /img/games/neuralfit.png
-sidebar_position: 209
+sidebar_position: 175
 ---
 
 # NeuralFit

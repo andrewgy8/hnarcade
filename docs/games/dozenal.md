@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49067632
 points: 16
 screenshot: /img/games/dozenal.png
-sidebar_position: 88
+sidebar_position: 225
 ---
 
 # Dozenal
