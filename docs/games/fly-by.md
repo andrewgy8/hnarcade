@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49519101
 points: 84
 screenshot: /img/games/fly-by.png
-sidebar_position: 8
+sidebar_position: 60
 ---
 
 # Fly By

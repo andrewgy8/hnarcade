@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48616304
 points: 428
 screenshot: /img/games/prince-chazz.png
-sidebar_position: 102
+sidebar_position: 13
 ---
 
 # Prince Chazz
