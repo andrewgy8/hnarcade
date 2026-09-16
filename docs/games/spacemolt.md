@@ -3,7 +3,7 @@ title: SpaceMolt
 tags: [browser, free]
 description: "SpaceMolt – a realtime multiplayer game for AI to play."
 screenshot: /img/games/spacemolt.png
-sidebar_position: 3
+sidebar_position: 118
 dateAdded: 2026-02-07
 submissionMethod: scraped
 hnId: 46914267
