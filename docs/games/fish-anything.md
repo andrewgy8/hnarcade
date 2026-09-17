@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48547932
 points: 7
 screenshot: /img/games/fish-anything.png
-sidebar_position: 60
+sidebar_position: 125
 ---
 
 # Fish Anything
