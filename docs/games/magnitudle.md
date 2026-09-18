@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49067672
 points: 0
 screenshot: /img/games/magnitudle.png
-sidebar_position: 126
+sidebar_position: 129
 ---
 
 # Magnitudle
