@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48585739
 points: 242
 screenshot: /img/games/gerrymandle.png
-sidebar_position: 129
+sidebar_position: 195
 ---
 
 # Gerrymandle
