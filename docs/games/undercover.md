@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49419423
 points: 6
 screenshot: /img/games/undercover.png
-sidebar_position: 219
+sidebar_position: 77
 ---
 
 # Undercover
