@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49525284
 points: 5
 screenshot: /img/games/three-pins.png
-sidebar_position: 126
+sidebar_position: 160
 ---
 
 # Three Pins
