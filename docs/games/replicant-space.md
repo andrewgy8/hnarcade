@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49103612
 points: 11
 screenshot: /img/games/replicant-space.png
-sidebar_position: 16
+sidebar_position: 120
 ---
 
 # Replicant Space
