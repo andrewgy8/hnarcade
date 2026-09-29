@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47149586
 points: 140
 screenshot: /img/games/llm-skirmish.png
-sidebar_position: 193
+sidebar_position: 184
 ---
 
 # LLM Skirmish

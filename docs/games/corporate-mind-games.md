@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49511400
 points: 50
 screenshot: /img/games/corporate-mind-games.png
-sidebar_position: 213
+sidebar_position: 229
 ---
 
 # Corporate Mind Games
