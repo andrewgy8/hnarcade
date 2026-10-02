@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49433314
 points: 12
 screenshot: /img/games/wirespan.png
-sidebar_position: 201
+sidebar_position: 206
 ---
 
 # Wirespan
