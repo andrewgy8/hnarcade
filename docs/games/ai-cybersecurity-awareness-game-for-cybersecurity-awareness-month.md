@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49552687
 points: 5
 screenshot: /img/games/ai-cybersecurity-awareness-game-for-cybersecurity-awareness-month.png
-sidebar_position: 140
+sidebar_position: 86
 ---
 
 # AI Cybersecurity Awareness Game for Cybersecurity Awareness Month
