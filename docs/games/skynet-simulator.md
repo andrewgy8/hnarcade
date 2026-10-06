@@ -3,7 +3,7 @@ title: Skynet Simulator
 tags: [puzzle]
 description: "Make Skynet!"
 screenshot: /img/games/skynet-simulator.png
-sidebar_position: 121
+sidebar_position: 135
 dateAdded: 2026-01-29
 submissionMethod: manual
 hnId: 22685011

@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 49851776
 points: 15
 screenshot: /img/games/unspin.png
+sidebar_position: 212
 ---
 
 # Unspin
