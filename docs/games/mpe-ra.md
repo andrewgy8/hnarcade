@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48721632
 points: 6
 screenshot: /img/games/mpe-ra.png
-sidebar_position: 106
+sidebar_position: 150
 ---
 
 # MPE-RA

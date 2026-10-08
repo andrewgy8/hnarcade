@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49931993
 points: 93
 screenshot: /img/games/against-all-odds.png
-sidebar_position: 159
+sidebar_position: 36
 ---
 
 # Against All Odds

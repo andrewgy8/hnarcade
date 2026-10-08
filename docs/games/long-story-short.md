@@ -7,7 +7,7 @@ dateAdded: 2026-09-28
 submissionMethod: scraped
 hnId: 49446481
 points: 3
-sidebar_position: 86
+sidebar_position: 204
 ---
 
 # Long Story Short

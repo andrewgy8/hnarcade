@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48274711
 points: 102
 screenshot: /img/games/earthion.png
-sidebar_position: 11
+sidebar_position: 32
 ---
 
 # Earthion
