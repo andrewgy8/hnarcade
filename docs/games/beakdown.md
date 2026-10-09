@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49088969
 points: 11
 screenshot: /img/games/beakdown.png
-sidebar_position: 117
+sidebar_position: 72
 ---
 
 # Beakdown

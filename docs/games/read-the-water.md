@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49159346
 points: 24
 screenshot: /img/games/read-the-water.png
-sidebar_position: 113
+sidebar_position: 221
 ---
 
 # Read the Water

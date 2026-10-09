@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49061879
 points: 23
 screenshot: /img/games/infinite-jigsaw.png
-sidebar_position: 28
+sidebar_position: 230
 ---
 
 # Infinite Jigsaw

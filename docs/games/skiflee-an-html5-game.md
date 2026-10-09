@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47621557
 points: 7
 screenshot: /img/games/skiflee-an-html5-game.png
-sidebar_position: 82
+sidebar_position: 89
 ---
 
 # SkiFlee (an HTML5 game)
