@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48999505
 points: 5
 screenshot: /img/games/bigfoot-s-british-columbia.png
-sidebar_position: 57
+sidebar_position: 53
 ---
 
 # Bigfoot's British Columbia

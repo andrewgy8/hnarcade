@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49319392
 points: 7
 screenshot: /img/games/daily-metro.png
-sidebar_position: 26
+sidebar_position: 49
 ---
 
 # Daily Metro

@@ -7,7 +7,7 @@ dateAdded: 2026-10-05
 submissionMethod: scraped
 hnId: 49892365
 points: 1
-sidebar_position: 151
+sidebar_position: 119
 ---
 
 # Fribble

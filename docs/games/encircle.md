@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47623053
 points: 21
 screenshot: /img/games/encircle.png
-sidebar_position: 207
+sidebar_position: 23
 ---
 
 # Encircle
