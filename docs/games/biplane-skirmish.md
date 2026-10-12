@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49847157
 points: 7
 screenshot: /img/games/biplane-skirmish.png
-sidebar_position: 109
+sidebar_position: 143
 ---
 
 # Biplane Skirmish

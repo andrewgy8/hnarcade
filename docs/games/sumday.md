@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49464247
 points: 5
 screenshot: /img/games/sumday.png
-sidebar_position: 105
+sidebar_position: 116
 ---
 
 # Sumday
