@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49895326
 points: 9
 screenshot: /img/games/free-games-for-seniors.png
-sidebar_position: 7
+sidebar_position: 204
 ---
 
 # Free Games for Seniors
