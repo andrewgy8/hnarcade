@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49108571
 points: 102
 screenshot: /img/games/chip-builder.png
-sidebar_position: 184
+sidebar_position: 201
 ---
 
 # Chip Builder

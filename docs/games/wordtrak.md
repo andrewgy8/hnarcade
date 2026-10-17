@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48021420
 points: 69
 screenshot: /img/games/wordtrak.png
-sidebar_position: 95
+sidebar_position: 71
 ---
 
 # Wordtrak
