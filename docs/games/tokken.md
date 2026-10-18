@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49858875
 points: 5
 screenshot: /img/games/tokken.png
-sidebar_position: 126
+sidebar_position: 46
 ---
 
 # Tokken

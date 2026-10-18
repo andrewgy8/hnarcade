@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49582075
 points: 6
 screenshot: /img/games/blocknado.png
-sidebar_position: 9
+sidebar_position: 41
 ---
 
 # Blocknado
