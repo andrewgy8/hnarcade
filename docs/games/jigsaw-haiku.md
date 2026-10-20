@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49568162
 points: 117
 screenshot: /img/games/jigsaw-haiku.png
-sidebar_position: 141
+sidebar_position: 84
 ---
 
 # Jigsaw Haiku
