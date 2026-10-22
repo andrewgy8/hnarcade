@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48250237
 points: 12
 screenshot: /img/games/ai-model-idle.png
-sidebar_position: 103
+sidebar_position: 183
 ---
 
 # AI Model Idle
