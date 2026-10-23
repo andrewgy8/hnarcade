@@ -3,7 +3,7 @@ title: Lichess
 tags: [strategy, multiplayer, open-source, browser]
 description: "Free, open-source chess server powered by volunteers and donations."
 screenshot: /img/games/lichess.png
-sidebar_position: 199
+sidebar_position: 88
 dateAdded: 2026-01-28
 submissionMethod: manual
 hnId: 32045763
