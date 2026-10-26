@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50077567
 points: 5
 screenshot: /img/games/blueline-hockey.png
+sidebar_position: 79
 ---
 
 # Blueline Hockey

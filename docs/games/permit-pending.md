@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50170593
 points: 752
 screenshot: /img/games/permit-pending.png
-sidebar_position: 35
+sidebar_position: 193
 ---
 
 # Permit Pending
