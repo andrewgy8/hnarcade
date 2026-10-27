@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50182266
 points: 5
 screenshot: /img/games/gembop.png
-sidebar_position: 62
+sidebar_position: 125
 ---
 
 # Gembop
