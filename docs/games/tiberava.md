@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50200570
 points: 6
 screenshot: /img/games/tiberava.png
-sidebar_position: 42
+sidebar_position: 248
 ---
 
 # Tiberava

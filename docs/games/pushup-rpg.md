@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49455695
 points: 21
 screenshot: /img/games/pushup-rpg.png
-sidebar_position: 144
+sidebar_position: 192
 ---
 
 # Pushup RPG
