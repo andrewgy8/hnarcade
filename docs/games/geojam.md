@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48845883
 points: 8
 screenshot: /img/games/geojam.png
-sidebar_position: 25
+sidebar_position: 247
 ---
 
 # Geojam

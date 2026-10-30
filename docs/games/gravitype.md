@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49765740
 points: 5
 screenshot: /img/games/gravitype.png
-sidebar_position: 158
+sidebar_position: 185
 ---
 
 # Gravitype

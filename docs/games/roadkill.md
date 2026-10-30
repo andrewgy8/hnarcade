@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50148589
 points: 9
 screenshot: /img/games/roadkill.png
-sidebar_position: 40
+sidebar_position: 160
 ---
 
 # Roadkill
