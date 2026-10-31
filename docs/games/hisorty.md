@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47873966
 points: 72
 screenshot: /img/games/hisorty.png
-sidebar_position: 141
+sidebar_position: 160
 ---
 
 # Hisorty

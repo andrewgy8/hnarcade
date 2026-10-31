@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50169128
 points: 5
 screenshot: /img/games/megapop.png
-sidebar_position: 220
+sidebar_position: 183
 ---
 
 # Megapop
