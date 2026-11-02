@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48277272
 points: 5
 screenshot: /img/games/star-guessr.png
-sidebar_position: 161
+sidebar_position: 219
 ---
 
 # Star Guessr

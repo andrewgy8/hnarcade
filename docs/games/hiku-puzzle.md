@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49986878
 points: 5
 screenshot: /img/games/hiku-puzzle.png
-sidebar_position: 78
+sidebar_position: 164
 ---
 
 # Hiku Puzzle
