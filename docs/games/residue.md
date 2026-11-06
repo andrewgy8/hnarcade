@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50059969
 points: 5
 screenshot: /img/games/residue.png
-sidebar_position: 188
+sidebar_position: 5
 ---
 
 # Residue

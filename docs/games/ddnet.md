@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 24846907
 points: 2
 screenshot: /img/games/ddnet.png
-sidebar_position: 205
+sidebar_position: 89
 ---
 
 # DDNet

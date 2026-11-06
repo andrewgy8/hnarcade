@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50081240
 points: 5
 screenshot: /img/games/the-last-door.png
-sidebar_position: 93
+sidebar_position: 116
 ---
 
 # The LAST DOOR
