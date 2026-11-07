@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48781233
 points: 6
 screenshot: /img/games/solitaire-free.png
-sidebar_position: 64
+sidebar_position: 74
 ---
 
 # Solitaire.Free

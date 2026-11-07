@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50142343
 points: 5
 screenshot: /img/games/wordchute.png
-sidebar_position: 101
+sidebar_position: 78
 ---
 
 # Wordchute

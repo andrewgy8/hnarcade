@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48934092
 points: 50
 screenshot: /img/games/hilo.png
-sidebar_position: 83
+sidebar_position: 224
 ---
 
 # HILO

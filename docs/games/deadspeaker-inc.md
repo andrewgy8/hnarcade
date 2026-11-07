@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49717488
 points: 6
 screenshot: /img/games/deadspeaker-inc.png
-sidebar_position: 24
+sidebar_position: 26
 ---
 
 # deadSPEAKER, inc.

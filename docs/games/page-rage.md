@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49746963
 points: 27
 screenshot: /img/games/page-rage.png
-sidebar_position: 120
+sidebar_position: 66
 ---
 
 # Page Rage

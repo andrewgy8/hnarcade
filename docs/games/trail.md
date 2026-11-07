@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49731551
 points: 5
 screenshot: /img/games/trail.png
-sidebar_position: 183
+sidebar_position: 89
 ---
 
 # Trail

@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48252403
 points: 5
 screenshot: /img/games/fruitsy.png
-sidebar_position: 240
+sidebar_position: 253
 ---
 
 # Fruitsy
