@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50235012
 points: 5
 screenshot: /img/games/zubspace-gg.png
-sidebar_position: 159
+sidebar_position: 214
 ---
 
 # Zubspace.gg
