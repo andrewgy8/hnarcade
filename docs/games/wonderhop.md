@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50080246
 points: 124
 screenshot: /img/games/wonderhop.png
-sidebar_position: 154
+sidebar_position: 255
 ---
 
 # Wonderhop

@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48797346
 points: 5
 screenshot: /img/games/3-6-9-commander.png
-sidebar_position: 74
+sidebar_position: 175
 ---
 
 # 3·6·9 COMMANDER
