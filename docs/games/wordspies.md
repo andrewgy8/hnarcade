@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50397874
 points: 5
 screenshot: /img/games/wordspies.png
+sidebar_position: 231
 ---
 
 # Wordspies

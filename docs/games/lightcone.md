@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49548526
 points: 7
 screenshot: /img/games/lightcone.png
-sidebar_position: 47
+sidebar_position: 10
 ---
 
 # Lightcone

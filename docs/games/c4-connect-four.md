@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 8886897
 points: 48
 screenshot: /img/games/c4-connect-four.png
+sidebar_position: 110
 ---
 
 # c4 - Connect Four

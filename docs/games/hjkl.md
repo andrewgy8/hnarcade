@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50347552
 points: 72
 screenshot: /img/games/hjkl.png
+sidebar_position: 19
 ---
 
 # hjkl

@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50358352
 points: 128
 screenshot: /img/games/uncracked-city.png
+sidebar_position: 4
 ---
 
 # Uncracked City
