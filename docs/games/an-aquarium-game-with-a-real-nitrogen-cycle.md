@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50380882
 points: 5
 screenshot: /img/games/an-aquarium-game-with-a-real-nitrogen-cycle.png
-sidebar_position: 94
+sidebar_position: 211
 ---
 
 # An aquarium game with a real nitrogen cycle

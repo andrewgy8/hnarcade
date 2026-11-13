@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50327582
 points: 5
 screenshot: /img/games/lightyears-home.png
-sidebar_position: 6
+sidebar_position: 75
 ---
 
 # Lightyears Home

@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48555389
 points: 5
 screenshot: /img/games/the-dictionary-game.png
-sidebar_position: 193
+sidebar_position: 256
 ---
 
 # The Dictionary Game
