@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49660111
 points: 28
 screenshot: /img/games/hopera.png
-sidebar_position: 100
+sidebar_position: 157
 ---
 
 # Hopera

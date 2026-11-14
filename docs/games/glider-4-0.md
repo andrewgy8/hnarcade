@@ -7,7 +7,7 @@ dateAdded: 2026-11-12
 submissionMethod: scraped
 hnId: 50237019
 points: 46
-sidebar_position: 213
+sidebar_position: 54
 ---
 
 # Glider 4.0

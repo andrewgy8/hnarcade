@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50043948
 points: 23
 screenshot: /img/games/timur-s-chess.png
-sidebar_position: 77
+sidebar_position: 239
 ---
 
 # Timur's Chess
