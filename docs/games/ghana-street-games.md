@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50414117
 points: 115
 screenshot: /img/games/ghana-street-games.png
-sidebar_position: 51
+sidebar_position: 132
 ---
 
 # Ghana Street Games

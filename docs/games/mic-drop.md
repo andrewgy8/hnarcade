@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49315742
 points: 93
 screenshot: /img/games/mic-drop.png
-sidebar_position: 174
+sidebar_position: 156
 ---
 
 # Mic Drop
