@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50511718
 points: 75
 screenshot: /img/games/the-last-complication.png
+sidebar_position: 84
 ---
 
 # The Last Complication

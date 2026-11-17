@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50484579
 points: 21
 screenshot: /img/games/hexalexagons.png
+sidebar_position: 104
 ---
 
 # Hexalexagons
