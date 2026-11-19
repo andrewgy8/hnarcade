@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49527856
 points: 10
 screenshot: /img/games/the-daily-set.png
-sidebar_position: 173
+sidebar_position: 69
 ---
 
 # The Daily Set

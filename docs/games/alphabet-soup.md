@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49235347
 points: 37
 screenshot: /img/games/alphabet-soup.png
-sidebar_position: 80
+sidebar_position: 122
 ---
 
 # Alphabet Soup

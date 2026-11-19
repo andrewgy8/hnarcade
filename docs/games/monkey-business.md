@@ -7,7 +7,7 @@ dateAdded: 2026-11-16
 submissionMethod: scraped
 hnId: 50517162
 points: 1
-sidebar_position: 2
+sidebar_position: 258
 ---
 
 # Monkey Business

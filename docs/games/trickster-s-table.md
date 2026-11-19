@@ -7,7 +7,7 @@ dateAdded: 2026-05-26
 submissionMethod: scraped
 hnId: 48259836
 points: 2
-sidebar_position: 204
+sidebar_position: 252
 ---
 
 # Trickster's Table
