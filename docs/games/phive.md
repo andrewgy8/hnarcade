@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48340891
 points: 19
 screenshot: /img/games/phive.png
-sidebar_position: 105
+sidebar_position: 98
 ---
 
 # Phive
