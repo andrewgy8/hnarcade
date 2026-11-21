@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50511628
 points: 5
 screenshot: /img/games/anarchy-chess.png
-sidebar_position: 32
+sidebar_position: 197
 ---
 
 # Anarchy Chess

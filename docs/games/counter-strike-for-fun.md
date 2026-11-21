@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50124893
 points: 5
 screenshot: /img/games/counter-strike-for-fun.png
-sidebar_position: 130
+sidebar_position: 206
 ---
 
 # Counter Strike for Fun

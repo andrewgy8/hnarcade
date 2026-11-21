@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50318041
 points: 5
 screenshot: /img/games/discover-chinese.png
-sidebar_position: 262
+sidebar_position: 187
 ---
 
 # 探 Discover Chinese

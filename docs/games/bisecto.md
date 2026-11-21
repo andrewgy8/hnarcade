@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49374879
 points: 7
 screenshot: /img/games/bisecto.png
-sidebar_position: 127
+sidebar_position: 212
 ---
 
 # Bisecto
