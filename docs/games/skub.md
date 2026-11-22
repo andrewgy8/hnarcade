@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47506958
 points: 9
 screenshot: /img/games/skub.png
-sidebar_position: 71
+sidebar_position: 267
 ---
 
 # Skub
