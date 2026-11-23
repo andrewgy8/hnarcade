@@ -64,6 +64,17 @@
   margin-bottom: 0;
 }
 
+.heroCount {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ff6600;
+  text-shadow: 0 0 8px rgba(255, 102, 0, 0.5);
+}
+
 /* decorative dashed line between subtitle and buttons */
 .divider {
   width: 120px;

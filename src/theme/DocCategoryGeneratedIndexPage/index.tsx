@@ -294,11 +294,11 @@ function DocCategoryGeneratedIndexPageContent({
       </div>
 
       {/* Results count */}
-      {selectedTags.length > 0 && (
-        <div className={styles.resultsCount}>
-          Showing {sortedItems.length} {sortedItems.length === 1 ? 'game' : 'games'}
-        </div>
-      )}
+      <div className={styles.resultsCount}>
+        {selectedTags.length > 0
+          ? `Showing ${sortedItems.length} of ${category.items.length} games`
+          : `${category.items.length} games`}
+      </div>
 
       <article className="margin-top--lg">
         <DocCardList items={sortedItems} className={styles.list} />
