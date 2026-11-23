@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50317548
 points: 15
 screenshot: /img/games/jointter.png
-sidebar_position: 249
+sidebar_position: 141
 ---
 
 # Jointter

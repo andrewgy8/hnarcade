@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 50582578
 points: 6
 screenshot: /img/games/trichroma-a-platformer-of-light.png
+sidebar_position: 106
 ---
 
 # Trichroma, a Platformer of Light

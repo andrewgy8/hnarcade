@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50305320
 points: 85
 screenshot: /img/games/catcopter.png
-sidebar_position: 213
+sidebar_position: 259
 ---
 
 # Catcopter
