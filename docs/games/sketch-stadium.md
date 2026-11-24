@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50305218
 points: 37
 screenshot: /img/games/sketch-stadium.png
-sidebar_position: 31
+sidebar_position: 247
 ---
 
 # Sketch Stadium

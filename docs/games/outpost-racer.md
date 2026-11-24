@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50589184
 points: 38
 screenshot: /img/games/outpost-racer.png
-sidebar_position: 72
+sidebar_position: 188
 ---
 
 # Outpost Racer
