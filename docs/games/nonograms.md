@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 47063918
 points: 5
 screenshot: /img/games/nonograms.png
-sidebar_position: 178
+sidebar_position: 246
 ---
 
 # Nonograms

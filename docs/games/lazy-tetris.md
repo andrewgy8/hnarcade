@@ -7,6 +7,7 @@ submissionMethod: scraped
 hnId: 44103839
 points: 438
 screenshot: /img/games/lazy-tetris.png
+sidebar_position: 163
 ---
 
 # Lazy Tetris
