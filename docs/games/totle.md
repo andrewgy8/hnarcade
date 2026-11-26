@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50433154
 points: 7
 screenshot: /img/games/totle.png
-sidebar_position: 25
+sidebar_position: 132
 ---
 
 # Totle

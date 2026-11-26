@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49657159
 points: 6
 screenshot: /img/games/grid-mino.png
-sidebar_position: 174
+sidebar_position: 155
 ---
 
 # Grid Mino
