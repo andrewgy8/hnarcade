@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 49880129
 points: 7
 screenshot: /img/games/island.png
-sidebar_position: 139
+sidebar_position: 140
 ---
 
 # Island

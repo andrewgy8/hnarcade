@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 48794042
 points: 54
 screenshot: /img/games/neil-the-seal-game.png
-sidebar_position: 178
+sidebar_position: 282
 ---
 
 # Neil the Seal Game

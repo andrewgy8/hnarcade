@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50257959
 points: 5
 screenshot: /img/games/diagonals-diago.png
-sidebar_position: 11
+sidebar_position: 69
 ---
 
 # Diagonals (Diago)

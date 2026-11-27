@@ -7,6 +7,7 @@ dateAdded: 2026-11-27
 submissionMethod: manual
 hnId: 50664718
 points: 1
+sidebar_position: 213
 ---
 
 # Factoroids

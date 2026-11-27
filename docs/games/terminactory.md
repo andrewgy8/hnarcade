@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50497132
 points: 173
 screenshot: /img/games/terminactory.png
-sidebar_position: 172
+sidebar_position: 278
 ---
 
 # Terminactory

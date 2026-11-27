@@ -3,7 +3,7 @@ title: Speed Miners
 tags: [browser, free]
 description: "Speed Miners – A tiny RTS resource mini-game."
 screenshot: /img/games/speed-miners.png
-sidebar_position: 237
+sidebar_position: 206
 dateAdded: 2026-01-28
 submissionMethod: scraped
 hnId: 46662399
