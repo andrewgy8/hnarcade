@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50606209
 points: 11
 screenshot: /img/games/thane-s-quest.png
-sidebar_position: 255
+sidebar_position: 243
 ---
 
 # Thane's Quest

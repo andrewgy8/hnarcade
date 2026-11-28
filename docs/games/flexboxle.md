@@ -3,7 +3,7 @@ title: Flexboxle
 tags: [browser, free]
 description: "Flexboxle – A Daily Puzzle with Flexbox."
 screenshot: /img/games/flexboxle.png
-sidebar_position: 238
+sidebar_position: 277
 dateAdded: 2026-02-01
 submissionMethod: scraped
 hnId: 46837177

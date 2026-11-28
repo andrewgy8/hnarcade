@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50581030
 points: 6
 screenshot: /img/games/ceci-n-est-pas-du-travail.png
-sidebar_position: 95
+sidebar_position: 174
 ---
 
 # Ceci n’est pas du travail.

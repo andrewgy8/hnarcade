@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50658574
 points: 5
 screenshot: /img/games/pocket-garden.png
-sidebar_position: 215
+sidebar_position: 185
 ---
 
 # Pocket Garden

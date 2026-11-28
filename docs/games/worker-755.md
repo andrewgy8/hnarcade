@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50599762
 points: 311
 screenshot: /img/games/worker-755.png
-sidebar_position: 129
+sidebar_position: 191
 ---
 
 # Worker 755

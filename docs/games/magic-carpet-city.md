@@ -7,7 +7,7 @@ submissionMethod: scraped
 hnId: 50628576
 points: 5
 screenshot: /img/games/magic-carpet-city.png
-sidebar_position: 101
+sidebar_position: 27
 ---
 
 # Magic Carpet City
